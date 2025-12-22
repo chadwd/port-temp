@@ -21,28 +21,29 @@
 
 ## Current Position
 
-Phase: 2 of 6 (Design System)
+Phase: 3 of 6 (Core Pages)
 Plan: Not started
 Status: Ready to plan
-Last activity: 2025-12-22 - Phase 1 complete
+Last activity: 2025-12-22 - Phase 2 complete
 
-Progress: █░░░░░░░░░ 17%
+Progress: ██░░░░░░░░ 33%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 1
+- Total plans completed: 2
 - Average duration: ~5 min
-- Total execution time: ~5 min
+- Total execution time: ~10 min
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 1. Foundation | 1 | ~5 min | ~5 min |
+| 2. Design System | 1 | ~5 min | ~5 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01
+- Last 5 plans: 01-01, 02-01
 - Trend: Stable
 
 *Updated after each plan completion*
@@ -59,6 +60,9 @@ Progress: █░░░░░░░░░ 17%
 | Init | Adaptive color mode | Respects user preference |
 | 1 | Minimal template + manual setup | Full control over structure |
 | 1 | Content collections upfront | Schema ready for Phase 4-5 |
+| 2 | Slate blue accent (#334155) | Professional, not corporate, fits "systems thinker" |
+| 2 | System fonts only | Performance priority, can add custom later |
+| 2 | Warm color palette | Grounded feel, not cold/corporate |
 
 ### Deferred Issues
 
@@ -78,5 +82,5 @@ Drift notes: None
 ## Session Continuity
 
 Last session: 2025-12-22
-Stopped at: Phase 1 complete - Astro foundation ready
+Stopped at: Phase 2 complete - Design system ready
 Resume file: None
