@@ -13,7 +13,7 @@ None
 - [x] **Phase 1: Foundation** - Astro project setup, configuration, base structure
 - [x] **Phase 2: Design System** - Typography, colors, spacing, adaptive light/dark mode
 - [x] **Phase 3: Core Pages** - Home, About, Contact layouts and components
-- [ ] **Phase 4: Case Studies** - Markdown-driven case study system with confidentiality levels
+- [x] **Phase 4: Case Studies** - Markdown-driven case study system with confidentiality levels
 - [ ] **Phase 5: Writing** - Blog/essays section with markdown content
 - [ ] **Phase 6: Deployment** - GitHub Pages hosting, custom domain configuration
 
@@ -55,7 +55,7 @@ Plans:
 
 Plans:
 - [x] 04-01: Case study list page, dynamic detail pages, confidentiality badges
-- [ ] 04-02: Enhanced cards, homepage integration
+- [x] 04-02: CaseStudyCard component, homepage featured work, grid layouts
 
 ### Phase 5: Writing
 **Goal**: Blog/essays section following same markdown patterns as case studies
@@ -77,6 +77,6 @@ Plans:
 | 1. Foundation | 1/1 | Complete | 2025-12-22 |
 | 2. Design System | 1/1 | Complete | 2025-12-22 |
 | 3. Core Pages | 2/2 | Complete | 2025-12-22 |
-| 4. Case Studies | 1/2 | In progress | - |
+| 4. Case Studies | 2/2 | Complete | 2025-12-22 |
 | 5. Writing | 0/? | Not started | - |
 | 6. Deployment | 0/? | Not started | - |
