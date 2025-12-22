@@ -2,9 +2,49 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<BaseLayout title="Portfolio">
-  <main>
-    <h1>Portfolio</h1>
-    <p>Content-first portfolio site. Building in progress.</p>
-  </main>
+<BaseLayout title="Home">
+  <div class="container">
+    <section class="hero">
+      <h1>Senior Product Designer</h1>
+      <p class="hero-intro">
+        Crafting thoughtful digital experiences at the intersection of AI and blockchain innovation. Focused on making complex technologies accessible and meaningful.
+      </p>
+    </section>
+
+    <section class="featured-work">
+      <h2>Selected Work</h2>
+      <p class="placeholder-text">Case studies coming soon.</p>
+    </section>
+  </div>
 </BaseLayout>
+
+<style>
+  .hero {
+    padding-block: var(--space-24);
+  }
+
+  .hero h1 {
+    font-size: var(--text-5xl);
+    margin-bottom: var(--space-6);
+  }
+
+  .hero-intro {
+    font-size: var(--text-xl);
+    color: var(--color-text-muted);
+    max-width: var(--max-width-content);
+    line-height: var(--leading-relaxed);
+  }
+
+  .featured-work {
+    padding-block: var(--space-16);
+  }
+
+  .featured-work h2 {
+    margin-bottom: var(--space-8);
+  }
+
+  .placeholder-text {
+    color: var(--color-text-muted);
+    font-style: italic;
+  }
+</style>
