@@ -21,19 +21,19 @@
 
 ## Current Position
 
-Phase: 5 of 6 (Writing)
+Phase: 6 of 6 (Deployment)
 Plan: 1 of 1 in current phase
-Status: Phase complete
-Last activity: 2025-12-22 - Completed 05-01-PLAN.md
+Status: Project complete
+Last activity: 2025-12-22 - Completed 06-01-PLAN.md
 
-Progress: ████████░░ 87%
+Progress: ██████████ 100%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 7
-- Average duration: ~4 min
-- Total execution time: ~26 min
+- Total plans completed: 8
+- Average duration: ~8 min
+- Total execution time: ~52 min
 
 **By Phase:**
 
@@ -44,10 +44,11 @@ Progress: ████████░░ 87%
 | 3. Core Pages | 2 | ~5 min | ~2.5 min |
 | 4. Case Studies | 2 | ~7 min | ~3.5 min |
 | 5. Writing | 1 | ~4 min | ~4 min |
+| 6. Deployment | 1 | ~26 min | ~26 min |
 
 **Recent Trend:**
-- Last 5 plans: 03-02, 04-01, 04-02, 05-01
-- Trend: Stable
+- Last 5 plans: 04-01, 04-02, 05-01, 06-01
+- Trend: Deployment took longer (DNS config, workflow debugging)
 
 *Updated after each plan completion*
 
@@ -77,6 +78,8 @@ Progress: ████████░░ 87%
 | 5 | Writing mirrors case studies | Consistent UX, same patterns |
 | 5 | Recent posts (no featured flag) | Simpler than case studies |
 | 5 | Inline card styling | No dedicated WritingCard component needed |
+| 6 | HTTP during cert provisioning | GitHub auto-provisions SSL, takes 10-30 min |
+| 6 | withastro/action@v3 only | Handles build + upload, no separate artifact step |
 
 ### Deferred Issues
 
@@ -96,5 +99,5 @@ Drift notes: None
 ## Session Continuity
 
 Last session: 2025-12-22
-Stopped at: Completed 05-01-PLAN.md - Phase 5 complete, writing section fully functional
+Stopped at: Completed 06-01-PLAN.md - Project complete, site live at chaddunbar.com
 Resume file: None
