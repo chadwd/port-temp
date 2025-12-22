@@ -1,0 +1,29 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p class="copyright">
+      &copy; {currentYear} Portfolio. All rights reserved.
+    </p>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    margin-top: var(--space-24);
+    padding-block: var(--space-8);
+    border-top: 1px solid var(--color-border);
+  }
+
+  .footer-inner {
+    text-align: center;
+  }
+
+  .copyright {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    margin: 0;
+  }
+</style>

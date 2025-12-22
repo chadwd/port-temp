@@ -41,7 +41,11 @@ Plans:
 **Goal**: Home, About, and Contact pages with layouts and base components
 **Depends on**: Phase 2
 **Research**: Unlikely (Astro layouts and components, established patterns)
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [x] 03-01: Header, Footer, navigation components
+- [ ] 03-02: Home, About, Contact pages
 
 ### Phase 4: Case Studies
 **Goal**: Fully functional case study system with markdown content, frontmatter schema, and confidentiality indicators
@@ -68,7 +72,7 @@ Plans:
 |-------|----------------|--------|-----------|
 | 1. Foundation | 1/1 | Complete | 2025-12-22 |
 | 2. Design System | 1/1 | Complete | 2025-12-22 |
-| 3. Core Pages | 0/? | Not started | - |
+| 3. Core Pages | 1/2 | In progress | - |
 | 4. Case Studies | 0/? | Not started | - |
 | 5. Writing | 0/? | Not started | - |
 | 6. Deployment | 0/? | Not started | - |
