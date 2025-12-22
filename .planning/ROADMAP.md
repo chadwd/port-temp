@@ -51,7 +51,11 @@ Plans:
 **Goal**: Fully functional case study system with markdown content, frontmatter schema, and confidentiality indicators
 **Depends on**: Phase 3
 **Research**: Unlikely (Astro content collections, markdown processing)
-**Plans**: TBD
+**Plans**: 2 plans
+
+Plans:
+- [x] 04-01: Case study list page, dynamic detail pages, confidentiality badges
+- [ ] 04-02: Enhanced cards, homepage integration
 
 ### Phase 5: Writing
 **Goal**: Blog/essays section following same markdown patterns as case studies
@@ -73,6 +77,6 @@ Plans:
 | 1. Foundation | 1/1 | Complete | 2025-12-22 |
 | 2. Design System | 1/1 | Complete | 2025-12-22 |
 | 3. Core Pages | 2/2 | Complete | 2025-12-22 |
-| 4. Case Studies | 0/? | Not started | - |
+| 4. Case Studies | 1/2 | In progress | - |
 | 5. Writing | 0/? | Not started | - |
 | 6. Deployment | 0/? | Not started | - |
