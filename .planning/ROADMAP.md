@@ -14,7 +14,7 @@ None
 - [x] **Phase 2: Design System** - Typography, colors, spacing, adaptive light/dark mode
 - [x] **Phase 3: Core Pages** - Home, About, Contact layouts and components
 - [x] **Phase 4: Case Studies** - Markdown-driven case study system with confidentiality levels
-- [ ] **Phase 5: Writing** - Blog/essays section with markdown content
+- [x] **Phase 5: Writing** - Blog/essays section with markdown content
 - [ ] **Phase 6: Deployment** - GitHub Pages hosting, custom domain configuration
 
 ## Phase Details
@@ -61,7 +61,10 @@ Plans:
 **Goal**: Blog/essays section following same markdown patterns as case studies
 **Depends on**: Phase 4
 **Research**: Unlikely (mirrors case study patterns)
-**Plans**: TBD
+**Plans**: 1 plan
+
+Plans:
+- [x] 05-01: Writing list page, article detail pages, sample post, homepage integration
 
 ### Phase 6: Deployment
 **Goal**: Live site on GitHub Pages with custom domain from GoDaddy
@@ -78,5 +81,5 @@ Plans:
 | 2. Design System | 1/1 | Complete | 2025-12-22 |
 | 3. Core Pages | 2/2 | Complete | 2025-12-22 |
 | 4. Case Studies | 2/2 | Complete | 2025-12-22 |
-| 5. Writing | 0/? | Not started | - |
+| 5. Writing | 1/1 | Complete | 2025-12-22 |
 | 6. Deployment | 0/? | Not started | - |

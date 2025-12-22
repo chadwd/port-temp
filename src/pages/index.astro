@@ -8,6 +8,11 @@ const featuredCaseStudies = allCaseStudies
   .filter((caseStudy) => caseStudy.data.featured === true)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0, 4);
+
+const allWriting = await getCollection('writing');
+const recentWriting = allWriting
+  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .slice(0, 3);
 ---
 
 <BaseLayout title="Home">
@@ -39,6 +44,43 @@ const featuredCaseStudies = allCaseStudies
           </div>
           <div class="view-all">
             <a href="/work" class="view-all-link">View all work →</a>
+          </div>
+        </>
+      )}
+    </section>
+
+    <section class="recent-writing">
+      <h2>Recent Writing</h2>
+      {recentWriting.length === 0 ? (
+        <p class="placeholder-text">Writing coming soon.</p>
+      ) : (
+        <>
+          <div class="writing-grid">
+            {recentWriting.map((post) => (
+              <article class="writing-card">
+                <a href={`/writing/${post.slug}`} class="card-link">
+                  <div class="card-content">
+                    <h3>{post.data.title}</h3>
+                    <p class="description">{post.data.description}</p>
+                    <div class="card-footer">
+                      <time datetime={post.data.date.toISOString()}>
+                        {post.data.date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                      </time>
+                      {post.data.tags && post.data.tags.length > 0 && (
+                        <ul class="tags">
+                          {post.data.tags.map((tag) => (
+                            <li class="tag">{tag}</li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  </div>
+                </a>
+              </article>
+            ))}
+          </div>
+          <div class="view-all">
+            <a href="/writing" class="view-all-link">View all writing →</a>
           </div>
         </>
       )}
@@ -104,5 +146,108 @@ const featuredCaseStudies = allCaseStudies
   .view-all-link:hover {
     color: var(--color-text);
     text-decoration: underline;
+  }
+
+  .recent-writing {
+    padding-block: var(--space-16);
+  }
+
+  .recent-writing h2 {
+    margin-bottom: var(--space-8);
+  }
+
+  .writing-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--space-6);
+    margin-bottom: var(--space-8);
+  }
+
+  @media (min-width: 768px) {
+    .writing-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .writing-card {
+    height: 100%;
+  }
+
+  .writing-card .card-link {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 6px;
+    padding: var(--space-6);
+    transition: all var(--transition-base);
+  }
+
+  .writing-card .card-link:hover {
+    border-color: var(--color-accent);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px);
+    text-decoration: none;
+  }
+
+  .writing-card .card-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .writing-card h3 {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-semibold);
+    margin-bottom: var(--space-3);
+    color: var(--color-text);
+  }
+
+  .writing-card .description {
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-4);
+    flex-grow: 1;
+  }
+
+  .writing-card .card-footer {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+    margin-top: auto;
+  }
+
+  .writing-card .card-footer time {
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+  }
+
+  .writing-card .tags {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+  }
+
+  .writing-card .tag {
+    background-color: var(--color-surface-hover);
+    padding: var(--space-1) var(--space-2);
+    border-radius: 4px;
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+  }
+
+  @media (max-width: 768px) {
+    .writing-card .card-link {
+      padding: var(--space-4);
+    }
+
+    .writing-card h3 {
+      font-size: var(--text-xl);
+    }
   }
 </style>
