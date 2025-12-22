@@ -3,8 +3,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  // TODO: Update with your actual domain
-  site: 'https://yourdomain.com',
+  site: 'https://chaddunbar.com',
   output: 'static',
   integrations: [sitemap()],
   build: {
