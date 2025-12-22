@@ -1,0 +1,68 @@
+# Roadmap: Portfolio Website
+
+## Overview
+
+Build a content-first portfolio site from foundation to deployment. Start with Astro project setup and design tokens, then build core pages and content systems (case studies, writing), and finish with GitHub Pages deployment and custom domain connection.
+
+## Domain Expertise
+
+None
+
+## Phases
+
+- [ ] **Phase 1: Foundation** - Astro project setup, configuration, base structure
+- [ ] **Phase 2: Design System** - Typography, colors, spacing, adaptive light/dark mode
+- [ ] **Phase 3: Core Pages** - Home, About, Contact layouts and components
+- [ ] **Phase 4: Case Studies** - Markdown-driven case study system with confidentiality levels
+- [ ] **Phase 5: Writing** - Blog/essays section with markdown content
+- [ ] **Phase 6: Deployment** - GitHub Pages hosting, custom domain configuration
+
+## Phase Details
+
+### Phase 1: Foundation
+**Goal**: Working Astro project with proper structure, ready for development
+**Depends on**: Nothing (first phase)
+**Research**: Unlikely (Astro setup is well-documented, standard patterns)
+**Plans**: TBD
+
+### Phase 2: Design System
+**Goal**: Complete design token system with typography, colors, spacing, and adaptive theming
+**Depends on**: Phase 1
+**Research**: Unlikely (CSS custom properties, internal styling decisions)
+**Plans**: TBD
+
+### Phase 3: Core Pages
+**Goal**: Home, About, and Contact pages with layouts and base components
+**Depends on**: Phase 2
+**Research**: Unlikely (Astro layouts and components, established patterns)
+**Plans**: TBD
+
+### Phase 4: Case Studies
+**Goal**: Fully functional case study system with markdown content, frontmatter schema, and confidentiality indicators
+**Depends on**: Phase 3
+**Research**: Unlikely (Astro content collections, markdown processing)
+**Plans**: TBD
+
+### Phase 5: Writing
+**Goal**: Blog/essays section following same markdown patterns as case studies
+**Depends on**: Phase 4
+**Research**: Unlikely (mirrors case study patterns)
+**Plans**: TBD
+
+### Phase 6: Deployment
+**Goal**: Live site on GitHub Pages with custom domain from GoDaddy
+**Depends on**: Phase 5
+**Research**: Likely (deployment config, DNS setup)
+**Research topics**: Astro GitHub Pages adapter, GitHub Actions workflow, GoDaddy DNS configuration for GitHub Pages
+**Plans**: TBD
+
+## Progress
+
+| Phase | Plans Complete | Status | Completed |
+|-------|----------------|--------|-----------|
+| 1. Foundation | 0/? | Not started | - |
+| 2. Design System | 0/? | Not started | - |
+| 3. Core Pages | 0/? | Not started | - |
+| 4. Case Studies | 0/? | Not started | - |
+| 5. Writing | 0/? | Not started | - |
+| 6. Deployment | 0/? | Not started | - |
