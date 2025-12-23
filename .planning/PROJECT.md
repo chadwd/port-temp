@@ -1,5 +1,13 @@
 # Portfolio Website
 
+## Current State (Updated: 2025-12-22)
+
+**Shipped:** v1.0 MVP (2025-12-22)
+**Status:** Production - Live at http://chaddunbar.com
+**Traffic:** Initial launch, gathering feedback
+**Feedback:** Portfolio successfully deployed and accessible
+**Codebase:** ~1,232 lines (TypeScript, Astro), GitHub Pages hosting, custom domain via GoDaddy
+
 ## Vision
 
 A clean, fast, content-first portfolio website for a senior/principal product designer focused on AI and blockchain innovation. The site should feel calm, confident, and minimal — no flashy animations, no decorative elements for their own sake. It needs to serve two reading modes: quick scanning for busy hiring managers and industry experts, and deeper reading for those who want to understand the work.

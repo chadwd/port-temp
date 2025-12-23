@@ -1,5 +1,9 @@
 # Roadmap: Portfolio Website
 
+## Completed Milestones
+
+- ✅ [v1.0 MVP](milestones/v1.0-MVP.md) (Phases 1-6) - SHIPPED 2025-12-22
+
 ## Overview
 
 Build a content-first portfolio site from foundation to deployment. Start with Astro project setup and design tokens, then build core pages and content systems (case studies, writing), and finish with GitHub Pages deployment and custom domain connection.
@@ -9,6 +13,9 @@ Build a content-first portfolio site from foundation to deployment. Start with A
 None
 
 ## Phases
+
+<details>
+<summary>✅ v1.0 MVP (Phases 1-6) - SHIPPED 2025-12-22</summary>
 
 - [x] **Phase 1: Foundation** - Astro project setup, configuration, base structure
 - [x] **Phase 2: Design System** - Typography, colors, spacing, adaptive light/dark mode
@@ -75,6 +82,8 @@ Plans:
 
 Plans:
 - [x] 06-01: GitHub Actions workflow, custom domain setup, DNS configuration
+
+</details>
 
 ## Progress
 
