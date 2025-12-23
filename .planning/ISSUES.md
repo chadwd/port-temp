@@ -4,15 +4,6 @@ Enhancements discovered during execution. Not critical - address in future phase
 
 ## Open Enhancements
 
-### ISS-001: Image usage and optimization strategy
-
-- **Discovered:** Post-MVP review (2025-12-22)
-- **Type:** Performance / UX
-- **Description:** Need to define image usage strategy for case studies and writing. Decide on: image hosting (repo vs CDN), responsive images, lazy loading, optimization pipeline, and supported formats.
-- **Impact:** Medium (images essential for case studies)
-- **Effort:** Medium
-- **Suggested phase:** v1.1
-
 ### ISS-002: Add logo/brand identity
 
 - **Discovered:** Post-MVP review (2025-12-22)
@@ -69,7 +60,19 @@ Enhancements discovered during execution. Not critical - address in future phase
 
 ## Closed Enhancements
 
-[None yet]
+### ISS-001: Image usage and optimization strategy ✓
+
+- **Discovered:** Post-MVP review (2025-12-22)
+- **Resolved:** Phase 7 (2025-12-22)
+- **Type:** Performance / UX
+- **Description:** Image infrastructure established with Astro's built-in optimization (Sharp), repo-based storage, responsive image components (ResponsiveImage, HeroImage), and AVIF/WebP/JPG format support.
+- **Solution:**
+  - Content collections schema updated with image() helper
+  - Images stored in src/content/[collection]/images/
+  - ResponsiveImage and HeroImage components created
+  - CaseStudyCard integrated with cover image support
+  - Lazy loading enabled by default
+- **Deliverables:** Phase 7 Plans 07-01, 07-02
 
 ---
 
