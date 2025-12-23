@@ -103,7 +103,7 @@ Plans:
 **Plans**: TBD
 
 Plans:
-- [ ] 07-01: TBD (run /gsd:plan-phase 7 to break down)
+- [x] 07-01: Image Schema and Storage
 
 #### Phase 8: Brand Identity
 
@@ -155,7 +155,7 @@ Plans:
 | 4. Case Studies | v1.0 | 2/2 | Complete | 2025-12-22 |
 | 5. Writing | v1.0 | 1/1 | Complete | 2025-12-22 |
 | 6. Deployment | v1.0 | 1/1 | Complete | 2025-12-22 |
-| 7. Image Infrastructure | v1.1 | 0/? | Not started | - |
+| 7. Image Infrastructure | v1.1 | 1/2 | In progress | - |
 | 8. Brand Identity | v1.1 | 0/? | Not started | - |
 | 9. Real Content | v1.1 | 0/? | Not started | - |
 | 10. UX Polish | v1.1 | 0/? | Not started | - |

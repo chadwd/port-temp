@@ -22,11 +22,11 @@
 ## Current Position
 
 Phase: 7 of 11 (Image Infrastructure)
-Plan: Not started
-Status: Ready to plan
-Last activity: 2025-12-22 - Milestone v1.1 created
+Plan: 1 of 2 in current phase
+Status: In progress
+Last activity: 2025-12-22 - Completed 07-01-PLAN.md
 
-Progress: ░░░░░░░░░░ 0%
+Progress: █░░░░░░░░░ 9%
 
 ## Performance Metrics
 
@@ -48,8 +48,8 @@ Progress: ░░░░░░░░░░ 0%
 
 **v1.1 Progress:**
 - Phases: 7-11 (5 phases)
-- Plans completed: 0
-- Status: Planning phase 7
+- Plans completed: 1
+- Status: Executing phase 7
 
 *Updated after each plan completion*
 
@@ -81,6 +81,9 @@ Progress: ░░░░░░░░░░ 0%
 | 5 | Inline card styling | No dedicated WritingCard component needed |
 | 6 | HTTP during cert provisioning | GitHub auto-provisions SSL, takes 10-30 min |
 | 6 | withastro/action@v3 only | Handles build + upload, no separate artifact step |
+| 7 | image() helper for schema | Type-safe imports, not z.string() |
+| 7 | Images in collection subdirs | src/content/[collection]/images/ for organization |
+| 7 | Optional coverImage field | Backward compat with existing content |
 
 ### Deferred Issues
 
@@ -105,5 +108,5 @@ Drift notes: None
 ## Session Continuity
 
 Last session: 2025-12-22
-Stopped at: Milestone v1.1 initialization - ready to plan Phase 7
+Stopped at: Completed 07-01-PLAN.md (Image Schema and Storage)
 Resume file: None
