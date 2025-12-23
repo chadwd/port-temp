@@ -1,4 +1,7 @@
 ---
+import ResponsiveImage from './ResponsiveImage.astro';
+import type { ImageMetadata } from 'astro';
+
 interface Props {
   title: string;
   description: string;
@@ -7,14 +10,25 @@ interface Props {
   confidentiality: 'public' | 'partial' | 'nda';
   tags?: string[];
   image?: string;
+  coverImage?: ImageMetadata;
 }
 
-const { title, description, slug, date, confidentiality, tags, image } = Astro.props;
+const { title, description, slug, date, confidentiality, tags, image, coverImage } = Astro.props;
 ---
 
 <article class="case-study-card">
   <a href={`/work/${slug}`} class="card-link">
     <div class="card-content">
+      {coverImage && (
+        <div class="card-image">
+          <ResponsiveImage
+            src={coverImage}
+            alt={title}
+            loading="lazy"
+            class="cover-image"
+          />
+        </div>
+      )}
       <div class="card-header">
         <h3>{title}</h3>
         {confidentiality !== 'public' && (
@@ -68,6 +82,18 @@ const { title, description, slug, date, confidentiality, tags, image } = Astro.p
     display: flex;
     flex-direction: column;
     height: 100%;
+  }
+
+  .card-image {
+    margin-bottom: var(--space-4);
+    overflow: hidden;
+    border-radius: 6px;
+  }
+
+  .card-image :global(.cover-image) {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 
   .card-header {
