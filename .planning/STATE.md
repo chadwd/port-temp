@@ -22,11 +22,11 @@
 ## Current Position
 
 Phase: 7 of 11 (Image Infrastructure)
-Plan: 1 of 2 in current phase
-Status: In progress
-Last activity: 2025-12-22 - Completed 07-01-PLAN.md
+Plan: 2 of 2 in current phase
+Status: Phase complete
+Last activity: 2025-12-22 - Completed Phase 7 (Image Infrastructure)
 
-Progress: █░░░░░░░░░ 9%
+Progress: ██░░░░░░░░ 18%
 
 ## Performance Metrics
 
@@ -48,8 +48,8 @@ Progress: █░░░░░░░░░ 9%
 
 **v1.1 Progress:**
 - Phases: 7-11 (5 phases)
-- Plans completed: 1
-- Status: Executing phase 7
+- Plans completed: 2
+- Status: Phase 7 complete, ready for Phase 8
 
 *Updated after each plan completion*
 
@@ -84,6 +84,9 @@ Progress: █░░░░░░░░░ 9%
 | 7 | image() helper for schema | Type-safe imports, not z.string() |
 | 7 | Images in collection subdirs | src/content/[collection]/images/ for organization |
 | 7 | Optional coverImage field | Backward compat with existing content |
+| 7 | Astro built-in Image/Picture | No external deps, Sharp optimization default |
+| 7 | Lazy loading for cards | Below-fold optimization, loading="lazy" default |
+| 7 | AVIF/WebP/JPG support | Progressive enhancement via HeroImage component |
 
 ### Deferred Issues
 
@@ -108,5 +111,5 @@ Drift notes: None
 ## Session Continuity
 
 Last session: 2025-12-22
-Stopped at: Completed 07-01-PLAN.md (Image Schema and Storage)
+Stopped at: Completed Phase 7 (Image Infrastructure) - both plans
 Resume file: None
