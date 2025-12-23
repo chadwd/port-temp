@@ -1,5 +1,10 @@
 # Roadmap: Portfolio Website
 
+## Milestones
+
+- ✅ **v1.0 MVP** - Phases 1-6 (shipped 2025-12-22)
+- 🚧 **v1.1 Content & Polish** - Phases 7-11 (in progress)
+
 ## Completed Milestones
 
 - ✅ [v1.0 MVP](milestones/v1.0-MVP.md) (Phases 1-6) - SHIPPED 2025-12-22
@@ -85,13 +90,73 @@ Plans:
 
 </details>
 
+### 🚧 v1.1 Content & Polish (In Progress)
+
+**Milestone Goal:** Transform MVP into production-ready portfolio with real content, brand identity, image support, UX polish, and comprehensive documentation.
+
+#### Phase 7: Image Infrastructure
+
+**Goal**: Image hosting, optimization pipeline, and responsive image support for case studies and writing
+**Depends on**: Previous milestone complete
+**Research**: Likely (evaluate hosting strategy, optimization tools)
+**Research topics**: Astro image optimization, CDN vs repo hosting trade-offs, responsive image patterns
+**Plans**: TBD
+
+Plans:
+- [ ] 07-01: TBD (run /gsd:plan-phase 7 to break down)
+
+#### Phase 8: Brand Identity
+
+**Goal**: Logo implementation, favicon, and wordmark replacement with brand assets
+**Depends on**: Phase 7
+**Research**: Unlikely (asset integration with established patterns)
+**Plans**: TBD
+
+Plans:
+- [ ] 08-01: TBD
+
+#### Phase 9: Real Content
+
+**Goal**: Create and publish 1 complete case study + 1 complete article replacing samples
+**Depends on**: Phase 8 (brand assets in place)
+**Research**: Unlikely (content writing using established markdown patterns)
+**Plans**: TBD
+
+Plans:
+- [ ] 09-01: TBD
+
+#### Phase 10: UX Polish
+
+**Goal**: 404/error pages, loading states, page transitions, enhanced accessibility
+**Depends on**: Phase 9
+**Research**: Unlikely (established patterns, accessibility standards)
+**Plans**: TBD
+
+Plans:
+- [ ] 10-01: TBD
+
+#### Phase 11: Documentation
+
+**Goal**: GitHub README.md and CLAUDE.md for developer experience and AI collaboration
+**Depends on**: Phase 10
+**Research**: Unlikely (documentation writing)
+**Plans**: TBD
+
+Plans:
+- [ ] 11-01: TBD
+
 ## Progress
 
-| Phase | Plans Complete | Status | Completed |
-|-------|----------------|--------|-----------|
-| 1. Foundation | 1/1 | Complete | 2025-12-22 |
-| 2. Design System | 1/1 | Complete | 2025-12-22 |
-| 3. Core Pages | 2/2 | Complete | 2025-12-22 |
-| 4. Case Studies | 2/2 | Complete | 2025-12-22 |
-| 5. Writing | 1/1 | Complete | 2025-12-22 |
-| 6. Deployment | 1/1 | Complete | 2025-12-22 |
+| Phase | Milestone | Plans Complete | Status | Completed |
+|-------|-----------|----------------|--------|-----------|
+| 1. Foundation | v1.0 | 1/1 | Complete | 2025-12-22 |
+| 2. Design System | v1.0 | 1/1 | Complete | 2025-12-22 |
+| 3. Core Pages | v1.0 | 2/2 | Complete | 2025-12-22 |
+| 4. Case Studies | v1.0 | 2/2 | Complete | 2025-12-22 |
+| 5. Writing | v1.0 | 1/1 | Complete | 2025-12-22 |
+| 6. Deployment | v1.0 | 1/1 | Complete | 2025-12-22 |
+| 7. Image Infrastructure | v1.1 | 0/? | Not started | - |
+| 8. Brand Identity | v1.1 | 0/? | Not started | - |
+| 9. Real Content | v1.1 | 0/? | Not started | - |
+| 10. UX Polish | v1.1 | 0/? | Not started | - |
+| 11. Documentation | v1.1 | 0/? | Not started | - |
