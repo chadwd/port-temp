@@ -3,11 +3,12 @@
 ## Milestones
 
 - ✅ **v1.0 MVP** - Phases 1-6 (shipped 2025-12-22)
-- 🚧 **v1.1 Content & Polish** - Phases 7-12 (in progress)
+- ✅ **v1.1 Content & Polish** - Phases 7-11 (shipped 2025-12-31)
 
 ## Completed Milestones
 
 - ✅ [v1.0 MVP](milestones/v1.0-MVP.md) (Phases 1-6) - SHIPPED 2025-12-22
+- ✅ [v1.1 Content & Polish](milestones/v1.1-Content-&-Polish.md) (Phases 7-11) - SHIPPED 2025-12-31
 
 ## Overview
 
@@ -90,75 +91,20 @@ Plans:
 
 </details>
 
-### 🚧 v1.1 Content & Polish (In Progress)
+<details>
+<summary>✅ v1.1 Content & Polish (Phases 7-11) - SHIPPED 2025-12-31</summary>
 
 **Milestone Goal:** Transform MVP into production-ready portfolio with real content, brand identity, image support, UX polish, and comprehensive documentation.
 
-#### Phase 7: Image Infrastructure
+- [x] **Phase 7: Image Infrastructure** (2/2 plans) - completed 2025-12-22
+- [x] **Phase 8: Brand Identity** (1/1 plan) - completed 2025-12-27
+- [x] **Phase 9: Real Content** (2/2 plans) - completed 2025-12-30
+- [x] **Phase 10: UX Polish** (2/2 plans) - completed 2025-12-30
+- [x] **Phase 11: Documentation** (2/2 plans) - completed 2025-12-31
 
-**Goal**: Image hosting, optimization pipeline, and responsive image support for case studies and writing
-**Depends on**: Previous milestone complete
-**Research**: Likely (evaluate hosting strategy, optimization tools)
-**Research topics**: Astro image optimization, CDN vs repo hosting trade-offs, responsive image patterns
-**Plans**: TBD
+See [v1.1 milestone archive](milestones/v1.1-Content-&-Polish.md) for full details.
 
-Plans:
-- [x] 07-01: Image Schema and Storage
-- [x] 07-02: Image Components and Integration
-
-#### Phase 8: Brand Identity
-
-**Goal**: Logo implementation, favicon, and wordmark replacement with brand assets
-**Depends on**: Phase 7
-**Research**: Unlikely (asset integration with established patterns)
-**Plans**: TBD
-
-Plans:
-- [ ] 08-01: TBD
-
-#### Phase 9: Real Content
-
-**Goal**: Create and publish 1 complete case study + 1 complete article replacing samples
-**Depends on**: Phase 8 (brand assets in place)
-**Research**: Unlikely (content writing using established markdown patterns)
-**Plans**: 2 plans
-
-Plans:
-- [x] 09-01: Real Content Integration
-- [x] 09-02: Image Integration and Tag Taxonomy
-
-#### Phase 10: UX Polish
-
-**Goal**: 404/error pages, loading states, page transitions, enhanced accessibility
-**Depends on**: Phase 9
-**Research**: Unlikely (established patterns, accessibility standards)
-**Plans**: TBD
-
-Plans:
-- [ ] 10-01: TBD
-
-#### Phase 11: Documentation
-
-**Goal**: GitHub README.md and CLAUDE.md for developer experience and AI collaboration
-**Depends on**: Phase 10
-**Research**: Unlikely (documentation writing)
-**Plans**: TBD
-
-Plans:
-- [ ] 11-01: TBD
-
-#### Phase 12: Continued UI/UX Improvements
-
-**Goal**: [To be planned]
-**Depends on**: Phase 11
-**Research**: TBD
-**Plans**: 0 plans
-
-Plans:
-- [ ] TBD (run /gsd:plan-phase 12 to break down)
-
-**Details:**
-[To be added during planning]
+</details>
 
 ## Progress
 
@@ -174,5 +120,4 @@ Plans:
 | 8. Brand Identity | v1.1 | 1/1 | Complete | 2025-12-27 |
 | 9. Real Content | v1.1 | 2/2 | Complete | 2025-12-30 |
 | 10. UX Polish | v1.1 | 2/2 | Complete | 2025-12-30 |
-| 11. Documentation | v1.1 | 0/? | Not started | - |
-| 12. Continued UI/UX Improvements | v1.1 | 0/? | Not started | - |
+| 11. Documentation | v1.1 | 2/2 | Complete | 2025-12-31 |
