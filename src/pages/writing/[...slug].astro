@@ -42,12 +42,10 @@ const { Content } = await post.render();
 
     {post.data.coverImage && (
       <div class="hero-image-container">
-        <div class="container">
-          <HeroImage
-            src={post.data.coverImage}
-            alt={post.data.title}
-          />
-        </div>
+        <HeroImage
+          src={post.data.coverImage}
+          alt={post.data.title}
+        />
       </div>
     )}
 

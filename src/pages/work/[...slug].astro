@@ -49,12 +49,10 @@ const { Content } = await caseStudy.render();
 
     {caseStudy.data.coverImage && (
       <div class="hero-image-container">
-        <div class="container">
-          <HeroImage
-            src={caseStudy.data.coverImage}
-            alt={caseStudy.data.title}
-          />
-        </div>
+        <HeroImage
+          src={caseStudy.data.coverImage}
+          alt={caseStudy.data.title}
+        />
       </div>
     )}
 
