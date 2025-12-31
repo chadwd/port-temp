@@ -12,67 +12,61 @@
   </svg>
 </button>
 
-<script is:inline>
-  (function() {
-    function initThemeToggle() {
-      const toggle = document.querySelector('.theme-toggle');
-      if (!toggle) {
-        console.log('Theme toggle button not found');
-        return;
-      }
-
-      console.log('Theme toggle initialized');
-
-      // Get stored theme or default to system preference
-      const getTheme = () => {
-        const stored = localStorage.getItem('theme');
-        if (stored) return stored;
-        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-      };
-
-      // Apply theme to document
-      const applyTheme = (theme) => {
-        console.log('Applying theme:', theme);
-        document.documentElement.setAttribute('data-theme', theme);
-        updateToggleState(theme);
-      };
-
-      // Update toggle button state
-      const updateToggleState = (theme) => {
-        toggle.setAttribute('aria-label', `Switch to ${theme === 'light' ? 'dark' : 'light'} mode`);
-      };
-
-      // Toggle theme
-      const toggleTheme = (e) => {
-        e.preventDefault();
-        console.log('Toggle clicked!');
-        const currentTheme = document.documentElement.getAttribute('data-theme') || getTheme();
-        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-        console.log('Switching from', currentTheme, 'to', newTheme);
-        localStorage.setItem('theme', newTheme);
-        applyTheme(newTheme);
-      };
-
-      // Initialize
-      const initialTheme = getTheme();
-      console.log('Initial theme:', initialTheme);
-      applyTheme(initialTheme);
-
-      // Event listener
-      toggle.addEventListener('click', toggleTheme);
-      console.log('Click listener attached');
+<script>
+  function initThemeToggle() {
+    const toggle = document.querySelector('.theme-toggle');
+    if (!toggle) {
+      console.log('Theme toggle button not found');
+      return;
     }
 
-    // Initialize immediately (script is inline, runs when parsed)
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', initThemeToggle);
-    } else {
-      initThemeToggle();
-    }
+    console.log('Theme toggle initialized');
 
-    // Reinitialize on View Transitions navigation
-    document.addEventListener('astro:page-load', initThemeToggle);
-  })();
+    // Get stored theme or default to system preference
+    const getTheme = () => {
+      const stored = localStorage.getItem('theme');
+      if (stored) return stored;
+      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+    };
+
+    // Apply theme to document
+    const applyTheme = (theme: string) => {
+      console.log('Applying theme:', theme);
+      document.documentElement.setAttribute('data-theme', theme);
+      updateToggleState(theme);
+    };
+
+    // Update toggle button state
+    const updateToggleState = (theme: string) => {
+      toggle.setAttribute('aria-label', `Switch to ${theme === 'light' ? 'dark' : 'light'} mode`);
+    };
+
+    // Toggle theme
+    const toggleTheme = (e: Event) => {
+      e.preventDefault();
+      console.log('Toggle clicked!');
+      const currentTheme = document.documentElement.getAttribute('data-theme') || getTheme();
+      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+      console.log('Switching from', currentTheme, 'to', newTheme);
+      localStorage.setItem('theme', newTheme);
+      applyTheme(newTheme);
+    };
+
+    // Initialize
+    const initialTheme = getTheme();
+    console.log('Initial theme:', initialTheme);
+    applyTheme(initialTheme);
+
+    // Event listener
+    toggle.addEventListener('click', toggleTheme);
+    console.log('Click listener attached');
+  }
+
+  // Initialize on page load
+  initThemeToggle();
+
+  // Reinitialize on View Transitions navigation
+  document.addEventListener('astro:page-load', initThemeToggle);
 </script>
 
 <style>
