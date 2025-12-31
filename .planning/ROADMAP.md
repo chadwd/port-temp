@@ -160,5 +160,5 @@ Plans:
 | 7. Image Infrastructure | v1.1 | 2/2 | Complete | 2025-12-22 |
 | 8. Brand Identity | v1.1 | 1/1 | Complete | 2025-12-27 |
 | 9. Real Content | v1.1 | 2/2 | Complete | 2025-12-30 |
-| 10. UX Polish | v1.1 | 1/? | In progress | - |
+| 10. UX Polish | v1.1 | 2/2 | Complete | 2025-12-30 |
 | 11. Documentation | v1.1 | 0/? | Not started | - |

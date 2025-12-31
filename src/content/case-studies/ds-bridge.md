@@ -74,7 +74,3 @@ Created session-based systems that:
 - Broader participation from designers, product owners, and junior contributors
 - Reduced reliance on third-party tooling
 - A foundation for scaling AI-assisted development across teams
-
----
-
-*Due to the confidential nature of this work, specific implementation details and proprietary tooling are limited.*
