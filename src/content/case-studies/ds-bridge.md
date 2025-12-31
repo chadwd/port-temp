@@ -29,6 +29,8 @@ Design system work relied heavily on static Figma files and manual documentation
 - Enabled non-technical designers to work safely in real code using structured AI workflows
 - Automated planning, documentation, and knowledge capture within existing security constraints
 
+![Guarantee Sale Component with interactive demo properties](./ds-bridge/images/image-01-ds-bridge.png)
+
 ## Strategy and Approach
 
 **Core strategy:** Lower the barrier to building real software so that anyone can act as a *director of creative execution*, not just a contributor, by replacing manual documentation with executable, shared truth.
@@ -48,7 +50,7 @@ Created session-based systems that:
 - Automatically captured decisions and propagated to documentation hubs
 - Made the system usable by designers, product owners, and future contributors
 
-![Agent work journal showing session-based workflow guidance](./ds-bridge/images/Agent Work Journal.png)
+![Guarantee Sale Overview with when to use and when not to use](./ds-bridge/images/image-02-ds-bridge.png)
 
 ## Impact
 
@@ -57,13 +59,7 @@ Created session-based systems that:
 - Improved handoff quality by delivering engineers validated, state-complete components
 - Created a scalable model that product owners, designers, and developers can all use
 
-![Component demonstration showing interactive GSale component](./ds-bridge/images/GSale Component Demo.png)
-
-The GSale component exemplifies the demo-first approach: fully interactive, state-complete, and ready for validation before documentation.
-
-![Component overview documenting component structure and usage](./ds-bridge/images/GSale Component Overview.png)
-
-![Component props documentation with TypeScript definitions](./ds-bridge/images/GSale Component Props.png)
+![Designer Developer Workflow 2 phase plan](./ds-bridge/images/image-03-ds-bridge.png)
 
 ## Why This Matters
 
@@ -72,16 +68,12 @@ The GSale component exemplifies the demo-first approach: fully interactive, stat
 - Creates a repeatable, auditable process aligned with enterprise security standards
 - Positions the design system as a company-wide platform, not a design-only artifact
 
-![Agent knowledge base showing structured documentation capture](./ds-bridge/images/Agent Knowledge.png)
-
 ## What This Enables Next
 
 - Faster validation of product ideas in real code
 - Broader participation from designers, product owners, and junior contributors
 - Reduced reliance on third-party tooling
 - A foundation for scaling AI-assisted development across teams
-
-![Session summary showing automated knowledge capture and documentation](./ds-bridge/images/Final Summary of Sesssion.png)
 
 ---
 
