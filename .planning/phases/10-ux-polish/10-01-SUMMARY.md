@@ -14,6 +14,7 @@
 
 - Custom 404 error page with centered layout and helpful navigation
 - Full screen modal image viewer for inline prose images
+- Multiple close methods: ESC key, X button, click overlay, or click image itself
 - Keyboard navigation (ESC to close, Tab for focus trap)
 - Accessibility features (ARIA labels, screen reader announcements, focus management)
 - Border radius design tokens added to global system
