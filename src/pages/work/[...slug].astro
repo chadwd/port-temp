@@ -47,15 +47,6 @@ const { Content } = await caseStudy.render();
       </div>
     </header>
 
-    {caseStudy.data.coverImage && (
-      <div class="hero-image-container">
-        <HeroImage
-          src={caseStudy.data.coverImage}
-          alt={caseStudy.data.title}
-        />
-      </div>
-    )}
-
     <div class="case-study-content">
       <div class="container">
         <div class="prose">
