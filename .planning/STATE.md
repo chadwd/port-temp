@@ -21,12 +21,12 @@
 
 ## Current Position
 
-Phase: 9 of 11 (Real Content)
-Plan: 1 of 2 in current phase
-Status: In progress
-Last activity: 2025-12-30 - Completed 09-01-PLAN.md, created 09-02-PLAN.md
+Phase: 10 of 11 (UX Polish)
+Plan: 0 of ? in current phase
+Status: Ready to start
+Last activity: 2025-12-30 - Completed Phase 9 (Real Content) - both plans finished
 
-Progress: ███░░░░░░░ 36%
+Progress: ████░░░░░░ 45%
 
 ## Performance Metrics
 
@@ -48,7 +48,7 @@ Progress: ███░░░░░░░ 36%
 
 **v1.1 Progress:**
 - Phases: 7-11 (5 phases)
-- Plans completed: 4
+- Plans completed: 6
 - Status: Phase 9 complete, ready for Phase 10
 
 *Updated after each plan completion*
@@ -90,6 +90,12 @@ Progress: ███░░░░░░░ 36%
 | 8 | Professional favicons | Used custom-designed CD logo from generator (not placeholder) |
 | 8 | Web manifest included | PWA support with maskable icons for installability |
 | 8 | "Chad Dunbar" wordmark | Full name vs initials for clarity and brand recognition |
+| 9 | Hero images on cards | Display coverImage above title on all list view cards |
+| 9 | Hero images on detail pages | HeroImage component between header and content |
+| 9 | Title Case tag convention | All tags use Title Case (e.g., "Design Systems", "AI Tools") |
+| 9 | Tag taxonomy categories | Technology, Practice, Tools, Domain, Approach, Leadership, Philosophy |
+| 9 | Inline images in case studies | 6 images in ds-bridge positioned by content sections |
+| 9 | Descriptive alt text | All images include accessibility-focused alt descriptions |
 
 ### Deferred Issues
 

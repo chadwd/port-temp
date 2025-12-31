@@ -1,6 +1,7 @@
 ---
 import { getCollection, getEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import HeroImage from '../../components/HeroImage.astro';
 
 export async function getStaticPaths() {
   const caseStudies = await getCollection('case-studies');
@@ -46,6 +47,17 @@ const { Content } = await caseStudy.render();
       </div>
     </header>
 
+    {caseStudy.data.coverImage && (
+      <div class="hero-image-container">
+        <div class="container">
+          <HeroImage
+            src={caseStudy.data.coverImage}
+            alt={caseStudy.data.title}
+          />
+        </div>
+      </div>
+    )}
+
     <div class="case-study-content">
       <div class="container">
         <div class="prose">
@@ -58,6 +70,10 @@ const { Content } = await caseStudy.render();
 
 <style>
   .case-study-hero {
+    margin-bottom: var(--space-8);
+  }
+
+  .hero-image-container {
     margin-bottom: var(--space-12);
   }
 

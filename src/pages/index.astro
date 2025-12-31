@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import CaseStudyCard from '../components/CaseStudyCard.astro';
+import ResponsiveImage from '../components/ResponsiveImage.astro';
 
 const allCaseStudies = await getCollection('case-studies');
 const featuredCaseStudies = allCaseStudies
@@ -39,6 +40,7 @@ const recentWriting = allWriting
                 date={caseStudy.data.date}
                 confidentiality={caseStudy.data.confidentiality}
                 tags={caseStudy.data.tags}
+                coverImage={caseStudy.data.coverImage}
               />
             ))}
           </div>
@@ -60,6 +62,16 @@ const recentWriting = allWriting
               <article class="writing-card">
                 <a href={`/writing/${post.slug}`} class="card-link">
                   <div class="card-content">
+                    {post.data.coverImage && (
+                      <div class="card-image">
+                        <ResponsiveImage
+                          src={post.data.coverImage}
+                          alt={post.data.title}
+                          loading="lazy"
+                          class="cover-image"
+                        />
+                      </div>
+                    )}
                     <h3>{post.data.title}</h3>
                     <p class="description">{post.data.description}</p>
                     <div class="card-footer">
@@ -196,6 +208,18 @@ const recentWriting = allWriting
     display: flex;
     flex-direction: column;
     height: 100%;
+  }
+
+  .writing-card .card-image {
+    margin-bottom: var(--space-4);
+    overflow: hidden;
+    border-radius: 6px;
+  }
+
+  .writing-card .card-image :global(.cover-image) {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 
   .writing-card h3 {
