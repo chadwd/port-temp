@@ -121,10 +121,11 @@ Plans:
 **Goal**: Create and publish 1 complete case study + 1 complete article replacing samples
 **Depends on**: Phase 8 (brand assets in place)
 **Research**: Unlikely (content writing using established markdown patterns)
-**Plans**: 1 plan
+**Plans**: 2 plans
 
 Plans:
 - [x] 09-01: Real Content Integration
+- [ ] 09-02: Image Integration and Tag Taxonomy
 
 #### Phase 10: UX Polish
 
@@ -158,6 +159,6 @@ Plans:
 | 6. Deployment | v1.0 | 1/1 | Complete | 2025-12-22 |
 | 7. Image Infrastructure | v1.1 | 2/2 | Complete | 2025-12-22 |
 | 8. Brand Identity | v1.1 | 1/1 | Complete | 2025-12-27 |
-| 9. Real Content | v1.1 | 1/1 | Complete | 2025-12-30 |
+| 9. Real Content | v1.1 | 1/2 | In progress | - |
 | 10. UX Polish | v1.1 | 0/? | Not started | - |
 | 11. Documentation | v1.1 | 0/? | Not started | - |
