@@ -23,6 +23,13 @@ const recentWriting = allWriting
       <p class="hero-intro">
         Crafting thoughtful digital experiences at the intersection of AI and blockchain innovation. Focused on making complex technologies accessible and meaningful.
       </p>
+      <a href="/files/resume.pdf" class="resume-button" download>
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M10 13L6 9H8V4H12V9H14L10 13Z" fill="currentColor"/>
+          <path d="M4 16H16V14H4V16Z" fill="currentColor"/>
+        </svg>
+        Download Resume
+      </a>
     </section>
 
     <section class="featured-work">
@@ -115,6 +122,37 @@ const recentWriting = allWriting
     color: var(--color-text-muted);
     max-width: var(--max-width-content);
     line-height: var(--leading-relaxed);
+    margin-bottom: var(--space-8);
+  }
+
+  .resume-button {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: var(--space-3) var(--space-6);
+    background-color: var(--color-accent);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: var(--text-base);
+    font-weight: var(--font-medium);
+    transition: all var(--transition-fast);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .resume-button:hover {
+    background-color: #475569;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(51, 65, 85, 0.2);
+  }
+
+  .resume-button:active {
+    transform: translateY(0);
+  }
+
+  .resume-button svg {
+    flex-shrink: 0;
   }
 
   .featured-work {
