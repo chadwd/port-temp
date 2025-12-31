@@ -12,7 +12,7 @@
   </svg>
 </button>
 
-<script>
+<script is:inline>
   function initThemeToggle() {
     const toggle = document.querySelector('.theme-toggle');
     if (!toggle) return;
@@ -50,8 +50,12 @@
     toggle.addEventListener('click', toggleTheme);
   }
 
-  // Initialize on page load
-  initThemeToggle();
+  // Initialize immediately (script is inline, runs when parsed)
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initThemeToggle);
+  } else {
+    initThemeToggle();
+  }
 
   // Reinitialize on View Transitions navigation
   document.addEventListener('astro:page-load', initThemeToggle);
