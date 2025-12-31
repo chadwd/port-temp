@@ -111,6 +111,12 @@ document.addEventListener('DOMContentLoaded', () => {
     overlay.addEventListener('click', closeViewer);
   }
 
+  // Click on image to close
+  const viewerImage = document.getElementById('viewer-image');
+  if (viewerImage) {
+    viewerImage.addEventListener('click', closeViewer);
+  }
+
   // ESC key to close
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') {
