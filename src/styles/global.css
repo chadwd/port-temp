@@ -401,21 +401,22 @@ a:hover {
 
 .hero-image-container {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  overflow: hidden;
   border-radius: 6px;
+  overflow: hidden;
 }
 
 .hero-image-container :global(img),
 .hero-image-container :global(picture) {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
   display: block;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
 }
 
 .hero-image-container :global(picture img) {
   width: 100%;
-  height: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
 }
