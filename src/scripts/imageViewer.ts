@@ -88,8 +88,7 @@ function trapFocus(event: KeyboardEvent) {
   }
 }
 
-// Initialize when DOM is ready
-document.addEventListener('DOMContentLoaded', () => {
+function initializeImageViewer() {
   // Add click listeners to all prose images
   const proseImages = document.querySelectorAll<HTMLImageElement>('.prose img');
 
@@ -116,8 +115,13 @@ document.addEventListener('DOMContentLoaded', () => {
   if (viewerImage) {
     viewerImage.addEventListener('click', closeViewer);
   }
+}
 
-  // ESC key to close
+// Initialize on first load
+document.addEventListener('DOMContentLoaded', () => {
+  initializeImageViewer();
+
+  // ESC key to close (only set up once)
   document.addEventListener('keydown', (event) => {
     if (event.key === 'Escape') {
       const viewer = document.getElementById('image-viewer');
@@ -127,6 +131,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Focus trap
+  // Focus trap (only set up once)
   document.addEventListener('keydown', trapFocus);
+});
+
+// Reinitialize after View Transitions navigation
+document.addEventListener('astro:page-load', () => {
+  initializeImageViewer();
 });
