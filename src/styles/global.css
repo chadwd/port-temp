@@ -405,18 +405,13 @@ a:hover {
   overflow: hidden;
 }
 
-.hero-image-container :global(img),
 .hero-image-container :global(picture) {
+  display: block;
+  width: 100%;
+}
+
+.hero-image-container :global(img) {
   width: 100%;
   height: auto;
   display: block;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
-}
-
-.hero-image-container :global(picture img) {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
 }
