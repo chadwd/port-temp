@@ -122,30 +122,26 @@
   }
 
   /* Light mode (default) - show sun on left */
-  :global([data-theme="light"]) .sun-icon {
-    opacity: 1;
-    transform: translateX(0) rotate(0deg);
-  }
-
-  :global([data-theme="light"]) .moon-icon {
-    opacity: 0;
-    transform: translateX(10px) rotate(-30deg);
-  }
-
-  /* Dark mode - show moon on right */
-  :global([data-theme="dark"]) .sun-icon {
-    opacity: 0;
-    transform: translateX(-10px) rotate(30deg);
-  }
-
-  :global([data-theme="dark"]) .moon-icon {
+  :global(html[data-theme="light"]) .sun-icon {
     opacity: 1;
     transform: translateX(0) rotate(0deg);
     color: var(--color-accent);
   }
 
-  /* Active icon color */
-  :global([data-theme="light"]) .sun-icon {
+  :global(html[data-theme="light"]) .moon-icon {
+    opacity: 0;
+    transform: translateX(10px) rotate(-30deg);
+  }
+
+  /* Dark mode - show moon on right */
+  :global(html[data-theme="dark"]) .sun-icon {
+    opacity: 0;
+    transform: translateX(-10px) rotate(30deg);
+  }
+
+  :global(html[data-theme="dark"]) .moon-icon {
+    opacity: 1;
+    transform: translateX(0) rotate(0deg);
     color: var(--color-accent);
   }
 

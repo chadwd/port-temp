@@ -147,8 +147,9 @@ h6 {
    Dark Mode
    ========================================================================== */
 
+/* System preference dark mode (only if no manual override) */
 @media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
+  html:not([data-theme="light"]) {
     --color-bg: #0C0A09;
     --color-bg-rgb: 12, 10, 9;
     --color-text: #FAFAF9;
@@ -161,7 +162,7 @@ h6 {
 }
 
 /* Manual dark mode override */
-:root[data-theme="dark"] {
+html[data-theme="dark"] {
   --color-bg: #0C0A09;
   --color-bg-rgb: 12, 10, 9;
   --color-text: #FAFAF9;
