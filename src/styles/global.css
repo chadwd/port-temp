@@ -148,7 +148,7 @@ h6 {
    ========================================================================== */
 
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --color-bg: #0C0A09;
     --color-bg-rgb: 12, 10, 9;
     --color-text: #FAFAF9;
@@ -158,6 +158,18 @@ h6 {
     --color-surface: #1C1917;
     --color-surface-hover: #292524;
   }
+}
+
+/* Manual dark mode override */
+:root[data-theme="dark"] {
+  --color-bg: #0C0A09;
+  --color-bg-rgb: 12, 10, 9;
+  --color-text: #FAFAF9;
+  --color-text-muted: #A8A29E;
+  --color-accent: #7fa3c9;
+  --color-border: #292524;
+  --color-surface: #1C1917;
+  --color-surface-hover: #292524;
 }
 
 /* ==========================================================================

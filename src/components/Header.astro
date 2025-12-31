@@ -1,4 +1,6 @@
 ---
+import ThemeToggle from './ThemeToggle.astro';
+
 const currentPath = Astro.url.pathname;
 
 const navLinks = [
@@ -19,21 +21,24 @@ function isActive(href: string): boolean {
 <header class="header">
   <div class="container header-inner">
     <a href="/" class="site-name">Chad Dunbar</a>
-    <nav class="nav" aria-label="Main navigation">
-      <ul class="nav-list">
-        {navLinks.map((link) => (
-          <li>
-            <a
-              href={link.href}
-              class:list={['nav-link', { active: isActive(link.href) }]}
-              aria-current={isActive(link.href) ? 'page' : undefined}
-            >
-              {link.label}
-            </a>
-          </li>
-        ))}
-      </ul>
-    </nav>
+    <div class="nav-wrapper">
+      <nav class="nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          {navLinks.map((link) => (
+            <li>
+              <a
+                href={link.href}
+                class:list={['nav-link', { active: isActive(link.href) }]}
+                aria-current={isActive(link.href) ? 'page' : undefined}
+              >
+                {link.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+      <ThemeToggle />
+    </div>
   </div>
 </header>
 
@@ -77,6 +82,12 @@ function isActive(href: string): boolean {
   .site-name:focus-visible {
     outline: 2px solid var(--color-accent);
     outline-offset: 4px;
+  }
+
+  .nav-wrapper {
+    display: flex;
+    align-items: center;
+    gap: var(--space-6);
   }
 
   .nav-list {
