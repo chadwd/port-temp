@@ -55,6 +55,7 @@ h6 {
      Warm, grounded, professional. Not cold/corporate, not trendy.
      ------------------------------------------------------------------------- */
   --color-bg: #FAF9F7;
+  --color-bg-rgb: 250, 249, 247;
   --color-text: #1C1917;
   --color-text-muted: #78716C;
   --color-accent: #334155;
@@ -115,6 +116,7 @@ h6 {
   --space-2: 0.5rem;
   --space-3: 0.75rem;
   --space-4: 1rem;
+  --space-5: 1.25rem;
   --space-6: 1.5rem;
   --space-8: 2rem;
   --space-12: 3rem;
@@ -148,6 +150,7 @@ h6 {
 @media (prefers-color-scheme: dark) {
   :root {
     --color-bg: #0C0A09;
+    --color-bg-rgb: 12, 10, 9;
     --color-text: #FAFAF9;
     --color-text-muted: #A8A29E;
     --color-accent: #94A3B8;
@@ -272,6 +275,10 @@ a:hover {
   outline-offset: 2px;
 }
 
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
 /* ==========================================================================
    Utilities - Layout
    ========================================================================== */
@@ -297,6 +304,24 @@ a:hover {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-accent);
+  color: #FFFFFF;
+  padding: var(--space-3) var(--space-6);
+  text-decoration: none;
+  font-weight: var(--font-semibold);
+  z-index: 1000;
+  transform: translateY(-100%);
+  transition: transform var(--transition-base);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
 }
 
 /* ==========================================================================

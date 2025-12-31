@@ -21,12 +21,12 @@
 
 ## Current Position
 
-**Milestone v1.2 READY**
+**Milestone v1.2 IN PROGRESS**
 
 Phase: 12 of 16 (UI/UX Refinements)
-Plan: 0 of ? in current phase
-Status: Ready to plan Phase 12
-Last activity: 2025-12-31 - Created milestone v1.2 Content & Polish Expansion
+Plan: 1 of ? in current phase
+Status: In progress
+Last activity: 2025-12-31 - Completed 12-01-PLAN.md (Header & Navigation Polish)
 
 Progress: ░░░░░░░░░░ 0% (v1.2)
 
@@ -116,6 +116,10 @@ Progress: ░░░░░░░░░░ 0% (v1.2)
 | 10 | View Transitions mode | Default fade for consistent page navigation UX |
 | 10 | Reduced motion support | Respect prefers-reduced-motion for accessibility |
 | 10 | Image viewer lifecycle | Reinitialize on astro:page-load for View Transitions compatibility |
+| 12 | 640px mobile breakpoint | Better tablet support vs 480px |
+| 12 | Focus-visible implementation | Keyboard-only focus outlines, not mouse clicks |
+| 12 | Backdrop blur on header | 8px blur with rgba for subtle depth |
+| 12 | Touch target padding | --space-3 (12px) for 44px+ WCAG AAA compliance |
 
 ### Deferred Issues
 
@@ -140,6 +144,6 @@ Drift notes: None
 
 ## Session Continuity
 
-Last session: 2025-12-31
-Stopped at: Milestone v1.2 created, ready to plan Phase 12
+Last session: 2025-12-31T19:23:30Z
+Stopped at: Completed 12-01-PLAN.md (Header & Navigation Polish)
 Resume file: None

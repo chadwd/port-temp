@@ -119,7 +119,7 @@ See [v1.1 milestone archive](milestones/v1.1-Content-&-Polish.md) for full detai
 **Plans**: TBD
 
 Plans:
-- [ ] 12-01: TBD (run `/gsd:plan-phase 12` to break down)
+- [x] 12-01: Header & Navigation Polish - spacing, focus states, touch targets
 
 #### Phase 13: Additional Portfolio Content
 
@@ -178,7 +178,7 @@ Plans:
 | 9. Real Content | v1.1 | 2/2 | Complete | 2025-12-30 |
 | 10. UX Polish | v1.1 | 2/2 | Complete | 2025-12-30 |
 | 11. Documentation | v1.1 | 2/2 | Complete | 2025-12-31 |
-| 12. UI/UX Refinements | v1.2 | 0/? | Not started | - |
+| 12. UI/UX Refinements | v1.2 | 1/? | In progress | 2025-12-31 |
 | 13. Additional Portfolio Content | v1.2 | 0/? | Not started | - |
 | 14. Enhanced Writing Content | v1.2 | 0/? | Not started | - |
 | 15. CMS Integration | v1.2 | 0/? | Not started | - |
