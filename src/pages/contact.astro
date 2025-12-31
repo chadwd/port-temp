@@ -7,13 +7,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   description="Get in touch to discuss projects, collaborations, or opportunities."
 >
   <div class="container">
-    <div class="contact-content">
+    <header class="contact-header">
       <h1>Get in Touch</h1>
-
       <p class="intro">
         Interested in working together or have a question? Feel free to reach out.
       </p>
+    </header>
 
+    <div class="contact-content">
       <div class="contact-method">
         <p>Email me at:</p>
         <a href="mailto:hello@example.com" class="email-link">hello@example.com</a>
@@ -31,19 +32,19 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 </BaseLayout>
 
 <style>
-  .contact-content {
-    max-width: var(--max-width-content);
-    padding-block: var(--space-12);
-  }
-
-  .contact-content h1 {
-    margin-bottom: var(--space-6);
+  .contact-header {
+    margin-bottom: var(--space-12);
   }
 
   .intro {
     font-size: var(--text-lg);
     color: var(--color-text-muted);
-    margin-bottom: var(--space-12);
+    max-width: var(--max-width-content);
+    margin-bottom: 0;
+  }
+
+  .contact-content {
+    max-width: var(--max-width-content);
   }
 
   .contact-method {

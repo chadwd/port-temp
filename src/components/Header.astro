@@ -132,8 +132,8 @@ function isActive(href: string): boolean {
     font-weight: var(--font-medium);
   }
 
-  /* Mobile: stack nav below site name */
-  @media (max-width: 640px) {
+  /* Mobile: stack nav below site name, hide theme toggle (use FAB instead) */
+  @media (max-width: 768px) {
     .header-inner {
       flex-direction: column;
       align-items: flex-start;
@@ -143,12 +143,17 @@ function isActive(href: string): boolean {
 
     .nav-wrapper {
       width: 100%;
-      justify-content: space-between;
+      justify-content: flex-start;
     }
 
     .nav-list {
       gap: var(--space-5);
       flex-wrap: wrap;
+    }
+
+    /* Hide desktop theme toggle on mobile (use FAB instead) */
+    .nav-wrapper :global(.theme-toggle) {
+      display: none;
     }
   }
 </style>

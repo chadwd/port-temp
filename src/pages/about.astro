@@ -7,9 +7,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   description="Learn about my background in product design, my design philosophy, and my approach to creating meaningful digital experiences."
 >
   <div class="container">
-    <div class="prose">
+    <header class="about-header">
       <h1>About</h1>
+      <p class="intro">Learn about my background in product design, my design philosophy, and my approach to creating meaningful digital experiences.</p>
+    </header>
 
+    <div class="prose">
       <section class="bio">
         <h2>Background</h2>
         <p>
@@ -44,8 +47,15 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 </BaseLayout>
 
 <style>
-  .prose {
-    padding-block: var(--space-12);
+  .about-header {
+    margin-bottom: var(--space-12);
+  }
+
+  .intro {
+    font-size: var(--text-lg);
+    color: var(--color-text-muted);
+    max-width: var(--max-width-content);
+    margin-bottom: 0;
   }
 
   .prose section {
