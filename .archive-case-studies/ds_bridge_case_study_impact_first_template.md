@@ -4,8 +4,8 @@ description: "A proof of concept that became an operating model—enabling non-t
 date: 2024-12-01
 featured: true
 confidentiality: public
-tags: ["AI Systems Design", "Workflow Automation & Enablement", "Human AI Collaboration", "Design Engineering Operating Models"]
-coverImage: /images/case-studies/ds-bridge/hero.png
+tags: ["Design Systems", "AI Tools", "Workflow Design", "Collaboration"]
+coverImage: ./ds-bridge/images/Hero-ds-bridge.png
 ---
 
 ## 60-Second Summary (TL;DR)
@@ -120,7 +120,7 @@ coverImage: /images/case-studies/ds-bridge/hero.png
 
 ---
 
-![Guarantee Sale Component with interactive demo properties](/images/case-studies/ds-bridge/image-01.png)
+---
 
 ## The 3 Decisions That Drove the Outcome
 
@@ -152,8 +152,6 @@ coverImage: /images/case-studies/ds-bridge/hero.png
   - Faster convergence on correct behavior
   - Cleaner, more accurate documentation
 
-![Guarantee Sale Overview with when to use and when not to use](/images/case-studies/ds-bridge/image-02.png)
-
 ### Decision 2: Structured Session Planning and Command-Based Guardrails
 
 - **Problem it solved:** Non-technical designers could easily become disoriented in the terminal, jump between tasks, or give the AI unscoped instructions that led to inefficiency, confusion, and low-quality output
@@ -180,8 +178,6 @@ coverImage: /images/case-studies/ds-bridge/hero.png
   - Designers stayed focused within sessions
   - Reduced need for corrective prompting
   - Increased confidence and willingness to contribute over time
-
-![Designer Developer Workflow 2 phase plan](/images/case-studies/ds-bridge/image-03.png)
 
 ---
 
@@ -282,3 +278,4 @@ coverImage: /images/case-studies/ds-bridge/hero.png
 - Deep technical details
 - Additional metrics or timelines
 - Link to work / URL
+

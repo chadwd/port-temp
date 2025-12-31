@@ -1,32 +1,25 @@
 ---
 /**
- * HeroImage - Hero/cover images with multiple format optimization
+ * HeroImage - Hero/cover images
  *
- * Wraps Astro's built-in Picture component for progressive enhancement.
- * Generates AVIF, WebP, and JPG formats with multiple sizes.
+ * Simple img tag for images from /public directory
  *
  * @example
- * import heroImage from '../content/case-studies/images/hero.jpg';
- * <HeroImage src={heroImage} alt="Project hero" widths={[400, 800, 1600]} />
+ * <HeroImage src="/images/case-studies/my-project/hero.png" alt="Project hero" />
  */
-import { Picture } from 'astro:assets';
-import type { ImageMetadata } from 'astro';
-
 interface Props {
-  src: ImageMetadata;
+  src: string;
   alt: string;
-  widths?: number[];
   class?: string;
 }
 
-const { src, alt, widths = [400, 800, 1200], class: className } = Astro.props;
+const { src, alt, class: className } = Astro.props;
 ---
 
-<Picture
+<img
   src={src}
   alt={alt}
-  formats={['avif', 'webp', 'jpg']}
-  widths={widths}
-  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 1200px"
+  loading="eager"
+  decoding="async"
   class={className}
 />

@@ -3,7 +3,7 @@
 ## Milestones
 
 - ✅ **v1.0 MVP** - Phases 1-6 (shipped 2025-12-22)
-- 🚧 **v1.1 Content & Polish** - Phases 7-11 (in progress)
+- 🚧 **v1.1 Content & Polish** - Phases 7-12 (in progress)
 
 ## Completed Milestones
 
@@ -147,6 +147,19 @@ Plans:
 Plans:
 - [ ] 11-01: TBD
 
+#### Phase 12: Continued UI/UX Improvements
+
+**Goal**: [To be planned]
+**Depends on**: Phase 11
+**Research**: TBD
+**Plans**: 0 plans
+
+Plans:
+- [ ] TBD (run /gsd:plan-phase 12 to break down)
+
+**Details:**
+[To be added during planning]
+
 ## Progress
 
 | Phase | Milestone | Plans Complete | Status | Completed |
@@ -162,3 +175,4 @@ Plans:
 | 9. Real Content | v1.1 | 2/2 | Complete | 2025-12-30 |
 | 10. UX Polish | v1.1 | 2/2 | Complete | 2025-12-30 |
 | 11. Documentation | v1.1 | 0/? | Not started | - |
+| 12. Continued UI/UX Improvements | v1.1 | 0/? | Not started | - |

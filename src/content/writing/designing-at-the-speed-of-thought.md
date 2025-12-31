@@ -3,7 +3,7 @@ title: "Designing at the Speed of Thought"
 description: "How Claude Code unlocked a new creative tier for me as a designer—removing the friction between idea and reality."
 date: 2025-12-30
 tags: ["Design", "AI", "Claude Code", "Workflow", "Creativity"]
-coverImage: ../writing-01-source/writing-01-hero.png
+coverImage: /images/writing/designing-at-the-speed-of-thought/hero.png
 ---
 
 For most of my career, I believed something quietly limiting.

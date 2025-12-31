@@ -1,6 +1,5 @@
 ---
-import ResponsiveImage from './ResponsiveImage.astro';
-import type { ImageMetadata } from 'astro';
+import { Image } from 'astro:assets';
 
 interface Props {
   title: string;
@@ -10,7 +9,7 @@ interface Props {
   confidentiality: 'public' | 'partial' | 'nda';
   tags?: string[];
   image?: string;
-  coverImage?: ImageMetadata;
+  coverImage?: string;
 }
 
 const { title, description, slug, date, confidentiality, tags, image, coverImage } = Astro.props;
@@ -21,7 +20,7 @@ const { title, description, slug, date, confidentiality, tags, image, coverImage
     <div class="card-content">
       {coverImage && (
         <div class="card-image">
-          <ResponsiveImage
+          <img
             src={coverImage}
             alt={title}
             loading="lazy"
