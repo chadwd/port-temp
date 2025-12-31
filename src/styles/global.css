@@ -82,6 +82,7 @@ h6 {
   --text-3xl: 1.875rem;
   --text-4xl: 2.25rem;
   --text-5xl: clamp(2.5rem, 5vw, 3rem);
+  --text-6xl: clamp(3rem, 7vw, 3.75rem);
 
   /* -------------------------------------------------------------------------
      Typography - Line Heights
@@ -126,6 +127,12 @@ h6 {
   --max-width-content: 65ch;
   --max-width-wide: 1200px;
   --container-padding: var(--space-6);
+
+  /* -------------------------------------------------------------------------
+     Border Radius
+     ------------------------------------------------------------------------- */
+  --radius-sm: 3px;
+  --radius-md: 6px;
 
   /* -------------------------------------------------------------------------
      Transitions
@@ -256,6 +263,22 @@ a:hover {
   max-width: var(--max-width-wide);
   margin-inline: auto;
   padding-inline: var(--container-padding);
+}
+
+/* ==========================================================================
+   Utilities - Accessibility
+   ========================================================================== */
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
 
 /* ==========================================================================

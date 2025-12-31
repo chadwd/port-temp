@@ -1,0 +1,82 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Page Not Found"
+  description="The page you're looking for doesn't exist or has been moved."
+>
+  <div class="container">
+    <div class="error-content">
+      <h1>404</h1>
+      <p class="error-message">
+        You found the void.
+      </p>
+
+      <nav class="error-nav" aria-label="Navigate to main sections">
+        <p>Try these instead:</p>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/work">Work</a></li>
+          <li><a href="/writing">Writing</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .error-content {
+    max-width: var(--max-width-content);
+    margin-inline: auto;
+    padding-block: var(--space-16);
+    text-align: center;
+  }
+
+  .error-content h1 {
+    font-size: var(--text-6xl);
+    font-weight: var(--font-bold);
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-4);
+  }
+
+  .error-message {
+    font-size: var(--text-xl);
+    color: var(--color-text);
+    margin-bottom: var(--space-4);
+    max-width: 48ch;
+    margin-inline: auto;
+  }
+
+  .error-nav p {
+    font-size: var(--text-base);
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-6);
+  }
+
+  .error-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: var(--space-6);
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .error-nav a {
+    font-size: var(--text-lg);
+    font-weight: var(--font-medium);
+    color: var(--color-accent);
+    text-decoration: none;
+    padding: var(--space-3) var(--space-6);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
+  }
+
+  .error-nav a:hover {
+    background: var(--color-accent);
+    color: var(--color-bg);
+    border-color: var(--color-accent);
+  }
+</style>
