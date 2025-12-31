@@ -88,11 +88,14 @@ const { title, description, slug, date, confidentiality, tags, image, coverImage
     margin-bottom: var(--space-4);
     overflow: hidden;
     border-radius: 6px;
+    aspect-ratio: 4 / 3;
+    background-color: var(--color-surface-hover);
   }
 
   .card-image :global(.cover-image) {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     display: block;
   }
 
