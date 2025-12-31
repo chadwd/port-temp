@@ -12,61 +12,90 @@
   </svg>
 </button>
 
-<script>
-  function initThemeToggle() {
-    const toggle = document.querySelector('.theme-toggle');
-    if (!toggle) {
-      console.log('Theme toggle button not found');
-      return;
+<script is:inline>
+  (function() {
+    // Prevent multiple initializations
+    if (window.__themeToggleInitialized) return;
+
+    function initThemeToggle() {
+      const toggle = document.querySelector('.theme-toggle');
+      if (!toggle) return;
+
+      // Check if already has listener to prevent duplicates
+      if (toggle.dataset.initialized === 'true') return;
+
+      toggle.dataset.initialized = 'true';
+
+      // Get stored theme or default to system preference
+      const getTheme = () => {
+        const stored = localStorage.getItem('theme');
+        if (stored) return stored;
+        return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      };
+
+      // Apply theme to document
+      const applyTheme = (theme) => {
+        document.documentElement.setAttribute('data-theme', theme);
+        // Also toggle class for better CSS specificity
+        if (theme === 'dark') {
+          document.documentElement.classList.add('dark-theme');
+        } else {
+          document.documentElement.classList.remove('dark-theme');
+        }
+        updateToggleState(theme);
+      };
+
+      // Update toggle button state
+      const updateToggleState = (theme) => {
+        toggle.setAttribute('aria-label', `Switch to ${theme === 'light' ? 'dark' : 'light'} mode`);
+      };
+
+      // Toggle theme
+      const toggleTheme = (e) => {
+        e.preventDefault();
+        const currentTheme = document.documentElement.getAttribute('data-theme') || getTheme();
+        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+        localStorage.setItem('theme', newTheme);
+        applyTheme(newTheme);
+      };
+
+      // Initialize
+      const initialTheme = getTheme();
+      applyTheme(initialTheme);
+
+      // Event listener
+      toggle.addEventListener('click', toggleTheme);
     }
 
-    console.log('Theme toggle initialized');
+    // Initialize when DOM is ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initThemeToggle);
+    } else {
+      // DOM is already ready
+      initThemeToggle();
+    }
 
-    // Get stored theme or default to system preference
-    const getTheme = () => {
-      const stored = localStorage.getItem('theme');
-      if (stored) return stored;
-      return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-    };
+    // Reinitialize on View Transitions navigation
+    document.addEventListener('astro:page-load', initThemeToggle);
 
-    // Apply theme to document
-    const applyTheme = (theme: string) => {
-      console.log('Applying theme:', theme);
-      document.documentElement.setAttribute('data-theme', theme);
-      updateToggleState(theme);
-    };
+    // Persist theme during View Transitions to prevent flash
+    document.addEventListener('astro:before-swap', (ev) => {
+      const theme = localStorage.getItem('theme') ||
+        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
 
-    // Update toggle button state
-    const updateToggleState = (theme: string) => {
-      toggle.setAttribute('aria-label', `Switch to ${theme === 'light' ? 'dark' : 'light'} mode`);
-    };
+      // Apply theme to the new document before it swaps in
+      if (ev.newDocument) {
+        ev.newDocument.documentElement.setAttribute('data-theme', theme);
+        if (theme === 'dark') {
+          ev.newDocument.documentElement.classList.add('dark-theme');
+        } else {
+          ev.newDocument.documentElement.classList.remove('dark-theme');
+        }
+      }
+    });
 
-    // Toggle theme
-    const toggleTheme = (e: Event) => {
-      e.preventDefault();
-      console.log('Toggle clicked!');
-      const currentTheme = document.documentElement.getAttribute('data-theme') || getTheme();
-      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-      console.log('Switching from', currentTheme, 'to', newTheme);
-      localStorage.setItem('theme', newTheme);
-      applyTheme(newTheme);
-    };
-
-    // Initialize
-    const initialTheme = getTheme();
-    console.log('Initial theme:', initialTheme);
-    applyTheme(initialTheme);
-
-    // Event listener
-    toggle.addEventListener('click', toggleTheme);
-    console.log('Click listener attached');
-  }
-
-  // Initialize on page load
-  initThemeToggle();
-
-  // Reinitialize on View Transitions navigation
-  document.addEventListener('astro:page-load', initThemeToggle);
+    window.__themeToggleInitialized = true;
+  })();
 </script>
 
 <style>

@@ -162,7 +162,8 @@ h6 {
 }
 
 /* Manual dark mode override */
-:root[data-theme="dark"] {
+:root[data-theme="dark"],
+:root.dark-theme {
   --color-bg: #0C0A09;
   --color-bg-rgb: 12, 10, 9;
   --color-text: #FAFAF9;
