@@ -90,28 +90,30 @@
 
   .viewer-close {
     position: absolute;
-    top: -48px;
-    right: 0;
-    background: transparent;
-    border: none;
+    top: -56px;
+    right: -56px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
     color: var(--color-bg);
     cursor: pointer;
-    padding: var(--space-3);
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: opacity var(--transition-fast);
+    transition: all var(--transition-fast);
     z-index: 2;
   }
 
   .viewer-close:hover {
-    opacity: 0.7;
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.5);
   }
 
   .viewer-close:focus-visible {
     outline: 2px solid var(--color-bg);
     outline-offset: 2px;
-    border-radius: var(--radius-sm);
   }
 
   /* Make prose images clickable */
