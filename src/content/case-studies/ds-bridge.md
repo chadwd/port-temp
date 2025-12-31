@@ -5,7 +5,7 @@ date: 2024-12-01
 featured: true
 confidentiality: partial
 tags: ["Design Systems", "AI Tools", "Workflow Design", "Collaboration"]
-coverImage: ./ds-bridge/images/DS Bridge Hero.png
+coverImage: ./ds-bridge/images/Hero-ds-bridge.png
 ---
 
 ## Overview

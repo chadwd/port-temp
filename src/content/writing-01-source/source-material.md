@@ -2,27 +2,17 @@
 
 ## How Claude Code Unlocked a New Creative Tier for Me as a Designer
 
-For most of my career, I believed something quietly limiting.
+For most of my career, I believed something quietly limiting. I believed design had a natural stopping point.
 
-I believed design had a natural stopping point.
+You explored ideas in Photoshop/Sketch/Figma. You documented intent. You handed things off. Then you waited. If the idea survived translation, time, and bandwidth, it eventually became real. That waiting shaped how bold I was willing to be. Not consciously. Subtly.
 
-You explored ideas in Figma. You documented intent. You handed things off. Then you waited. If the idea survived translation, time, and bandwidth, it eventually became real.
-
-That waiting shaped how bold I was willing to be.
-Not consciously. Subtly.
-
-I designed what I believed could survive the system.
-
-That is the ceiling most designers live under.
+I designed what I believed could survive the system. That is the ceiling most designers live under.
 
 ---
 
 ## The Invisible Friction No One Talks About
 
-The problem was never creativity.
-Designers have ideas constantly.
-
-The problem was friction.
+The problem was never creativity. Designers have ideas constantly. The problem was friction.
 
 Every idea had to pass through layers of explanation before it earned the right to exist. Specs. Meetings. Clarifications. Re-interpretations. By the time something shipped, the original insight was often diluted.
 
