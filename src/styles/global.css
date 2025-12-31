@@ -406,12 +406,30 @@ a:hover {
   padding-inline: var(--container-padding);
 }
 
-.hero-image-container :global(picture),
-.hero-image-container :global(img) {
+.hero-image-container :global(picture) {
+  display: block;
   width: 100%;
   height: auto !important;
+}
+
+.hero-image-container :global(picture img) {
+  width: 100% !important;
+  height: auto !important;
   max-height: none !important;
-  display: block;
-  object-fit: contain !important;
+  min-height: auto !important;
+  aspect-ratio: auto !important;
+  object-fit: none !important;
+  display: block !important;
+  border-radius: 6px;
+}
+
+.hero-image-container :global(img) {
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  min-height: auto !important;
+  aspect-ratio: auto !important;
+  object-fit: none !important;
+  display: block !important;
   border-radius: 6px;
 }
