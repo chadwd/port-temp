@@ -1,9 +1,9 @@
 ---
-title: "DS-Bridge: AI-Enabled Design System Workflow"
+title: "DS-Bridge: AI-Enabled Workflow"
 description: "A proof of concept that became an operating model—enabling non-technical designers to build, validate, and document production-ready components directly in code."
 date: 2024-12-01
 featured: true
-confidentiality: partial
+confidentiality: public
 tags: ["Design Systems", "AI Tools", "Workflow Design", "Collaboration"]
 coverImage: ./ds-bridge/images/Hero-ds-bridge.png
 ---
