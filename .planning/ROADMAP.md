@@ -4,6 +4,7 @@
 
 - ✅ **v1.0 MVP** - Phases 1-6 (shipped 2025-12-22)
 - ✅ **v1.1 Content & Polish** - Phases 7-11 (shipped 2025-12-31)
+- 🚧 **v1.2 Content & Polish Expansion** - Phases 12-16 (in progress)
 
 ## Completed Milestones
 
@@ -106,6 +107,62 @@ See [v1.1 milestone archive](milestones/v1.1-Content-&-Polish.md) for full detai
 
 </details>
 
+### 🚧 v1.2 Content & Polish Expansion (In Progress)
+
+**Milestone Goal:** Refine UI/UX foundation, expand portfolio content to 3 case studies and 3 articles, add CMS for easier content management, and implement analytics for insights.
+
+#### Phase 12: UI/UX Refinements
+
+**Goal**: Polish template structure with navbar improvements, whitespace cleanup, better click areas, and interaction refinements
+**Depends on**: v1.1 complete
+**Research**: Unlikely (internal design polish, established patterns)
+**Plans**: TBD
+
+Plans:
+- [ ] 12-01: TBD (run `/gsd:plan-phase 12` to break down)
+
+#### Phase 13: Additional Portfolio Content
+
+**Goal**: Add 2 more case studies (total of 3) with images and professional formatting
+**Depends on**: Phase 12
+**Research**: Unlikely (content creation using established patterns from Phase 9)
+**Plans**: TBD
+
+Plans:
+- [ ] 13-01: TBD
+
+#### Phase 14: Enhanced Writing Content
+
+**Goal**: Add 2 more articles (total of 3 strong articles) with images
+**Depends on**: Phase 13
+**Research**: Unlikely (content creation using established patterns)
+**Plans**: TBD
+
+Plans:
+- [ ] 14-01: TBD
+
+#### Phase 15: CMS Integration
+
+**Goal**: Integrate headless CMS (Sanity, Contentful, or similar) for easier content management
+**Depends on**: Phase 14
+**Research**: Likely (CMS selection and integration patterns)
+**Research topics**: Headless CMS options for Astro (Sanity, Contentful, Storyblok), content migration strategy, preview modes
+**Plans**: TBD
+
+Plans:
+- [ ] 15-01: TBD
+
+#### Phase 16: Analytics & Monitoring
+
+**Goal**: Add analytics (Vercel Analytics or similar) and monitoring for portfolio insights
+**Depends on**: Phase 15
+**Research**: Likely (analytics integration and privacy considerations)
+**Research topics**: Vercel Analytics vs Google Analytics, privacy-friendly options, dashboard setup
+**Plans**: TBD
+
+Plans:
+- [ ] 16-01: TBD
+
 ## Progress
 
 | Phase | Milestone | Plans Complete | Status | Completed |
@@ -121,3 +178,8 @@ See [v1.1 milestone archive](milestones/v1.1-Content-&-Polish.md) for full detai
 | 9. Real Content | v1.1 | 2/2 | Complete | 2025-12-30 |
 | 10. UX Polish | v1.1 | 2/2 | Complete | 2025-12-30 |
 | 11. Documentation | v1.1 | 2/2 | Complete | 2025-12-31 |
+| 12. UI/UX Refinements | v1.2 | 0/? | Not started | - |
+| 13. Additional Portfolio Content | v1.2 | 0/? | Not started | - |
+| 14. Enhanced Writing Content | v1.2 | 0/? | Not started | - |
+| 15. CMS Integration | v1.2 | 0/? | Not started | - |
+| 16. Analytics & Monitoring | v1.2 | 0/? | Not started | - |
