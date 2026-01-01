@@ -1,11 +1,11 @@
 ---
-title: "DS-Bridge: AI-Enabled Workflow"
-description: "A proof of concept that became an operating model—enabling non-technical designers to build, validate, and document production-ready components directly in code."
-date: 2024-12-01
-featured: true
+title: "Template"
+description: "One line about this project"
+date: 2025-12-01
+featured: false
 confidentiality: public
-tags: ["AI Systems Design", "Workflow Automation & Enablement", "Human–AI Collaboration", "Design–Engineering Operating Models"]
-coverImage: ./ds-bridge/images/Hero-ds-bridge.png
+tags: ["Design", "Research", "Peer-Designing", "Risk Management"]
+coverImage: /images/hero-placeholder.png
 ---
 
 ## 60-Second Summary (TL;DR)

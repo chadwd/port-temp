@@ -10,10 +10,10 @@ coverImage: ./ds-bridge/images/Hero-ds-bridge.png
 
 ## 60-Second Summary (TL;DR)
 
-- **The outcome:** Reduced the path from product idea to production-ready UI from months to days by replacing static design documentation with a shared, executable system.
-- **Why it mattered:** The organization needed proof that design systems and AI-assisted workflows could scale securely and deliver real value beyond Figma artifacts.
-- **What I did:** Designed and validated an AI-enabled operating model that lets non-technical designers plan, build, validate, and document real components directly in code.
-- **Proof:** A junior designer with no coding background shipped a production component in under a week; the system produced 5 components, 95 tests, and a live documentation site adopted as the source of truth.
+- **The outcome:** What materially changed for the business, team, or system
+- **Why it mattered:** The problem this unblocked or de-risked
+- **What I did:** 1–2 lines on the operating model or decisions, not deliverables
+- **Proof:** Concrete signals (metrics, adoption, shipped artifacts, cycle-time change)
 
 ---
 

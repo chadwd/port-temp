@@ -26,7 +26,7 @@ External POC Link: <a href="https://chadwd.github.io/DS-Bridge/" target="_blank"
 
 ![Guarantee Sale Component with interactive demo properties](/images/case-studies/ds-bridge/image-01.png)
 
-## Overview (Impact-First)
+## Overview
 
 **Primary Impact:**
 <br>
@@ -258,14 +258,6 @@ Give a junior designer real ownership and step back.
 **Human constraints:**
   - Designers had no prior terminal or coding experience
   - The system needed to feel safe, guided, and reversible
-
----
-
-## What This Enabled Next
-
-- Immediate follow-on impact
-- How this scales beyond the initial project
-- Who else can now participate because of this system
 
 ---
 
