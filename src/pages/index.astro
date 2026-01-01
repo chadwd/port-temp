@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import CaseStudyCard from '../components/CaseStudyCard.astro';
 import ResponsiveImage from '../components/ResponsiveImage.astro';
+import ContactCTA from '../components/ContactCTA.astro';
 
 const allCaseStudies = await getCollection('case-studies');
 const featuredCaseStudies = allCaseStudies
@@ -111,6 +112,8 @@ const recentWriting = allWriting
         </>
       )}
     </section>
+
+    <ContactCTA />
   </div>
 </BaseLayout>
 

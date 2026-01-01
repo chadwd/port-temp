@@ -1,48 +1,99 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import ContactCTA from '../components/ContactCTA.astro';
 ---
 
 <BaseLayout
   title="About"
-  description="Learn about my background in product design, my design philosophy, and my approach to creating meaningful digital experiences."
+  description="Principal-level product designer focused on systems, leverage, and long-term impact. I design product ecosystems that help organizations make sound decisions under real constraints."
 >
   <div class="container">
     <header class="about-header">
-      <h1>About</h1>
-      <p class="intro">Learn about my background in product design, my design philosophy, and my approach to creating meaningful digital experiences.</p>
+      <h1>About Me</h1>
+      <p class="intro">I am a Principal-level product designer focused on systems, leverage, and long-term impact.</p>
     </header>
 
     <div class="prose">
+      <p class="lead">
+        I design product ecosystems, workflows, and design systems that help organizations make sound decisions under real constraints. My work sits at the intersection of customer experience, business economics, and emerging technology. I am most effective in high-stakes environments where problems are not fully defined and teams need structure they can trust.
+      </p>
+      <p>
+        I do not optimize for screens in isolation. I optimize for clarity, durability, and organizational momentum. My responsibility is not only what ships next, but what continues to scale after I step away.
+      </p>
+
       <section class="bio">
         <h2>Background</h2>
         <p>
-          A brief bio about the designer's background in AI and blockchain product design. This section will cover professional experience, key projects, and the journey that led to specializing in emerging technologies.
+          My career has been shaped by operating inside complex, high-pressure environments where direction shifts, ownership changes, and information is incomplete.
         </p>
         <p>
-          Additional context about skills, expertise, and what makes this designer's approach unique. Placeholder for actual bio content that tells the story of the designer's career and evolution.
+          I have led and stabilized enterprise initiatives across pricing, inventory, alerts, and AI-assisted workflows. I am often brought into spaces where execution risk is high and alignment is fragile. In those moments, I focus on creating shared understanding, predictable structure, and decision-making systems that allow teams to move forward with confidence.
+        </p>
+        <p>I am consistently trusted to:</p>
+        <ul>
+          <li>Bring structure to undefined problem spaces</li>
+          <li>Build systems that outlast individual projects</li>
+          <li>Translate strategy into executable design architecture</li>
+          <li>Increase the effectiveness of the people around me</li>
+        </ul>
+        <p>
+          I have owned multi-phase initiatives end to end, supported executive priorities, mentored senior designers, partnered deeply with engineering leadership, and guided teams through organizational change without losing delivery momentum. My focus remains constant: reduce friction, increase trust, and help teams operate at a higher level.
         </p>
       </section>
 
       <section class="philosophy">
         <h2>Design Philosophy</h2>
+        <p>My design philosophy is grounded in three principles that guide how I operate at scale.</p>
+
+        <h3>Integrity</h3>
         <p>
-          Core beliefs about design and the approach to creating products. This section will articulate the principles that guide design decisions and the values that inform the work.
+          Integrity shows up in how I design systems and how I work with people. I believe clarity is a form of respect. I am direct and consistent so teammates can trust both the work and the reasoning behind it. I invest time in mentoring designers and partners so they can build confidence, judgment, and leadership of their own.
         </p>
         <p>
-          How complexity is made simple, how users are put at the center of the process, and why certain methodologies are favored. Placeholder for the designer's perspective on what makes good design.
+          In practice, this has meant working closely with teammates like Jake and Emily to raise the bar on research, design systems, and execution. I share context early, explain decision logic, and invite challenge. When people understand the system, they stop needing permission and start leading.
+        </p>
+
+        <h3>Courage</h3>
+        <p>
+          Courage is both personal and collective. I step forward when direction is unclear, decisions feel rushed, or important questions are being avoided. I ask the hard questions first so others feel safe asking theirs.
+        </p>
+        <p>
+          I model curiosity over certainty and encourage asking why before deciding how. Better design comes from better questions, and better questions come from environments where people feel supported, not judged. Courage is not volume. It is steadiness that allows honest thinking to surface.
+        </p>
+
+        <h3>Unity</h3>
+        <p>
+          Unity is how strong individuals become high-performing systems. I intentionally blur the lines between product owners, designers, and engineers because the best outcomes happen when thinking is shared, not handed off.
+        </p>
+        <p>
+          I bring roles closer together through shared language, shared artifacts, and shared ownership of outcomes. I experiment with collaborative practices like peer-designing, inspired by peer-coding, to improve ideation quality, team morale, and trust. Unity is not consensus. It is alignment that accelerates execution and compounds impact.
         </p>
       </section>
 
       <section class="approach">
-        <h2>Approach</h2>
+        <h2>How I Operate Day to Day</h2>
+        <p>I operate with intention, consistency, and respect for people's time and attention.</p>
+        <p>Day to day, this means:</p>
+        <ul>
+          <li>Aligning on the problem before debating solutions</li>
+          <li>Making decision criteria explicit so trade-offs are visible</li>
+          <li>Working alongside product and engineering rather than through handoffs</li>
+          <li>Using shared artifacts to keep thinking transparent and reusable</li>
+          <li>Measuring progress by outcomes, not activity</li>
+        </ul>
         <p>
-          Description of the design process, collaboration style, and how projects move from concept to completion. This section will outline the practical methods and frameworks used in design work.
+          I ask why early to prevent costly rework later. I surface risks while they are small. I document decisions so teams can move independently without losing context.
         </p>
         <p>
-          Information about working with teams, stakeholders, and users to create solutions that are both innovative and grounded in real needs. Placeholder for process and methodology details.
+          I balance urgency with thoughtfulness. When speed matters, I help teams move decisively. When stakes are high, I slow the work just enough to improve decision quality.
+        </p>
+        <p>
+          My goal is simple: help teams think clearly, move together, and ship work worth standing behind.
         </p>
       </section>
     </div>
+
+    <ContactCTA />
   </div>
 </BaseLayout>
 
@@ -58,11 +109,42 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     margin-bottom: 0;
   }
 
+  .prose {
+    max-width: var(--max-width-content);
+  }
+
+  .prose .lead {
+    font-size: var(--text-lg);
+    line-height: var(--leading-relaxed);
+    margin-bottom: var(--space-4);
+  }
+
+  .prose > p {
+    margin-bottom: var(--space-8);
+  }
+
   .prose section {
     margin-bottom: var(--space-12);
   }
 
   .prose section:last-child {
     margin-bottom: 0;
+  }
+
+  .prose h3 {
+    font-size: var(--text-lg);
+    font-weight: var(--font-semibold);
+    margin-top: var(--space-8);
+    margin-bottom: var(--space-4);
+  }
+
+  .prose ul {
+    margin: var(--space-4) 0 var(--space-6) 0;
+    padding-left: var(--space-6);
+  }
+
+  .prose li {
+    margin-bottom: var(--space-2);
+    line-height: var(--leading-relaxed);
   }
 </style>

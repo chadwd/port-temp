@@ -23,12 +23,12 @@
 
 **Milestone v1.2 IN PROGRESS**
 
-Phase: 14 of 16 (Enhanced Writing Content)
+Phase: 14.1 of 16 (Copy Improvements and Resume)
 Plan: 1 of 1 in current phase
 Status: Phase complete
-Last activity: 2026-01-01 - Completed 14-01-PLAN.md (Content Navigation Component)
+Last activity: 2026-01-01 - Completed 14.1-01-PLAN.md (Copy & Resume)
 
-Progress: ████░░░░░░ 40% (v1.2)
+Progress: █████░░░░░ 50% (v1.2)
 
 ## Performance Metrics
 
@@ -125,6 +125,8 @@ Progress: ████░░░░░░ 40% (v1.2)
 | 14 | Right-aligned ContentNav | Editorial feel, less intrusive than full-width |
 | 14 | sortOrder precedence | Manual curation via sortOrder takes priority over date |
 | 14 | Loop behavior | Modulo-based wrap from last to first item |
+| 14.1 | ContactCTA component | Reusable component vs duplicated code across pages |
+| 14.1 | Dual resume files | Keep original filename + resume.pdf for URL stability |
 
 ### Deferred Issues
 
@@ -139,6 +141,7 @@ None - clean slate for v1.2.
 - Milestone v1.0 shipped 2025-12-22: MVP delivery, 6 phases (Phases 1-6)
 - Milestone v1.1 shipped 2025-12-31: Content & Polish, 5 phases (Phases 7-11)
 - Milestone v1.2 created 2025-12-31: Content & Polish Expansion, 5 phases (Phases 12-16)
+- Phase 14.1 inserted after Phase 14: Copy improvements and resume PDF (URGENT)
 
 ## Project Alignment
 
@@ -149,6 +152,6 @@ Drift notes: None
 
 ## Session Continuity
 
-Last session: 2026-01-01T20:13:00Z
-Stopped at: Completed 14-01-PLAN.md (Content Navigation Component)
+Last session: 2026-01-01T16:53:00Z
+Stopped at: Completed 14.1-01-PLAN.md (Copy & Resume)
 Resume file: None

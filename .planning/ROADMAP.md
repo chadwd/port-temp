@@ -141,10 +141,20 @@ Plans:
 Plans:
 - [x] 14-01: Content Navigation Component with loop behavior
 
+#### Phase 14.1: Copy Improvements and Resume (INSERTED)
+
+**Goal**: Update copy across About, Contact, and other pages; add resume PDF download
+**Depends on**: Phase 14
+**Research**: Unlikely (content updates using established patterns)
+**Plans**: 1
+
+Plans:
+- [x] 14.1-01: About page copy, Contact info, ContactCTA component, resume PDF
+
 #### Phase 15: CMS Integration
 
 **Goal**: Integrate headless CMS (Sanity, Contentful, or similar) for easier content management
-**Depends on**: Phase 14
+**Depends on**: Phase 14.1
 **Research**: Likely (CMS selection and integration patterns)
 **Research topics**: Headless CMS options for Astro (Sanity, Contentful, Storyblok), content migration strategy, preview modes
 **Plans**: TBD
@@ -181,5 +191,6 @@ Plans:
 | 12. UI/UX Refinements | v1.2 | 1/1 | Complete | 2025-12-31 |
 | 13. Additional Portfolio Content | v1.2 | 1/1 | Complete | 2026-01-01 |
 | 14. Enhanced Writing Content | v1.2 | 1/1 | Complete | 2026-01-01 |
+| 14.1 Copy Improvements & Resume | v1.2 | 1/1 | Complete | 2026-01-01 |
 | 15. CMS Integration | v1.2 | 0/? | Not started | - |
 | 16. Analytics & Monitoring | v1.2 | 0/? | Not started | - |

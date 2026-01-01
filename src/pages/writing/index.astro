@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ResponsiveImage from '../../components/ResponsiveImage.astro';
+import ContactCTA from '../../components/ContactCTA.astro';
 
 const allWriting = await getCollection('writing');
 const sortedWriting = allWriting.sort((a, b) => b.data.date.getTime() - a.data.date.getTime());
@@ -55,6 +56,8 @@ const pageDescription = 'Essays and reflections on design, innovation, and the c
         ))}
       </div>
     )}
+
+    <ContactCTA />
   </div>
 </BaseLayout>
 
