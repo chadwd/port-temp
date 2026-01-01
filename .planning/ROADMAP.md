@@ -126,10 +126,10 @@ Plans:
 **Goal**: Add 2 more case studies (total of 3) with images and professional formatting
 **Depends on**: Phase 12
 **Research**: Unlikely (content creation using established patterns from Phase 9)
-**Plans**: TBD
+**Plans**: 1
 
 Plans:
-- [ ] 13-01: TBD
+- [x] 13-01: Integrate VDP 3.0 and Pricing System case studies with images
 
 #### Phase 14: Enhanced Writing Content
 
@@ -178,8 +178,8 @@ Plans:
 | 9. Real Content | v1.1 | 2/2 | Complete | 2025-12-30 |
 | 10. UX Polish | v1.1 | 2/2 | Complete | 2025-12-30 |
 | 11. Documentation | v1.1 | 2/2 | Complete | 2025-12-31 |
-| 12. UI/UX Refinements | v1.2 | 1/? | In progress | 2025-12-31 |
-| 13. Additional Portfolio Content | v1.2 | 0/? | Not started | - |
+| 12. UI/UX Refinements | v1.2 | 1/1 | Complete | 2025-12-31 |
+| 13. Additional Portfolio Content | v1.2 | 1/1 | Complete | 2026-01-01 |
 | 14. Enhanced Writing Content | v1.2 | 0/? | Not started | - |
 | 15. CMS Integration | v1.2 | 0/? | Not started | - |
 | 16. Analytics & Monitoring | v1.2 | 0/? | Not started | - |

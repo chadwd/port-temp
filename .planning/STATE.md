@@ -23,12 +23,12 @@
 
 **Milestone v1.2 IN PROGRESS**
 
-Phase: 12 of 16 (UI/UX Refinements)
-Plan: 1 of ? in current phase
-Status: In progress
-Last activity: 2025-12-31 - Completed 12-01-PLAN.md (Header & Navigation Polish)
+Phase: 13 of 16 (Additional Portfolio Content)
+Plan: 1 of 1 in current phase
+Status: Phase complete
+Last activity: 2026-01-01 - Completed 13-01-PLAN.md (Additional Portfolio Content)
 
-Progress: ░░░░░░░░░░ 0% (v1.2)
+Progress: ██░░░░░░░░ 20% (v1.2)
 
 ## Performance Metrics
 
@@ -120,6 +120,8 @@ Progress: ░░░░░░░░░░ 0% (v1.2)
 | 12 | Focus-visible implementation | Keyboard-only focus outlines, not mouse clicks |
 | 12 | Backdrop blur on header | 8px blur with rgba for subtle depth |
 | 12 | Touch target padding | --space-3 (12px) for 44px+ WCAG AAA compliance |
+| 13 | Hyphen naming convention | Front-end files use hyphens, back-end/scripts use underscores |
+| 13 | Keep template placeholder | gsale-peer-design.md preserved as working template |
 
 ### Deferred Issues
 
@@ -144,6 +146,6 @@ Drift notes: None
 
 ## Session Continuity
 
-Last session: 2025-12-31T19:23:30Z
-Stopped at: Completed 12-01-PLAN.md (Header & Navigation Polish)
+Last session: 2026-01-01T19:49:35Z
+Stopped at: Completed 13-01-PLAN.md (Additional Portfolio Content)
 Resume file: None
