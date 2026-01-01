@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import HeroImage from '../../components/HeroImage.astro';
+import ContentNav from '../../components/ContentNav.astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('writing');
@@ -13,6 +14,34 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await post.render();
+
+// Get all posts and sort them
+const allPosts = await getCollection('writing');
+
+// Sort posts: items with sortOrder first (ascending), then by date (descending)
+const sortedPosts = allPosts.sort((a, b) => {
+  const aHasSort = a.data.sortOrder !== undefined;
+  const bHasSort = b.data.sortOrder !== undefined;
+
+  // Both have sortOrder - compare sortOrder
+  if (aHasSort && bHasSort) {
+    return a.data.sortOrder! - b.data.sortOrder!;
+  }
+
+  // Only a has sortOrder - a comes first
+  if (aHasSort) return -1;
+
+  // Only b has sortOrder - b comes first
+  if (bHasSort) return 1;
+
+  // Neither has sortOrder - compare by date (descending)
+  return b.data.date.getTime() - a.data.date.getTime();
+});
+
+// Find current post index and get next post (with loop)
+const currentIndex = sortedPosts.findIndex(p => p.slug === post.slug);
+const nextIndex = (currentIndex + 1) % sortedPosts.length;
+const nextPost = sortedPosts[nextIndex];
 ---
 
 <BaseLayout title={post.data.title} description={post.data.description}>
@@ -54,6 +83,11 @@ const { Content } = await post.render();
         <div class="prose">
           <Content />
         </div>
+        <ContentNav
+          href={`/writing/${nextPost.slug}`}
+          title={nextPost.data.title}
+          coverImage={nextPost.data.coverImage}
+        />
       </div>
     </div>
   </article>

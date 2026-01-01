@@ -12,6 +12,7 @@ const caseStudies = defineCollection({
     tags: z.array(z.string()).default([]),
     image: z.string().optional(),
     coverImage: z.string().optional(),
+    sortOrder: z.number().optional(),
   }),
 });
 
@@ -24,6 +25,7 @@ const writing = defineCollection({
     date: z.date(),
     tags: z.array(z.string()).default([]),
     coverImage: z.string().optional(),
+    sortOrder: z.number().optional(),
   }),
 });
 

@@ -2,6 +2,7 @@
 import { getCollection, getEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import HeroImage from '../../components/HeroImage.astro';
+import ContentNav from '../../components/ContentNav.astro';
 
 export async function getStaticPaths() {
   const caseStudies = await getCollection('case-studies');
@@ -13,6 +14,34 @@ export async function getStaticPaths() {
 
 const { caseStudy } = Astro.props;
 const { Content } = await caseStudy.render();
+
+// Get all case studies and sort them
+const allCaseStudies = await getCollection('case-studies');
+
+// Sort case studies: items with sortOrder first (ascending), then by date (descending)
+const sortedCaseStudies = allCaseStudies.sort((a, b) => {
+  const aHasSort = a.data.sortOrder !== undefined;
+  const bHasSort = b.data.sortOrder !== undefined;
+
+  // Both have sortOrder - compare sortOrder
+  if (aHasSort && bHasSort) {
+    return a.data.sortOrder! - b.data.sortOrder!;
+  }
+
+  // Only a has sortOrder - a comes first
+  if (aHasSort) return -1;
+
+  // Only b has sortOrder - b comes first
+  if (bHasSort) return 1;
+
+  // Neither has sortOrder - compare by date (descending)
+  return b.data.date.getTime() - a.data.date.getTime();
+});
+
+// Find current case study index and get next (with loop)
+const currentIndex = sortedCaseStudies.findIndex(cs => cs.slug === caseStudy.slug);
+const nextIndex = (currentIndex + 1) % sortedCaseStudies.length;
+const nextCaseStudy = sortedCaseStudies[nextIndex];
 ---
 
 <BaseLayout title={caseStudy.data.title} description={caseStudy.data.description}>
@@ -52,6 +81,11 @@ const { Content } = await caseStudy.render();
         <div class="prose">
           <Content />
         </div>
+        <ContentNav
+          href={`/work/${nextCaseStudy.slug}`}
+          title={nextCaseStudy.data.title}
+          coverImage={nextCaseStudy.data.coverImage}
+        />
       </div>
     </div>
   </article>

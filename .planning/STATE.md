@@ -23,12 +23,12 @@
 
 **Milestone v1.2 IN PROGRESS**
 
-Phase: 13 of 16 (Additional Portfolio Content)
+Phase: 14 of 16 (Enhanced Writing Content)
 Plan: 1 of 1 in current phase
 Status: Phase complete
-Last activity: 2026-01-01 - Completed 13-01-PLAN.md (Additional Portfolio Content)
+Last activity: 2026-01-01 - Completed 14-01-PLAN.md (Content Navigation Component)
 
-Progress: ██░░░░░░░░ 20% (v1.2)
+Progress: ████░░░░░░ 40% (v1.2)
 
 ## Performance Metrics
 
@@ -122,6 +122,9 @@ Progress: ██░░░░░░░░ 20% (v1.2)
 | 12 | Touch target padding | --space-3 (12px) for 44px+ WCAG AAA compliance |
 | 13 | Hyphen naming convention | Front-end files use hyphens, back-end/scripts use underscores |
 | 13 | Keep template placeholder | gsale-peer-design.md preserved as working template |
+| 14 | Right-aligned ContentNav | Editorial feel, less intrusive than full-width |
+| 14 | sortOrder precedence | Manual curation via sortOrder takes priority over date |
+| 14 | Loop behavior | Modulo-based wrap from last to first item |
 
 ### Deferred Issues
 
@@ -146,6 +149,6 @@ Drift notes: None
 
 ## Session Continuity
 
-Last session: 2026-01-01T19:49:35Z
-Stopped at: Completed 13-01-PLAN.md (Additional Portfolio Content)
+Last session: 2026-01-01T20:13:00Z
+Stopped at: Completed 14-01-PLAN.md (Content Navigation Component)
 Resume file: None
