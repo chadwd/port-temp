@@ -48,8 +48,9 @@ const nextPost = sortedPosts[nextIndex];
   <article class="writing-article">
     <header class="article-hero">
       <div class="container">
-        <nav class="back-link">
-          <a href="/writing">← Back to Writing</a>
+        <nav class="breadcrumb-nav">
+          <a href="/writing" class="back-link">← Back to Writing</a>
+          <a href={`/writing/${nextPost.slug}`} class="next-link">Next →</a>
         </nav>
         <div class="hero-content">
           <h1>{post.data.title}</h1>
@@ -102,17 +103,22 @@ const nextPost = sortedPosts[nextIndex];
     margin-bottom: var(--space-12);
   }
 
-  .back-link {
+  .breadcrumb-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: var(--space-6);
   }
 
-  .back-link a {
+  .back-link,
+  .next-link {
     font-size: var(--text-sm);
     color: var(--color-text-muted);
     text-decoration: none;
   }
 
-  .back-link a:hover {
+  .back-link:hover,
+  .next-link:hover {
     color: var(--color-accent);
     text-decoration: underline;
   }

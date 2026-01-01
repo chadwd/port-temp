@@ -8,7 +8,7 @@ const allCaseStudies = await getCollection('case-studies');
 const featuredCaseStudies = allCaseStudies
   .filter((caseStudy) => caseStudy.data.featured === true)
   .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0, 4);
+  .slice(0, 3);
 
 const allWriting = await getCollection('writing');
 const recentWriting = allWriting
@@ -19,16 +19,17 @@ const recentWriting = allWriting
 <BaseLayout title="Home">
   <div class="container">
     <section class="hero">
-      <h1>Senior Product Designer</h1>
+      <h1>Chad Dunbar</h1>
+      <p class="hero-subtitle">Principal Product Designer</p>
       <p class="hero-intro">
-        Crafting thoughtful digital experiences at the intersection of AI and blockchain innovation. Focused on making complex technologies accessible and meaningful.
+        15+ years leading enterprise UX.<br />
+        I build design systems at scale and ship AI-driven products.
       </p>
-      <a href="/files/resume.pdf" class="resume-button" download>
+      <a href="/files/resume.pdf" class="resume-button" target="_blank" rel="noopener noreferrer">
         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path d="M10 13L6 9H8V4H12V9H14L10 13Z" fill="currentColor"/>
-          <path d="M4 16H16V14H4V16Z" fill="currentColor"/>
+          <path d="M11 3H17V9M17 3L9 11M7 5H5C3.89543 5 3 5.89543 3 7V15C3 16.1046 3.89543 17 5 17H13C14.1046 17 15 16.1046 15 15V13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-        Download Resume
+        View Resume
       </a>
     </section>
 
@@ -50,9 +51,12 @@ const recentWriting = allWriting
                 coverImage={caseStudy.data.coverImage}
               />
             ))}
-          </div>
-          <div class="view-all">
-            <a href="/work" class="view-all-link">View all work →</a>
+            <a href="/work" class="view-all-card">
+              <span class="view-all-text">View all work</span>
+              <svg class="view-all-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
           </div>
         </>
       )}
@@ -97,9 +101,12 @@ const recentWriting = allWriting
                 </a>
               </article>
             ))}
-          </div>
-          <div class="view-all">
-            <a href="/writing" class="view-all-link">View all writing →</a>
+            <a href="/writing" class="view-all-card">
+              <span class="view-all-text">View all writing</span>
+              <svg class="view-all-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
           </div>
         </>
       )}
@@ -114,7 +121,14 @@ const recentWriting = allWriting
 
   .hero h1 {
     font-size: var(--text-5xl);
-    margin-bottom: var(--space-6);
+    margin-bottom: var(--space-2);
+  }
+
+  .hero-subtitle {
+    font-size: var(--text-3xl);
+    color: var(--color-accent);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--space-3);
   }
 
   .hero-intro {
@@ -181,21 +195,41 @@ const recentWriting = allWriting
     }
   }
 
-  .view-all {
-    text-align: center;
-  }
-
-  .view-all-link {
-    display: inline-block;
-    font-size: var(--text-lg);
-    color: var(--color-accent);
+  .view-all-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-3);
+    background-color: var(--color-surface);
+    border: 1px dashed var(--color-border);
+    border-radius: 6px;
+    padding: var(--space-8);
     text-decoration: none;
-    transition: color var(--transition-fast);
+    color: var(--color-text-muted);
+    transition: all var(--transition-base);
+    min-height: 200px;
   }
 
-  .view-all-link:hover {
-    color: var(--color-text);
-    text-decoration: underline;
+  .view-all-card:hover {
+    border-color: var(--color-accent);
+    border-style: solid;
+    color: var(--color-accent);
+    background-color: var(--color-surface-hover);
+    transform: translateY(-2px);
+  }
+
+  .view-all-text {
+    font-size: var(--text-lg);
+    font-weight: var(--font-medium);
+  }
+
+  .view-all-arrow {
+    transition: transform var(--transition-fast);
+  }
+
+  .view-all-card:hover .view-all-arrow {
+    transform: translateX(4px);
   }
 
   .recent-writing {

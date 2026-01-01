@@ -48,8 +48,9 @@ const nextCaseStudy = sortedCaseStudies[nextIndex];
   <article class="case-study">
     <header class="case-study-hero">
       <div class="container">
-        <nav class="back-link">
-          <a href="/work">← Back to Work</a>
+        <nav class="breadcrumb-nav">
+          <a href="/work" class="back-link">← Back to Work</a>
+          <a href={`/work/${nextCaseStudy.slug}`} class="next-link">Next →</a>
         </nav>
         <div class="hero-content">
           <div class="title-row">
@@ -100,17 +101,22 @@ const nextCaseStudy = sortedCaseStudies[nextIndex];
     margin-bottom: var(--space-12);
   }
 
-  .back-link {
+  .breadcrumb-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: var(--space-6);
   }
 
-  .back-link a {
+  .back-link,
+  .next-link {
     font-size: var(--text-sm);
     color: var(--color-text-muted);
     text-decoration: none;
   }
 
-  .back-link a:hover {
+  .back-link:hover,
+  .next-link:hover {
     color: var(--color-accent);
     text-decoration: underline;
   }
