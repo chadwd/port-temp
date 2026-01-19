@@ -21,14 +21,17 @@
 
 ## Current Position
 
-**Milestone v1.2 IN PROGRESS**
+**Milestone v1.3 Professional Data Infrastructure** (in progress)
 
-Phase: 14.1 of 16 (Copy Improvements and Resume)
-Plan: 1 of 1 in current phase
-Status: Phase complete
-Last activity: 2026-01-01 - Completed 14.1-01-PLAN.md (Copy & Resume)
+Phase: 15 of 17 (Metadata Schema Design)
+Plan: Not started
+Status: Ready to plan
+Last activity: 2026-01-19 - Milestone v1.3 created
 
-Progress: █████░░░░░ 50% (v1.2)
+Progress: ░░░░░░░░░░ 0% (v1.3)
+- Phase 15 (Metadata Schema): Not started
+- Phase 16 (Profile Data System): Not started
+- Phase 17 (Impact Schema): Not started
 
 ## Performance Metrics
 
@@ -127,6 +130,8 @@ Progress: █████░░░░░ 50% (v1.2)
 | 14 | Loop behavior | Modulo-based wrap from last to first item |
 | 14.1 | ContactCTA component | Reusable component vs duplicated code across pages |
 | 14.1 | Dual resume files | Keep original filename + resume.pdf for URL stability |
+| 15 | CMS deferred | Git-based CMS conflicts with GitHub Pages static hosting |
+| 16 | Analytics deferred | Plausible recommended when ready (~15 min setup) |
 
 ### Deferred Issues
 
@@ -134,14 +139,15 @@ None yet.
 
 ### Blockers/Concerns Carried Forward
 
-None - clean slate for v1.2.
+None - clean slate for v1.3.
 
 ### Roadmap Evolution
 
 - Milestone v1.0 shipped 2025-12-22: MVP delivery, 6 phases (Phases 1-6)
 - Milestone v1.1 shipped 2025-12-31: Content & Polish, 5 phases (Phases 7-11)
-- Milestone v1.2 created 2025-12-31: Content & Polish Expansion, 5 phases (Phases 12-16)
+- Milestone v1.2 shipped 2026-01-01: Content & Polish Expansion, 5 phases (Phases 12-14.1)
 - Phase 14.1 inserted after Phase 14: Copy improvements and resume PDF (URGENT)
+- Milestone v1.3 created 2026-01-19: Professional Data Infrastructure, 3 phases (Phases 15-17)
 
 ## Project Alignment
 
@@ -152,6 +158,7 @@ Drift notes: None
 
 ## Session Continuity
 
-Last session: 2026-01-01T16:53:00Z
-Stopped at: Completed 14.1-01-PLAN.md (Copy & Resume)
+Last session: 2026-01-19
+Stopped at: Milestone v1.3 initialization (ready to plan Phase 15)
 Resume file: None
+Next action: Plan Phase 15 - Metadata Schema Design (/gsd:plan-phase 15)
