@@ -21,30 +21,63 @@ Generate tactical, 1-2 page resumes for job applications following 2026 professi
 @src/data/resume-guidelines/modern-resume-architecture.md - Strategic positioning framework
 @src/data/resume-guidelines/strategic-framework-resume.md - Executive positioning model
 
-**Job context:** Provided by user (job posting URL, text, file, or general context like "Staff Product Designer at AI startup")
+**Expected inputs:**
+- Job posting link/URL (required for context)
+- Job-analysis file path (e.g., `src/data/job-analysis/coinbase-staff-product-designer.md`)
+
+**Workflow:** User provides job posting link AND job-analysis file path. If job-analysis doesn't exist yet, offer to run `/job-matcher` first to create it.
 </context>
 
 <process>
 
-## Step 1: Parse Job Context
+## Step 1: Validate Inputs and Load Job Analysis
 
-Accept job context in one of these formats:
-- Job posting URL (will fetch and parse)
-- Job posting text (pasted directly)
-- Job posting file path
-- General context description (e.g., "Staff Product Designer at AI startup")
+**Check what user provided:**
 
-**Extract key information:**
-- Role level (Senior, Staff, Principal, Director, etc.)
-- Domain focus (AI/ML, fintech, enterprise SaaS, healthcare, etc.)
-- Key requirements and responsibilities
-- Top 5-7 skills/domains needed
-- Cultural/team signals (collaboration style, values, decision-making)
+**Scenario A: Both job posting link AND job-analysis file provided**
+- Verify job-analysis file exists at provided path
+- Proceed to load analysis
 
-**Identify pain points:**
-- What problem does this role exist to solve?
-- What challenges is the team/company facing?
-- What outcomes are they measuring success against?
+**Scenario B: Only job posting link provided (no job-analysis)**
+```
+⚠️ Job analysis file not provided.
+
+For best results, run `/job-matcher [job-posting-link]` first to:
+- Extract key requirements and pain points
+- Score your profile content for relevance
+- Generate job-analysis file at src/data/job-analysis/[company]-[role].md
+
+Then run: `/resume-generator [job-link] [analysis-file-path]`
+
+Continue without job-analysis? (will parse job posting directly, less optimized)
+```
+
+**Scenario C: Only job-analysis file provided (no job posting link)**
+- Verify file exists at path
+- Read job-analysis file (contains original job posting link)
+- Proceed to load analysis
+
+**Scenario D: Neither provided**
+```
+❌ Missing required inputs
+
+Please provide at least ONE of:
+1. Job posting link/URL, OR
+2. Job-analysis file path (from /job-matcher output)
+
+Recommended: Both for best results
+
+Example: /resume-generator https://job-boards.greenhouse.io/coinbase/jobs/123 src/data/job-analysis/coinbase-staff-product-designer.md
+```
+
+**Load job-analysis file and extract:**
+- **Role context:** Level, domain focus, company stage, team size
+- **Required skills:** Top 5-7 skills/domains (already extracted by job-matcher)
+- **Pain points:** Problem this role solves, team challenges, success metrics
+- **Cultural signals:** Collaboration style, decision-making approach, values
+- **Pre-scored content:** Job-matcher's recommended accomplishments with relevance scores
+
+**Key advantage:** Job-matcher has already parsed the job posting and scored your profile content. This step leverages that analysis for faster, more accurate resume generation.
 
 ## Step 2: Score Profile Content for Relevance
 
