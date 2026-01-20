@@ -126,7 +126,7 @@ See [v1.2 milestone archive](milestones/v1.2-Content-&-Polish-Expansion.md) for 
 
 ### 🚧 v1.3 Professional Data Infrastructure (In Progress)
 
-**Milestone Goal:** Build centralized professional metadata system and agent toolkit for maintaining single source of truth across resumes, CVs, portfolios, and AI assistants.
+**Milestone Goal:** Build centralized professional metadata system and agent toolkit for maintaining single source of truth across resumes, CVs, portfolios, and AI assistants. Includes automated resume/CV generation from structured profile data.
 
 #### Phase 15: Metadata Schema & Agents
 
@@ -172,6 +172,24 @@ Plans:
 Plans:
 - [ ] 17-01: TBD (run /gsd:plan-phase 17 to break down)
 
+#### Phase 18: Resume and CV Writer
+
+**Goal**: Templated document generation system with smart content selection from profile.yaml for professional resumes and comprehensive CVs
+**Depends on**: Phase 17
+**Research**: Unlikely (internal skill creation, established patterns)
+**Plans**: 2 plans
+
+Plans:
+- [x] 18-01: Resume Generator - Tactical 1-2 page resumes with XYZ formula, ATS-optimized (completed 2026-01-20)
+- [ ] 18-02: CV Generator - Comprehensive 3-6 page CVs with full career history
+
+**Details:**
+- Smart content selection using weighted scoring (tag match, domain, recency, impact)
+- Modern 2026 standards: Google XYZ formula, quantified achievements, ATS-friendly
+- Markdown and plain text output formats
+- Manual review capability before final output
+- Informed by resume guidelines in src/data/resume-guidelines/
+
 ## Progress
 
 | Phase | Milestone | Plans Complete | Status | Completed |
@@ -197,3 +215,4 @@ Plans:
 | 15.03. Job Matcher Agent | v1.3 | 0/1 | Not started | - |
 | 16. Profile Data System | v1.3 | 0/? | Not started | - |
 | 17. Impact Schema Foundation | v1.3 | 0/? | Not started | - |
+| 18. Resume and CV Writer | v1.3 | 1/2 | In progress | - |
