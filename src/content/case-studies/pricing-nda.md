@@ -52,7 +52,7 @@ NDA — not publicly available
 Lead Product Designer with end-to-end ownership of system design, UX architecture, and delivery alignment.
 
 **Scope:**  
-System-level redesign spanning pricing logic, rebate management, and a new VDP foundation, across design, research, product, and engineering.
+System-level redesign spanning pricing logic, rebate management, and a new VDP (Vehicle Display Page) foundation, across design, research, product, and engineering.
 
 **Why This Is Hard:**  
 The work required redesigning a critical pricing system while requirements arrived late, scope shifted, legacy architecture resisted change, and the delivery timeline was fixed.
@@ -239,7 +239,7 @@ Engineering cited the phased structure as improving predictability and reducing 
 - A non-movable external demo deadline eliminated the option to slip or partially deliver.
 
 **Legacy system constraints:**  
-- Initial work was constrained by the existing pricing and VDP architecture, which was fragile and difficult to extend safely.
+- Initial work was constrained by the existing pricing and VDP (vehicle display page) architecture, which was fragile and difficult to extend safely.
 - Midway through the project, it became clear that continuing within the legacy structure would recreate the same long-term risks.
 - This forced a deliberate pivot to designing a new VDP foundation from the ground up.
 

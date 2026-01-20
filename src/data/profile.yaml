@@ -1,0 +1,460 @@
+# Professional Profile Data
+# Single source of truth for resumes, CVs, portfolio, and AI assistants
+
+identity:
+  name: Chad Dunbar
+  title: Principal Product Designer, Platforms and AI Workflows
+  location: Seattle, WA (Bellevue)
+  availability:
+    - Remote
+    - Seattle-area Hybrid
+  travel: SF travel quarterly
+
+contact:
+  email: chadwd@gmail.com
+  linkedin: https://www.linkedin.com/in/chad-dunbar/
+  portfolio: https://chaddunbar.com
+  github: null  # Add if applicable
+
+summary:
+  # Multiple versions for different contexts
+  principal: >
+    Principal-level product designer with 15+ years building complex enterprise
+    and platform products. I turn ambiguity into clear, scalable systems across
+    AI-assisted workflows, design systems, and B2B SaaS. I partner tightly with
+    engineering to ship dev-ready work that teams can maintain.
+  short: >
+    Senior product designer specializing in enterprise platforms, design systems,
+    and AI-assisted workflows.
+
+strengths:
+  - Platform and systems design for complex workflows
+  - Design systems architecture, tokens, and scalable patterns
+  - AI-assisted product workflows and trust-building UX
+  - Cross-functional leadership across Product, Engineering, and Research
+  - Strong documentation and decision clarity to reduce rework
+
+skills:
+  product_design:
+    - Platform UX
+    - Enterprise workflows
+    - Information architecture
+    - Interaction design
+    - Prototyping
+  design_systems:
+    - Tokens
+    - Component architecture
+    - Governance
+    - Documentation
+    - Contribution workflows
+  research:
+    - JTBD
+    - Usability testing support
+    - Synthesis
+    - Decision frameworks
+  ai_technical:
+    - AI-assisted design-to-code workflows
+    - Trust UX patterns
+    - Prompt workflows
+    - Figma MCP
+    - Claude Code
+  tools:
+    - Figma
+    - FigJam
+    - Figma MCP
+    - Claude Code
+    - Jira
+    - Confluence
+    - GitHub
+  frontend:
+    - HTML
+    - CSS
+    - SCSS
+    - Terminal-based workflows
+
+experience:
+  - company: ACV Auctions
+    title: Product Designer (Principal-level scope)
+    department: ACV Retail
+    teams:
+      - MAX Digital
+      - ClearCar
+      - Retail Platforms
+    start_date: 2017-01-01
+    end_date: null  # Current
+    accomplishments:
+      ai_workflows:
+        label: AI-enabled workflows and dev acceleration
+        items:
+          # XYZ Format: accomplished (X) | measured_by (Y) | by_doing (Z)
+          - accomplished: Reduced design-to-development cycle time
+            measured_by: From 20-45 days to 2-4 days in pilot
+            by_doing: Directing Project N.E.X.T., an AI-assisted workflow using Figma MCP and Claude Code with documented prompting patterns
+          - accomplished: Reduced handoff iterations between design and engineering
+            measured_by: From 3-5 cycles to 1 cycle
+            by_doing: Establishing repeatable code validation workflows and auto-generated component previews
+          - accomplished: Improved user retention during AI inference delays
+            measured_by: Outperformed 90% industry abandonment baseline for long waits
+            by_doing: Designing trust-building loading states with "thinking" metaphors, clear disclaimers, and contextual messaging
+      platform_leadership:
+        label: Platform and design systems leadership
+        items:
+          - accomplished: Accelerated design system component adoption across products
+            measured_by: Token alignment reduced pixel drift and handoff ambiguity in NCP and Retail surfaces
+            by_doing: Leading architecture of Calculator component with rebate/accessory scaffolding and defining naming standards
+          - accomplished: Improved designer output quality and consistency
+            measured_by: Implementation readiness increased across MAX and Retail products
+            by_doing: Mentoring designers on scalable component architecture, quality bars, and DS governance workflows
+          - accomplished: Established sustainable design system operations
+            measured_by: Codified purpose, KPIs, ownership, and publish workflows adopted by 3-person DS team
+            by_doing: Creating "Purpose, Process, Profit" framework that tied DS to measurable business value
+      enterprise_ownership:
+        label: Enterprise product ownership
+        items:
+          - accomplished: Stabilized CEO-level New Car Pricing initiative
+            measured_by: 88.7% dealer retention, 210 new rooftops onboarded, CIS score of 30
+            by_doing: Introducing phased sequencing models adopted by Product, Engineering, and Research
+          - accomplished: Delivered enterprise-ready pricing platform
+            measured_by: Componentized complex pricing logic enabling white-labeling and syndication
+            by_doing: Translating research on incentives, compliance, and auditability into clear UX frameworks
+          - accomplished: Shipped complete feature from research to production
+            measured_by: Atlas "Completed" status with all acceptance criteria met, zero rework loops
+            by_doing: Owning Appraisal Alerts end-to-end including JTBD, lifecycle logic, notification design, and dev handoff
+      cross_functional:
+        label: Cross-functional execution and outcomes
+        items:
+          - accomplished: Delivered high volume of UX work with reliability
+            measured_by: 155 UX tasks (116 CapEx), highest output on UX team
+            by_doing: Maintaining dev-ready clarity with states, acceptance criteria, and error logic across multiple product lines
+          - accomplished: Improved cross-functional alignment during organizational change
+            measured_by: No roadmap slips across MAX, Retail, Alerts, or NCP despite team instability
+            by_doing: Building operational clarity systems and weekly visibility updates in HOME/Confluence
+          - accomplished: Reduced late-stage project surprises
+            measured_by: Improved scoping accuracy and fewer rework loops for engineering
+            by_doing: Establishing early edge-case review and shared decision criteria with PM and Eng
+
+  - company: Rand McNally
+    title: Lead Product Designer
+    department: null
+    teams: null
+    start_date: 2013-01-01
+    end_date: 2017-01-01
+    accomplishments:
+      design_leadership:
+        label: Design Leadership
+        items:
+          - accomplished: Unified design direction across product lines
+            measured_by: Reduced build time and improved cross-team consistency
+            by_doing: Introducing scalable UI standards and style guides for web and mobile platforms
+          - accomplished: Improved engineering delivery quality
+            measured_by: Higher feasibility and performance at scale
+            by_doing: Partnering closely with engineering on design direction for navigation and education products
+      frontend_development:
+        label: Front-End Development (2012-2013)
+        items:
+          - accomplished: Accelerated website build process
+            measured_by: 20% reduction in build-out time
+            by_doing: Proposing and implementing SASS development process
+          - accomplished: Eliminated developer dependency for marketing
+            measured_by: Marketing team able to execute e-blasts independently
+            by_doing: Creating a new email template system with self-service capabilities
+
+education:
+  - degree: B.S. in Graphic Design
+    institution: Robert Morris University
+    year: 2009
+    honors: Summa Cum Laude
+    gpa: "4.0"
+  - degree: A.A.S. in Paraprofessional Accounting
+    institution: Del Mar College
+    year: 2004
+    honors: Cum Laude
+    gpa: null
+
+certifications:
+  - name: Accounting Technician Certification
+    institution: Del Mar College
+    year: 2004
+
+other_experience:
+  - role: Aerial Dance Performer
+    organization: Blue Lapis Light & Aerial Dance Chicago
+    start_year: 2012
+    end_year: null  # Current
+
+personal_expertise:
+  fintech_crypto:
+    label: Fintech and Cryptocurrency Domain Knowledge
+    context: >
+      Personal hands-on experience with trading platforms, DeFi protocols, and Web3 ecosystems.
+      Brings user empathy and technical fluency for crypto-native workflows—understanding the
+      problems traders and DeFi users face firsthand.
+    items:
+      - accomplished: Built technical analysis fluency for cryptocurrency and stock market evaluation
+        measured_by: Applied 7+ technical indicators (Gaussian Channel, MACD, Stoch RSI, RSI, Fibonacci Retracements) plus custom Moving Averages script in TradingView
+        by_doing: Learning chart pattern recognition, trend analysis, and support/resistance mapping across volatile asset classes
+
+      - accomplished: Gained hands-on understanding of DeFi protocols and Web3 transaction workflows
+        measured_by: Executed 50-100+ token swaps across 4 DeFi platforms (Uniswap, Crypto.com DeFi, Base, VVS) with multi-chain navigation
+        by_doing: Managing on-chain transactions, wallet operations, and decentralized exchange interfaces for asset management
+
+      - accomplished: Developed Web3 ecosystem familiarity across NFTs and early-stage token launches
+        measured_by: Minted 30+ NFTs and participated in 5 ICOs with firsthand exposure to gas optimization and on-chain minting workflows
+        by_doing: Evaluating project tokenomics, executing smart contract interactions, and navigating marketplace platforms
+
+# =============================================================================
+# CURATED IMPACT STATEMENTS (XYZ Format)
+# =============================================================================
+# Pre-assembled highlight statements for resumes, LinkedIn, AI assistants
+# These are the "greatest hits" - curated from accomplishments above
+# Format: Accomplished [X] as measured by [Y], by doing [Z]
+
+impact_statements:
+  # Top-tier statements for executive summaries and headlines
+  headline:
+    - id: revenue-growth
+      statement: >
+        Contributed to 83% YoY growth in wholesale fee revenue ($19.5M to $35.7M)
+        by improving core dealer workflows across MAX and ClearCar platforms.
+      tags: [business-impact, revenue, enterprise]
+      role: ACV Auctions
+      year: 2025
+
+    - id: ai-acceleration
+      statement: >
+        Reduced design-to-development cycle time from 20-45 days to 2-4 days
+        by directing Project N.E.X.T., an AI-assisted workflow using Figma MCP and Claude Code.
+      tags: [ai, process, innovation]
+      role: ACV Auctions
+      year: 2025
+
+    - id: platform-retention
+      statement: >
+        Achieved 88.7% dealer retention and onboarded 210 new rooftops
+        by leading UX for New Car Pricing, a CEO-level enterprise platform initiative.
+      tags: [business-impact, enterprise, retention]
+      role: ACV Auctions
+      year: 2025
+
+  # Strong statements for body sections
+  featured:
+    - id: execution-volume
+      statement: >
+        Delivered 155 UX initiatives (116 CapEx) with high reliability and low rework,
+        the highest output on the UX team, by maintaining dev-ready clarity across multiple product lines.
+      tags: [execution, reliability, scale]
+      role: ACV Auctions
+      year: 2025
+
+    - id: ai-trust-ux
+      statement: >
+        Outperformed the 90% industry abandonment baseline during AI inference delays
+        by designing trust-building loading states with clear expectations and contextual messaging.
+      tags: [ai, ux, user-retention]
+      role: ACV Auctions
+      year: 2025
+
+    - id: handoff-efficiency
+      statement: >
+        Reduced design-engineering handoff iterations from 3-5 cycles to 1
+        by establishing repeatable code validation workflows and auto-generated component previews.
+      tags: [process, engineering, efficiency]
+      role: ACV Auctions
+      year: 2025
+
+    - id: service-lane-growth
+      statement: >
+        Increased service lane vehicles sold by 231% in five months (210 to 696)
+        by reducing friction in photo, inspection, and workflow tooling for ClearCar.
+      tags: [business-impact, growth, ux]
+      role: ACV Auctions
+      year: 2025
+
+    - id: design-system-adoption
+      statement: >
+        Established sustainable design system operations with codified purpose, KPIs, and publish workflows
+        by creating a "Purpose, Process, Profit" framework adopted by a 3-person DS team.
+      tags: [design-systems, leadership, process]
+      role: ACV Auctions
+      year: 2025
+
+    - id: organizational-stability
+      statement: >
+        Maintained zero roadmap slips across MAX, Retail, Alerts, and NCP during team instability
+        by absorbing research responsibilities and building operational clarity systems.
+      tags: [leadership, resilience, execution]
+      role: ACV Auctions
+      year: 2025
+
+    - id: alerts-e2e
+      statement: >
+        Shipped Appraisal Alerts with zero rework loops and Atlas "Completed" status
+        by owning the feature end-to-end from research synthesis to dev-ready handoff.
+      tags: [execution, ownership, feature-delivery]
+      role: ACV Auctions
+      year: 2025
+
+  # Earlier career highlights
+  legacy:
+    - id: sass-efficiency
+      statement: >
+        Reduced website build-out time by 20%
+        by proposing and implementing a SASS development process.
+      tags: [frontend, process, efficiency]
+      role: Rand McNally
+      year: 2013
+
+    - id: marketing-independence
+      statement: >
+        Eliminated developer dependency for marketing e-blasts
+        by creating a self-service email template system.
+      tags: [frontend, automation, cross-functional]
+      role: Rand McNally
+      year: 2013
+
+# =============================================================================
+# RAW METRICS (for data aggregation and reference)
+# =============================================================================
+# Quantifiable impact metrics with context
+impact_metrics:
+  business_outcomes:
+    - metric: Dealer Retention (NCP)
+      value: "88.7%"
+      timeframe: October 2025
+      context: New Car Pricing platform
+    - metric: New Rooftops Onboarded
+      value: "210"
+      timeframe: YTD October 2025
+      context: NCP dealer migration
+    - metric: ACV Wholesale Fees via MAX
+      value: "+83% YoY"
+      detail: "$19.5M to $35.7M"
+      timeframe: 2024-2025
+      context: Wholesale fee revenue growth
+    - metric: Service Lane Vehicles Sold
+      value: "+231%"
+      detail: "210 to 696"
+      timeframe: June-November 2025
+      context: ClearCar service lane throughput
+    - metric: Vehicles Sold via MAX
+      value: "+9% YoY"
+      timeframe: 2025
+      context: Wholesale volume growth
+    - metric: Active Dealers
+      value: "+3% YoY"
+      timeframe: 2025
+      context: Platform adoption
+    - metric: New Dealers Added
+      value: "249"
+      timeframe: 2025
+      context: MAX platform growth
+
+  process_kpis:
+    - metric: Design-to-Code Cycle Time
+      baseline: "20-45 days"
+      target: "2-4 days"
+      status: Pilot completed
+      context: AI-assisted workflow (Project N.E.X.T.)
+    - metric: Handoff Iterations
+      baseline: "3-5 cycles"
+      target: "1 cycle"
+      status: Pilot completed
+      context: Figma MCP + Claude Code workflow
+    - metric: Auto-generated Previews
+      baseline: "0%"
+      target: "50% of pilot components"
+      status: Pilot completed
+      context: Design system component generation
+
+  ux_outcomes:
+    - metric: UX Tasks Completed
+      value: "155 total (116 CapEx)"
+      timeframe: 2025
+      context: Highest output on UX team
+    - metric: AI Trust/Confidence Lift
+      target: "+15-20%"
+      status: A/B plan executed
+      context: Pace Notes recommendation card
+    - metric: Mobile Appraisal-to-Inventory Time
+      target: "≤90 seconds median"
+      status: Achieved
+      context: Take Into Inventory flow
+
+# Key projects for potential case study linking
+projects:
+  - name: Project N.E.X.T.
+    role: Lead
+    status: Completed
+    year: 2025
+    description: AI-assisted design-to-development acceleration using Figma MCP and Claude Code
+    outcomes:
+      - Reduced design-to-code cycle time target from 20-45 days to 2-4 days
+      - Established prompting patterns and code generation workflows
+      - Created foundation for 2026 scaled adoption
+
+  - name: New Car Pricing v2 (NCP)
+    role: Lead Designer
+    status: Completed
+    year: 2025
+    description: Enterprise pricing platform for new vehicle inventory
+    surfaces:
+      - Inventory List
+      - VDP
+      - Pricing Calculator
+      - Rebate Manager
+    outcomes:
+      - 88.7% dealer retention
+      - 210 new rooftops onboarded
+      - Componentized complex pricing logic for reuse
+
+  - name: MAX Appraisal Alerts
+    role: Owner
+    status: Completed
+    year: 2025
+    description: Multi-alert rule creation for strategic inventory monitoring
+    outcomes:
+      - End-to-end ownership from research to dev handoff
+      - ACID-style constraints and lifecycle management
+      - UXR-backed MVP with dealer validation
+
+  - name: Long Loading State (AI)
+    role: Owner
+    status: Completed
+    year: 2025
+    description: Trust-building UX for AI inference latency (10-60 seconds)
+    outcomes:
+      - Outperformed 90% industry abandonment baseline
+      - Established reusable AI loading pattern
+      - Created production baseline for A/B validation
+
+  - name: MAX Design System
+    role: Owner
+    status: Ongoing
+    year: 2025
+    description: Centralized component documentation and governance
+    outcomes:
+      - Led Auction Card and Calculator component delivery
+      - Codified purpose, KPIs, and publish workflows
+      - Token alignment reduced pixel drift in handoffs
+
+leadership:
+  process_ownership:
+    - name: ACV Retail Jira Process
+      description: Designer-led operating model with epic-first planning, handoff checklists, and escalation rules
+    - name: Dev Handoff Checklist
+      description: Standardized states, tokens, a11y, and acceptance tests for engineering intake
+    - name: Design Feedback Log System
+      description: Defensible decision history and stakeholder accountability
+
+  teams_created:
+    - name: MAX-DS
+      members: 3
+      purpose: Design system ownership and governance
+    - name: MAXClearCar Design
+      members: 10+
+      purpose: Cross-surface design coordination
+
+  mentorship:
+    - Mentored designers on component architecture and quality standards
+    - Created enablement artifacts for AI-assisted workflows
+    - Authored onboarding and access documentation

@@ -11,7 +11,7 @@ coverImage: /images/case-studies/vdp-3/hero-vdp3.png
 ## 60-Second Summary (TL;DR)
 
 **The outcome:**
-Dealers evaluated vehicles faster and with greater confidence, validating a platform-style Vehicle Details Page that could support multiple business lines without fragmenting the experience.
+Dealers evaluated vehicles faster and with greater confidence, validating a platform-style Vehicle Details Page (VDP) that could support multiple business lines without fragmenting the experience.
 
 **Why it mattered:**
 This page is where money is committed. Leadership needed proof that a single, scalable system could reduce trust gaps, lower support overhead, and enable future product expansion.
