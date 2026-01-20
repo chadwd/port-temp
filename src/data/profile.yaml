@@ -104,6 +104,10 @@ experience:
           - accomplished: Established reusable AI loading state standard
             measured_by: Production pattern shipped July 2025 and adopted as baseline for 2026 A/B validation
             by_doing: Reframing slow inference waits as computationally valuable with transparent, trust-preserving tone
+          # Source: "The pilot also generated code in-repo and documented prompting patterns - moving beyond deckware to operational utility"
+          - accomplished: Shipped functional code in production repository from AI-assisted design pilot
+            measured_by: Working PR merged with documented prompting patterns
+            by_doing: Integrating Claude Code with Figma MCP to generate DS-aligned UI code
       platform_leadership:
         label: Platform and design systems leadership
         items:
@@ -128,6 +132,10 @@ experience:
           - accomplished: Prepared design system components for cross-industry reuse
             measured_by: White-labeling exercises and AG Grid integration completed in Calculator component
             by_doing: Conducting DS audit and white-label workshops with dev pairing
+          # Source: "Mobile flows like 'Take Into Inventory' incorporated analytics for starts/completions/errors to enable in-product telemetry"
+          - accomplished: Instrumented mobile workflow with behavioral analytics
+            measured_by: Starts/completions/errors telemetry enabled for Take Into Inventory flow
+            by_doing: Designing analytics capture points validated with UAT/pilot dealers
       enterprise_ownership:
         label: Enterprise product ownership
         items:
@@ -148,6 +156,14 @@ experience:
           - accomplished: Delivered Chrome integration for rebate management
             measured_by: Per-unit rebate control with OEM/third-party feed syndication
             by_doing: Building Rebate Manager with Chrome extension and itemized component syndication
+          # Source: "The UXR thread authored and delivered by Chad reinforced confidence in the final UX by collecting the mental models of GM/UCM personas"
+          - accomplished: Validated Appraisal Alerts UX through original research synthesis
+            measured_by: Research guide and moment-of-insight clips aligned MVP to dealer mental models
+            by_doing: Authoring UXR artifacts capturing GM/UCM personas and acceptance criteria for multi-rooftop workflows
+          # Source: "Chad led the UX to enable 'Request Inspection' and post-inspection 'Accept Offer' workflows directly within MAX"
+          - accomplished: Enabled one-click wholesale acceptance from dealer UI
+            measured_by: Higher conversion from estimate to accepted offer with reduced manual outreach
+            by_doing: Designing Request Inspection and Accept Offer workflows with confirmation states, error handling, and email hooks
       cross_functional:
         label: Cross-functional execution and outcomes
         items:
@@ -172,6 +188,14 @@ experience:
           - accomplished: Established auditable documentation practices for promotion readiness
             measured_by: All impact claims linked to traceable artifacts (Atlas, Confluence, Jira, UXR)
             by_doing: Creating "show your work" culture with live issue feeds and project record citations
+          # Source: "Chad formalized a Design Feedback Log System to track iterations, stakeholder input, and decision rationales"
+          - accomplished: Formalized defensible design decision history
+            measured_by: Feedback log system tracking iterations, stakeholder input, and rationales
+            by_doing: Creating structured approach that protects design time, improves onboarding, and reduces memory bias
+          # Source: "He also authored a concise dev handoff checklist that scales from small fixes to multi-component releases"
+          - accomplished: Standardized dev handoff checklists across ACV Retail
+            measured_by: Checklist adopted for engineering intake covering states, tokens, a11y, and acceptance tests
+            by_doing: Authoring scalable checklist template that works from small fixes to multi-component releases
 
   - company: Rand McNally
     title: Lead Product Designer
