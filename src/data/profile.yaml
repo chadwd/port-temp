@@ -140,6 +140,18 @@ experience:
     start_date: 2013-01-01
     end_date: 2017-01-01
     accomplishments:
+      education_platform:
+        label: Education Platform (WorldAtlas)
+        items:
+          - accomplished: Designed and developed WorldAtlas web-based geography teaching platform for K-12 classrooms
+            measured_by: Interactive tool serving teachers and students across desktop and mobile devices, aligned with Common Core State Standards and National Geography Standards
+            by_doing: Building dynamic customizable maps, social studies content, and reading/writing lesson plans with responsive design for cross-device accessibility
+          - accomplished: Enabled collaborative classroom learning inside and outside physical classrooms
+            measured_by: Web-based platform accessible from any desktop or mobile device
+            by_doing: Designing intuitive navigation and curriculum management tools that integrated geography across K-12 curriculum for teachers and students
+          - accomplished: Combined design and front-end development responsibilities
+            measured_by: Delivered production-ready education platform with design-to-code ownership
+            by_doing: Serving dual role as product designer and front-end developer for interactive teaching tools
       design_leadership:
         label: Design Leadership
         items:
@@ -296,6 +308,15 @@ impact_statements:
 
   # Earlier career highlights
   legacy:
+    - id: worldatlas-education
+      statement: >
+        Designed and developed WorldAtlas, a web-based geography teaching platform for K-12 classrooms
+        aligned with Common Core and National Geography Standards, serving teachers and students across desktop and mobile devices
+        by building dynamic customizable maps, social studies content, and lesson plans in dual role as designer and front-end developer.
+      tags: [education, platform, frontend, design-to-code]
+      role: Rand McNally
+      year: 2015
+
     - id: sass-efficiency
       statement: >
         Reduced website build-out time by 20%
@@ -436,6 +457,22 @@ projects:
       - Led Auction Card and Calculator component delivery
       - Codified purpose, KPIs, and publish workflows
       - Token alignment reduced pixel drift in handoffs
+
+  - name: WorldAtlas Digital Teaching Tool
+    role: Product Designer + Front-End Developer
+    status: Completed
+    year: 2015
+    description: Web-based geography teaching platform for K-12 classrooms
+    surfaces:
+      - Interactive customizable maps
+      - Social studies content library
+      - Reading and writing lesson plans
+      - Responsive cross-device access (desktop and mobile)
+    outcomes:
+      - Aligned with Common Core State Standards and National Geography Standards
+      - Enabled collaborative classroom learning inside and outside physical classrooms
+      - Delivered as dual designer/developer, owning design-to-code pipeline
+      - Continued Rand McNally's 130+ year education legacy with digital innovation
 
 leadership:
   process_ownership:

@@ -344,8 +344,8 @@ Create ATS-optimized plain text version following same structure:
 - No special characters that could confuse parsers
 
 **Save both files:**
-- `resumes/[company]-[role-slug]-resume.md` (Markdown source)
-- `resumes/[company]-[role-slug]-resume.txt` (ATS-friendly plain text)
+- `src/data/resumes/[company]-[role-slug]-resume.md` (Markdown source)
+- `src/data/resumes/[company]-[role-slug]-resume.txt` (ATS-friendly plain text)
 
 ## Step 9: Present for Human Review
 
@@ -380,7 +380,7 @@ Resume generated in two formats:
 - Clean formatting for applicant tracking systems
 - No complex formatting that could confuse parsers
 
-Both formats saved to `resumes/[company-name]-[role-slug]-resume.[md|txt]`
+Both formats saved to `src/data/resumes/[company-name]-[role-slug]-resume.[md|txt]`
 </output>
 
 <anti_patterns>
