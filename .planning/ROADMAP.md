@@ -138,7 +138,9 @@ See [v1.2 milestone archive](milestones/v1.2-Content-&-Polish-Expansion.md) for 
 Plans:
 - [x] 15-01: Schema design - profile.yaml, Zod validation, helper functions (completed 2026-01-19)
 - [x] 15-02: Profile Updater Agent - source ingestion, XYZ extraction, validation skill (completed 2026-01-20)
-- [ ] 15-03: Job Matcher Agent - extract relevant accomplishments for job applications
+- [x] 15-03: Job Matcher Agent - extract relevant accomplishments for job applications (completed 2026-01-20)
+
+**Status**: ✓ Complete (3/3 plans finished)
 
 #### Phase 15.03: Job Matcher Agent
 

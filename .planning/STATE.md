@@ -24,12 +24,12 @@
 **Milestone v1.3 Professional Data Infrastructure** (in progress)
 
 Phase: 15 of 17 (Metadata Schema Design)
-Plan: 2 of 3 in current phase
-Status: In progress
-Last activity: 2026-01-20 - Completed 15-02-PLAN.md (Profile Updater Agent)
+Plan: 3 of 3 in current phase
+Status: Phase complete
+Last activity: 2026-01-20 - Completed 15-03-PLAN.md (Job Matcher Agent)
 
-Progress: ██░░░░░░░░ 20% (v1.3)
-- Phase 15 (Metadata Schema): 2/3 plans complete
+Progress: ███░░░░░░░ 30% (v1.3)
+- Phase 15 (Metadata Schema): 3/3 plans complete ✓
 - Phase 16 (Profile Data System): Not started
 - Phase 17 (Impact Schema): Not started
 
@@ -135,6 +135,10 @@ Progress: ██░░░░░░░░ 20% (v1.3)
 | 15.02 | Skill structure | Used purpose/process/examples/anti_patterns/human_in_the_loop sections |
 | 15.02 | Quality tiers | Three levels (Strong/Needs Review/Weak) for actionable assessment |
 | 15.02 | Output format | Copy-paste ready YAML with validation summary and next steps |
+| 15.03 | YAML frontmatter for skills | name/description/location fields enable /skill-name invocation |
+| 15.03 | Section-by-section file creation | Write header, Edit for each section to prevent token overload |
+| 15.03 | Job analysis output location | src/data/job-analysis/[company]-[role].md for organized storage |
+| 15.03 | Weighted scoring algorithm | Tag match 40%, domain 25%, recency 20%, impact 15% for relevance ranking |
 
 ### Deferred Issues
 
@@ -162,6 +166,6 @@ Drift notes: None
 ## Session Continuity
 
 Last session: 2026-01-20
-Stopped at: Completed 15-02-PLAN.md (Profile Updater Agent skill)
+Stopped at: Completed 15-03-PLAN.md (Job Matcher Agent skill) - Phase 15 complete
 Resume file: None
-Next action: Execute 15-03-PLAN.md (Job Matcher Agent) or plan if not exists
+Next action: Plan Phase 16 (Profile Data System) or other v1.3 phases

@@ -1,3 +1,9 @@
+---
+name: profile-updater
+description: Extract accomplishments from source documents in XYZ format for profile.yaml updates
+location: user
+---
+
 # Profile Updater Agent
 
 <purpose>
