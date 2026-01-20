@@ -196,6 +196,22 @@ experience:
           - accomplished: Standardized dev handoff checklists across ACV Retail
             measured_by: Checklist adopted for engineering intake covering states, tokens, a11y, and acceptance tests
             by_doing: Authoring scalable checklist template that works from small fixes to multi-component releases
+          # Source: 2025 self-review - HOME alignment system
+          - accomplished: Created ACV's first organizational alignment system (HOME)
+            measured_by: Weekly visibility into What, Why, Success, Risks, and Decisions adopted across teams
+            by_doing: Building automated Slack channels and project alignment infrastructure that reduced misalignment during periods of uncertainty
+          # Source: 2025 self-review - medical leave continuity
+          - accomplished: Maintained research and design continuity during multiple team absences
+            measured_by: No roadmap slips or delivery gaps across MAX, Retail, Alerts, NCP, or AI initiatives
+            by_doing: Absorbing UXR responsibilities during dual researcher medical leaves and maintaining documentation quality during manager absence
+          # Source: 2025 self-review - dual-track execution model
+          - accomplished: Introduced dual-track Research and Design execution model
+            measured_by: MVP/V2/V3 sequencing adopted by VP Product, PM, Engineering, and UXR for NCP initiative
+            by_doing: Building timeline-based phased delivery frameworks that aligned cross-functional expectations on feasibility and delivery windows
+          # Source: 2025 self-review - DS documentation
+          - accomplished: Codified design system operating principles and naming standards
+            measured_by: Documentation adopted as reference for DS team and future component creation
+            by_doing: Authoring DS philosophy, naming conventions, and workflow logic that guides consistent implementation
 
   - company: Rand McNally
     title: Lead Product Designer
