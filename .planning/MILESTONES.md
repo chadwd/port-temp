@@ -1,5 +1,33 @@
 # Project Milestones: Portfolio Website
 
+## v1.3 Professional Data Infrastructure (Shipped: 2026-01-20)
+
+**Delivered:** Centralized professional metadata system with agent toolkit for resume/CV generation and job application support
+
+**Phases completed:** 15, 18 (5 plans total, Phases 16-17 deferred)
+
+**Key accomplishments:**
+
+- Professional metadata schema (profile.yaml) with XYZ validation following Google Resume Formula
+- Profile Updater Agent skill with anti-pattern detection and quality assessment (Strong/Needs Review/Weak)
+- Job Matcher Agent skill with weighted scoring algorithm (40% tag match, 25% domain, 20% recency, 15% impact)
+- Resume Generator skill with ATS optimization and 2026 professional standards for tactical 1-2 page applications
+- CV Generator skill with comprehensive career documentation and multi-section structure for 3-6 page CVs
+- Centralized professional data system with Zod validation and TypeScript type safety
+
+**Stats:**
+
+- 48 files modified
+- +6,314 lines, -24 deletions
+- 2 phases, 5 plans
+- 2 days from first commit to ship (2026-01-19 to 2026-01-20)
+
+**Git range:** `54b169f` (feat: 15-02) → `78d3a83` (feat: 18-02)
+
+**Archive:** [v1.3-Professional-Data-Infrastructure.md](milestones/v1.3-Professional-Data-Infrastructure.md)
+
+---
+
 ## v1.1 Content & Polish (Shipped: 2025-12-31)
 
 **Delivered:** Production-ready portfolio with real content, professional brand identity, image infrastructure, UX polish, and comprehensive documentation
