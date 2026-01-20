@@ -87,8 +87,9 @@ experience:
         label: AI-enabled workflows and dev acceleration
         items:
           # XYZ Format: accomplished (X) | measured_by (Y) | by_doing (Z)
+          # Source: resume.md ChatGPT section - "reducing design-to-PR cycle time by ~73%"
           - accomplished: Reduced design-to-development cycle time
-            measured_by: From 20-45 days to 2-4 days in pilot
+            measured_by: ~73% reduction (from 20-45 days to 2-4 days in pilot)
             by_doing: Directing Project N.E.X.T., an AI-assisted workflow using Figma MCP and Claude Code with documented prompting patterns
           - accomplished: Reduced handoff iterations between design and engineering
             measured_by: From 3-5 cycles to 1 cycle
@@ -108,6 +109,10 @@ experience:
           - accomplished: Shipped functional code in production repository from AI-assisted design pilot
             measured_by: Working PR merged with documented prompting patterns
             by_doing: Integrating Claude Code with Figma MCP to generate DS-aligned UI code
+          # Source: resume.md ChatGPT section - "senior engineering reviewed PR-ready code as an official design artifact"
+          - accomplished: Established PR-ready code as official design artifact
+            measured_by: Senior engineering review of designer-generated code became standard handoff practice
+            by_doing: Using AI to surface system constraints and validate behavior earlier (APIs, states, edge cases)
       platform_leadership:
         label: Platform and design systems leadership
         items:
@@ -120,6 +125,10 @@ experience:
           - accomplished: Established sustainable design system operations
             measured_by: Codified purpose, KPIs, ownership, and publish workflows adopted by 3-person DS team
             by_doing: Creating "Purpose, Process, Profit" framework that tied DS to measurable business value
+          # Source: resume.md ChatGPT section - "200% increase in contribution and engagement" and "re-architected it into a federated model"
+          - accomplished: Increased design system contribution and engagement
+            measured_by: 200% growth in team participation across federated component ecosystem
+            by_doing: Re-architecting fragmented DS across 6+ platforms into federated model with centralized tokens and product-owned libraries
           # Source: "Chad owned an Atlas growth goal—'MAX – Wholesale Growth 12% to 22%'—with status reported as 'on track' in 2025... enabling in‑MAX acceptance shortens the path from valuation to wholesale"
           - accomplished: Grew wholesale transaction volume from MAX to ACV
             measured_by: Increased from 12% to 22% of eligible inventory moving to wholesale
