@@ -21,15 +21,18 @@
 
 ## Current Position
 
-**No active milestone** - Ready for next milestone planning
+Phase: 19 of 20 (Profile Data Enhancement)
+Plan: Not started
+Status: Ready to plan
+Last activity: 2026-01-20 - Milestone v1.4 created
+
+Progress: ░░░░░░░░░░ 0%
 
 Last completed: v1.3 Professional Data Infrastructure (shipped 2026-01-20)
 - Phase 15 (Metadata Schema & Agents): 3/3 plans complete ✓
 - Phase 16 (Profile Data System): DEFERRED
 - Phase 17 (Impact Schema Foundation): DEFERRED
 - Phase 18 (Resume and CV Writer): 2/2 plans complete ✓
-
-Next phase number: 19
 
 ## Performance Metrics
 
@@ -158,6 +161,9 @@ None - clean slate for v1.3.
 - Phase 14.1 inserted after Phase 14: Copy improvements and resume PDF (URGENT)
 - Milestone v1.3 shipped 2026-01-20: Professional Data Infrastructure, 2 phases (Phases 15, 18)
   - Phases 16-17 deferred (infrastructure already sufficient)
+- Milestone v1.4 created 2026-01-20: Improvements, 2 phases (Phases 19-20)
+  - Focus 1: Profile data enhancement (expand career history, strengthen metrics)
+  - Focus 2: Strategic job application packages (3-5 target roles)
 
 ## Project Alignment
 
@@ -169,6 +175,6 @@ Drift notes: None
 ## Session Continuity
 
 Last session: 2026-01-20
-Stopped at: Completed v1.3 milestone - Phases 15 and 18 shipped, Phases 16-17 deferred
+Stopped at: Milestone v1.4 initialization
 Resume file: None
-Next action: Discuss and plan next milestone (v1.4+)
+Next action: Plan Phase 19 (Profile Data Enhancement)

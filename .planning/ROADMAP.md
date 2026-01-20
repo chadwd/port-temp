@@ -6,6 +6,7 @@
 - ✅ **v1.1 Content & Polish** - Phases 7-11 (shipped 2025-12-31)
 - ✅ **v1.2 Content & Polish Expansion** - Phases 12-14.1 (shipped 2026-01-01)
 - ✅ **v1.3 Professional Data Infrastructure** - Phases 15, 18 (shipped 2026-01-20)
+- 🚧 **v1.4 Improvements** - Phases 19-20 (in progress)
 
 ## Completed Milestones
 
@@ -124,6 +125,30 @@ See [v1.3 milestone archive](milestones/v1.3-Professional-Data-Infrastructure.md
 
 </details>
 
+### 🚧 v1.4 Improvements (In Progress)
+
+**Milestone Goal:** Strengthen profile foundation with comprehensive career data and prepare strategic job application packages for 3-5 target roles.
+
+#### Phase 19: Profile Data Enhancement
+
+**Goal**: Expand and strengthen profile.yaml with missing career history, improved impact metrics, and source document integration
+**Depends on**: v1.3 complete
+**Research**: Unlikely (internal data work)
+**Plans**: TBD
+
+Plans:
+- [ ] 19-01: TBD (run /gsd:plan-phase 19 to break down)
+
+#### Phase 20: Strategic Job Application Package
+
+**Goal**: Prepare complete application materials for 3-5 strategic target roles (job analysis, tailored resumes/CVs, cover letter templates)
+**Depends on**: Phase 19
+**Research**: Unlikely (uses existing skills from v1.3)
+**Plans**: TBD
+
+Plans:
+- [ ] 20-01: TBD (run /gsd:plan-phase 20 to break down)
+
 ## Progress
 
 | Phase | Milestone | Plans Complete | Status | Completed |
@@ -147,3 +172,5 @@ See [v1.3 milestone archive](milestones/v1.3-Professional-Data-Infrastructure.md
 | 16. Profile Data System | v1.3 | - | Deferred | - |
 | 17. Impact Schema Foundation | v1.3 | - | Deferred | - |
 | 18. Resume and CV Writer | v1.3 | 2/2 | Complete | 2026-01-20 |
+| 19. Profile Data Enhancement | v1.4 | 0/? | Not started | - |
+| 20. Strategic Job Application Package | v1.4 | 0/? | Not started | - |
