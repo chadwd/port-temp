@@ -1,5 +1,20 @@
 # Project Milestones: Portfolio Website
 
+## 🚧 v1.4 Improvements (In Progress)
+
+**Focus:** Strengthen profile foundation with comprehensive career data and prepare strategic job application packages for 3-5 target roles.
+
+**Phases planned:** 19-20 (2 phases)
+
+**Key goals:**
+
+- **Phase 19:** Profile Data Enhancement - expand accomplishments from sources, strengthen impact metrics, validate schema completeness, add missing career history
+- **Phase 20:** Strategic Job Application Package - prepare complete application materials for 3-5 strategic target roles
+
+**Started:** 2026-01-20
+
+---
+
 ## v1.3 Professional Data Infrastructure (Shipped: 2026-01-20)
 
 **Delivered:** Centralized professional metadata system with agent toolkit for resume/CV generation and job application support
