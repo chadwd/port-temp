@@ -24,15 +24,15 @@
 **Milestone v1.3 Professional Data Infrastructure** (in progress)
 
 Phase: 18 of 18 (Resume and CV Writer)
-Plan: 1 of 2 in current phase
-Status: In progress
-Last activity: 2026-01-20 - Completed 18-01-PLAN.md (Resume Generator)
+Plan: 2 of 2 in current phase
+Status: Phase complete
+Last activity: 2026-01-20 - Completed 18-02-PLAN.md (CV Generator)
 
-Progress: ████░░░░░░ 40% (v1.3)
+Progress: ████░░░░░░ 50% (v1.3)
 - Phase 15 (Metadata Schema): 3/3 plans complete ✓
 - Phase 16 (Profile Data System): Not started
 - Phase 17 (Impact Schema): Not started
-- Phase 18 (Resume and CV Writer): 1/2 plans complete
+- Phase 18 (Resume and CV Writer): 2/2 plans complete ✓
 
 ## Performance Metrics
 
@@ -140,6 +140,10 @@ Progress: ████░░░░░░ 40% (v1.3)
 | 15.03 | Section-by-section file creation | Write header, Edit for each section to prevent token overload |
 | 15.03 | Job analysis output location | src/data/job-analysis/[company]-[role].md for organized storage |
 | 15.03 | Weighted scoring algorithm | Tag match 40%, domain 25%, recency 20%, impact 15% for relevance ranking |
+| 18.01 | Resume tactical filtering | 10-15 year experience window, job-matched content selection for 1-2 pages |
+| 18.02 | CV comprehensive structure | All career history included, chronological completeness for 3-6 page documentation |
+| 18.02 | CV context-aware emphasis | Section ordering adapts to context (executive/academic) without filtering content |
+| 18.02 | CV multi-section template | Publications, speaking, teaching, board positions, awards, patents, affiliations |
 
 ### Deferred Issues
 
@@ -168,6 +172,6 @@ Drift notes: None
 ## Session Continuity
 
 Last session: 2026-01-20
-Stopped at: Completed 18-01-PLAN.md (Resume Generator skill) - Phase 18 in progress
+Stopped at: Completed 18-02-PLAN.md (CV Generator skill) - Phase 18 complete
 Resume file: None
-Next action: Execute 18-02-PLAN.md (CV Generator) to complete Phase 18
+Next action: Plan Phase 16 (Profile Data System) or Phase 17 (Impact Schema Foundation), or review v1.3 milestone completion

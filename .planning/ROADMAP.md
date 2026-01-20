@@ -181,7 +181,7 @@ Plans:
 
 Plans:
 - [x] 18-01: Resume Generator - Tactical 1-2 page resumes with XYZ formula, ATS-optimized (completed 2026-01-20)
-- [ ] 18-02: CV Generator - Comprehensive 3-6 page CVs with full career history
+- [x] 18-02: CV Generator - Comprehensive 3-6 page CVs with full career history (completed 2026-01-20)
 
 **Details:**
 - Smart content selection using weighted scoring (tag match, domain, recency, impact)
@@ -215,4 +215,4 @@ Plans:
 | 15.03. Job Matcher Agent | v1.3 | 0/1 | Not started | - |
 | 16. Profile Data System | v1.3 | 0/? | Not started | - |
 | 17. Impact Schema Foundation | v1.3 | 0/? | Not started | - |
-| 18. Resume and CV Writer | v1.3 | 1/2 | In progress | - |
+| 18. Resume and CV Writer | v1.3 | 2/2 | Complete | 2026-01-20 |
