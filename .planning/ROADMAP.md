@@ -134,10 +134,13 @@ See [v1.3 milestone archive](milestones/v1.3-Professional-Data-Infrastructure.md
 **Goal**: Expand and strengthen profile.yaml with missing career history, improved impact metrics, and source document integration
 **Depends on**: v1.3 complete
 **Research**: Unlikely (internal data work)
-**Plans**: TBD
+**Plans**: 4 plans (one per source document for accurate validation)
 
 Plans:
-- [ ] 19-01: TBD (run /gsd:plan-phase 19 to break down)
+- [x] 19-01: Process 2018-2026 comprehensive impact document
+- [ ] 19-02: Process 2025 focused impact document
+- [ ] 19-03: Process 2025 self-review document
+- [ ] 19-04: Process resume source and final validation
 
 #### Phase 20: Strategic Job Application Package
 
@@ -172,5 +175,5 @@ Plans:
 | 16. Profile Data System | v1.3 | - | Deferred | - |
 | 17. Impact Schema Foundation | v1.3 | - | Deferred | - |
 | 18. Resume and CV Writer | v1.3 | 2/2 | Complete | 2026-01-20 |
-| 19. Profile Data Enhancement | v1.4 | 0/? | Not started | - |
+| 19. Profile Data Enhancement | v1.4 | 1/4 | In progress | - |
 | 20. Strategic Job Application Package | v1.4 | 0/? | Not started | - |

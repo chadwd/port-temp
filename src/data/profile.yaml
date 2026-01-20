@@ -8,13 +8,13 @@ identity:
   availability:
     - Remote
     - Seattle-area Hybrid
-  travel: SF travel quarterly
+  travel: Open to travel
 
 contact:
   email: chadwd@gmail.com
   linkedin: https://www.linkedin.com/in/chad-dunbar/
   portfolio: https://chaddunbar.com
-  github: null  # Add if applicable
+  github: https://github.com/chadwd  # Add if applicable
 
 summary:
   # Multiple versions for different contexts
@@ -96,6 +96,14 @@ experience:
           - accomplished: Improved user retention during AI inference delays
             measured_by: Outperformed 90% industry abandonment baseline for long waits
             by_doing: Designing trust-building loading states with "thinking" metaphors, clear disclaimers, and contextual messaging
+          # Source: "The IA reframed output as 'evidence‑first' (Insights → Summary → Recommendation) to align with professional judgment rather than prescriptive automation"
+          - accomplished: Systemized AI UX patterns into reusable components and playbooks
+            measured_by: Evidence-first recommendation structure (Insights → Summary → Recommendation) adopted for Pace Notes
+            by_doing: Reframing AI output from prescriptive automation to professional judgment support
+          # Source: "Chad reframed slow inference waits as 'computationally valuable,' using a transparent, trust‑preserving tone rather than generic spinners. The pattern was shipped to production in July and became a reusable standard"
+          - accomplished: Established reusable AI loading state standard
+            measured_by: Production pattern shipped July 2025 and adopted as baseline for 2026 A/B validation
+            by_doing: Reframing slow inference waits as computationally valuable with transparent, trust-preserving tone
       platform_leadership:
         label: Platform and design systems leadership
         items:
@@ -108,6 +116,18 @@ experience:
           - accomplished: Established sustainable design system operations
             measured_by: Codified purpose, KPIs, ownership, and publish workflows adopted by 3-person DS team
             by_doing: Creating "Purpose, Process, Profit" framework that tied DS to measurable business value
+          # Source: "Chad owned an Atlas growth goal—'MAX – Wholesale Growth 12% to 22%'—with status reported as 'on track' in 2025... enabling in‑MAX acceptance shortens the path from valuation to wholesale"
+          - accomplished: Grew wholesale transaction volume from MAX to ACV
+            measured_by: Increased from 12% to 22% of eligible inventory moving to wholesale
+            by_doing: Designing guaranteed offer acceptance experience that eliminated dealer risk and streamlined valuation-to-wholesale path
+          # Source: "Chad's teaming with MAXClearCar Design provided a multi‑surface forum (10+ members) to coordinate shared components, critique flows, and align migration paths"
+          - accomplished: Created multi-surface design coordination forum
+            measured_by: MAXClearCar Design team with 10+ members for shared components and migration paths
+            by_doing: Leading cross-product critique sessions and component alignment across MAX and ClearCar surfaces
+          # Source: "Workshops and pairing made DS real; token/state/a11y requirements entered handoffs as non‑negotiables, and white‑labeling exercises prepared for cross‑industry component reuse"
+          - accomplished: Prepared design system components for cross-industry reuse
+            measured_by: White-labeling exercises and AG Grid integration completed in Calculator component
+            by_doing: Conducting DS audit and white-label workshops with dev pairing
       enterprise_ownership:
         label: Enterprise product ownership
         items:
@@ -120,6 +140,14 @@ experience:
           - accomplished: Shipped complete feature from research to production
             measured_by: Atlas "Completed" status with all acceptance criteria met, zero rework loops
             by_doing: Owning Appraisal Alerts end-to-end including JTBD, lifecycle logic, notification design, and dev handoff
+          # Source: "NCP v2's 'why' cites competitive gaps with vAuto and dealer demand for integrated, automated pricing capabilities. The delivered surfaces and outcomes provide empirical evidence that MAX moved toward parity"
+          - accomplished: Achieved competitive parity with vAuto in new car pricing
+            measured_by: Integrated rebates, accessories, and pricing rules matching/exceeding competitor capabilities
+            by_doing: Translating dealer demand for automated pricing into cohesive platform features
+          # Source: "a Rebate Manager with Chrome integration and per‑unit control. Syndication carried itemized components to third‑party/OEM feeds"
+          - accomplished: Delivered Chrome integration for rebate management
+            measured_by: Per-unit rebate control with OEM/third-party feed syndication
+            by_doing: Building Rebate Manager with Chrome extension and itemized component syndication
       cross_functional:
         label: Cross-functional execution and outcomes
         items:
@@ -132,6 +160,18 @@ experience:
           - accomplished: Reduced late-stage project surprises
             measured_by: Improved scoping accuracy and fewer rework loops for engineering
             by_doing: Establishing early edge-case review and shared decision criteria with PM and Eng
+          # Source: "he authored the Jira operating model for design, codified dev handoff standards, and kept a persistent visibility drumbeat via Home/Confluence to normalize shared documentation"
+          - accomplished: Institutionalized UX visibility across ACV Retail
+            measured_by: Weekly HOME/Confluence updates became standard operating practice
+            by_doing: Building persistent visibility drumbeat through structured documentation and weekly alignment updates
+          # Source: "The 'Onboarding Deck: Template' is representative of Chad's scalable enablement: a structured walkthrough of key flows, reusable for training and stakeholder alignment"
+          - accomplished: Created reusable onboarding and stakeholder materials
+            measured_by: Structured walkthrough deck adopted for training and cross-team alignment
+            by_doing: Authoring UX-2234 Onboarding Deck template with reusable flow documentation
+          # Source: "A live Jira issue feed and linked artifacts provide an auditable trail of Chad's work across UX, DS, and UXR contributions. This traceability... allows leadership to independently validate scope, timelines, and acceptance states"
+          - accomplished: Established auditable documentation practices for promotion readiness
+            measured_by: All impact claims linked to traceable artifacts (Atlas, Confluence, Jira, UXR)
+            by_doing: Creating "show your work" culture with live issue feeds and project record citations
 
   - company: Rand McNally
     title: Lead Product Designer
@@ -306,6 +346,15 @@ impact_statements:
       role: ACV Auctions
       year: 2025
 
+    # Source: "NCP v2's 'why' cites competitive gaps with vAuto and dealer demand for integrated, automated pricing capabilities"
+    - id: competitive-parity
+      statement: >
+        Achieved competitive parity with vAuto in new car pricing
+        by delivering integrated rebates, accessories, and pricing rules that matched or exceeded competitor capabilities.
+      tags: [competitive-advantage, enterprise, market-position]
+      role: ACV Auctions
+      year: 2025
+
   # Earlier career highlights
   legacy:
     - id: worldatlas-education
@@ -339,10 +388,10 @@ impact_statements:
 # Quantifiable impact metrics with context
 impact_metrics:
   business_outcomes:
-    - metric: Dealer Retention (NCP)
+    - metric: Dealer Retention (Across all UX projects for 2025)
       value: "88.7%"
       timeframe: October 2025
-      context: New Car Pricing platform
+      context: MAX Platform
     - metric: New Rooftops Onboarded
       value: "210"
       timeframe: YTD October 2025
@@ -372,13 +421,13 @@ impact_metrics:
 
   process_kpis:
     - metric: Design-to-Code Cycle Time
-      baseline: "20-45 days"
-      target: "2-4 days"
+      baseline: "30-60 days"
+      target: "5-10 days"
       status: Pilot completed
-      context: AI-assisted workflow (Project N.E.X.T.)
+      context: AI-assisted workflow (Codename - Project N.E.X.T.)
     - metric: Handoff Iterations
-      baseline: "3-5 cycles"
-      target: "1 cycle"
+      baseline: "3-6 cycles"
+      target: "2 cycle"
       status: Pilot completed
       context: Figma MCP + Claude Code workflow
     - metric: Auto-generated Previews
