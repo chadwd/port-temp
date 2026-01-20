@@ -126,17 +126,29 @@ See [v1.2 milestone archive](milestones/v1.2-Content-&-Polish-Expansion.md) for 
 
 ### 🚧 v1.3 Professional Data Infrastructure (In Progress)
 
-**Milestone Goal:** Build centralized professional metadata system and impact statement database foundation for single source of truth across resumes, CVs, portfolios, and AI assistants.
+**Milestone Goal:** Build centralized professional metadata system and agent toolkit for maintaining single source of truth across resumes, CVs, portfolios, and AI assistants.
 
-#### Phase 15: Metadata Schema Design
+#### Phase 15: Metadata Schema & Agents
 
-**Goal**: Define professional metadata structure (education, work history, certifications, contact info, skills, URLs, etc.)
+**Goal**: Professional metadata schema + agents for data maintenance and job application support
 **Depends on**: v1.2 complete
-**Research**: Unlikely (internal schema design)
-**Plans**: TBD
+**Research**: Unlikely (internal schema/skill design)
+**Plans**: 3 plans
 
 Plans:
-- [ ] 15-01: TBD (run /gsd:plan-phase 15 to break down)
+- [x] 15-01: Schema design - profile.yaml, Zod validation, helper functions (completed 2026-01-19)
+- [x] 15-02: Profile Updater Agent - source ingestion, XYZ extraction, validation skill (completed 2026-01-20)
+- [ ] 15-03: Job Matcher Agent - extract relevant accomplishments for job applications
+
+#### Phase 15.03: Job Matcher Agent
+
+**Goal**: Given a job posting, extract the most relevant accomplishments from profile.yaml that demonstrate immediate value for that role
+**Depends on**: Phase 15.02
+**Research**: Unlikely (follows skill patterns from 15.02)
+**Plans**: 1 plan
+
+Plans:
+- [ ] 15.03-01: Job Matcher skill - job posting analysis, relevance scoring, tailored output
 
 #### Phase 16: Profile Data System
 
@@ -179,6 +191,7 @@ Plans:
 | 14.1 Copy Improvements & Resume | v1.2 | 1/1 | Complete | 2026-01-01 |
 | 15. CMS Integration | v1.2 | - | Deferred | - |
 | 16. Analytics & Monitoring | v1.2 | - | Deferred | - |
-| 15. Metadata Schema Design | v1.3 | 0/? | Not started | - |
+| 15. Metadata Schema & Agents | v1.3 | 2/3 | In progress | - |
+| 15.03. Job Matcher Agent | v1.3 | 0/1 | Not started | - |
 | 16. Profile Data System | v1.3 | 0/? | Not started | - |
 | 17. Impact Schema Foundation | v1.3 | 0/? | Not started | - |
