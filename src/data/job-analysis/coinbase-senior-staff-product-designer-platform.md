@@ -1,21 +1,20 @@
 # Job Match Analysis
 
 **Role:** Senior Staff Product Designer - Platform at Coinbase
-**Match Strength:** Strong (90% of requirements covered - improved with fintech/crypto domain knowledge)
-**Recommended Approach:** Lead with platform/systems design expertise + AI workflow innovation. Leverage new fintech/crypto domain expertise as a differentiator. Position as a principal-level IC who scales through systems, not just execution volume.
+**Match Strength:** Strong (85% of requirements covered)
+**Recommended Approach:** Lead with platform systems expertise and AI workflow innovation; address crypto domain gap through personal trading/DeFi experience
 
 ---
 
 ## The Problem They're Solving
 
-Coinbase needs a senior staff designer who can operate at the center of execution across their entire product ecosystem—bridging consumer onboarding flows with advanced crypto trader needs, while maintaining consistency and quality at scale through design systems thinking.
+Coinbase Platform Design needs a senior IC who can execute complex, cross-company design initiatives while elevating platform-wide quality through systems thinking. They're building infrastructure that powers all Coinbase products—not a feature team, but the foundation layer. The role requires someone who can navigate ambiguity, influence without authority, and ship scalable patterns that other teams adopt.
 
 **Their biggest pain points:**
-
-1. **Cross-product consistency at scale** - Building for both crypto novices and experts across multiple product areas requires scalable patterns and systems thinking, not one-off solutions
-2. **Platform-level strategic influence** - They need someone who can shape product vision and strategy across the company, not just execute within a single product team
-3. **Design system maturity** - Creating reusable patterns and components that drive efficiency across all Coinbase products while maintaining brand expression and quality
-4. **Emerging technology adoption** - Experimenting with AI tools to accelerate design workflows while maintaining craft standards in a high-intensity culture
+1. **Cross-product complexity** — Design initiatives span multiple product areas requiring strategic alignment and coordination across the company
+2. **Scale and consistency** — Need reusable patterns and components that drive efficiency across all Coinbase products (not one-off solutions)
+3. **Platform-level influence** — Sr. Staff level means shaping product vision and strategy, not just executing tickets
+4. **AI workflow adoption** — Explicitly seeking someone experimenting with AI tools for prototyping and design acceleration
 
 ---
 
@@ -23,107 +22,94 @@ Coinbase needs a senior staff designer who can operate at the center of executio
 
 These accomplishments from your profile directly address their needs:
 
-### 1. Platform Design Systems Leadership at Scale
-
-**Their need:** "Partner with Design Systems teams to create scalable patterns and components that elevate quality and consistency across Coinbase products"
-
-**Your proof:**
-> Established sustainable design system operations with **codified purpose, KPIs, and publish workflows** adopted by a 3-person DS team—directly applicable to scaling pattern libraries across Coinbase's multi-product ecosystem. Led Calculator component architecture with token alignment that **reduced pixel drift and handoff ambiguity** across enterprise surfaces.
-
-**Why this matters:** You've done exactly what they need—not just contributing to a design system, but architecting governance, establishing metrics, and creating scalable component patterns that multiple teams can adopt. Your "Purpose, Process, Profit" framework shows you think about DS as a business enabler, not just a component library.
-
-**Relevance score:** 95 | **Source:** profile.yaml - platform_leadership, design-system-adoption
-
----
-
-### 2. AI Workflow Innovation and Tool Experimentation
+### 1. AI-Powered Design Acceleration (Their #1 differentiator request)
 
 **Their need:** "Experiment with and apply emerging AI tools to accelerate prototyping, ideation, and design workflows"
 
 **Your proof:**
-> Reduced design-to-development cycle time **from 20-45 days to 2-4 days** by directing Project N.E.X.T., an AI-assisted workflow using Figma MCP and Claude Code with documented prompting patterns. Reduced handoff iterations **from 3-5 cycles to 1 cycle** through repeatable code validation workflows and auto-generated component previews.
+> Reduced design-to-development cycle **from 30-60 days to 10-15 days (~70% reduction)** by directing Project N.E.X.T., an AI-assisted workflow combining Figma MCP and Claude Code with documented prompting patterns that shipped PR-ready code as an official design artifact.
 
-**Why this matters:** Coinbase explicitly calls out AI experimentation in their requirements. You're not just curious about AI tools—you've shipped production workflows that 10x'd efficiency with measurable outcomes. This is rare at senior staff level.
+**Why this matters:** You're not "experimenting" with AI—you've operationalized it. While other candidates talk about AI curiosity, you have production results with documented patterns Coinbase could adopt.
 
-**Relevance score:** 92 | **Source:** profile.yaml - ai_workflows, ai-acceleration, handoff-efficiency
+**Relevance score:** 95 | **Source:** impact_statements.headline (ai-acceleration) + accomplishments.ai_workflows
 
 ---
 
-### 3. Cross-Functional Strategic Influence
+### 2. Platform Design Systems at Scale
 
-**Their need:** "Collaborate cross-functionally to drive and shape product vision and strategy, influencing stakeholders across the company"
+**Their need:** "Partner with Design Systems teams to create scalable patterns and components that elevate quality and consistency across products"
 
 **Your proof:**
-> Achieved **88.7% dealer retention and onboarded 210 new rooftops** by leading UX for New Car Pricing, a CEO-level enterprise platform initiative. Introduced phased sequencing models **adopted by Product, Engineering, and Research** to stabilize a strategic business priority under intense scrutiny.
+> Increased design system contribution and engagement **200%** by re-architecting fragmented DS across 6+ platforms into federated model with centralized tokens and product-owned component libraries—enabling cross-product consistency while preserving team autonomy.
 
-**Why this matters:** You've operated at the "center of execution" for a company-wide strategic initiative with CEO visibility—exactly the scope Coinbase describes. You didn't just design screens; you shaped product strategy and got cross-functional buy-in at the highest levels.
+**Why this matters:** Coinbase's Platform team serves the whole company. You've done this exact work—unifying fragmented systems into scalable architecture that scales across multiple product surfaces.
 
-**Relevance score:** 90 | **Source:** profile.yaml - enterprise_ownership, platform-retention
+**Relevance score:** 92 | **Source:** accomplishments.platform_leadership (DS contribution) + impact_statements.featured (design-system-adoption)
 
 ---
 
-### 4. Consumer-Facing Product Design Excellence
+### 3. Enterprise Platform Ownership with Measurable Outcomes
 
-**Their need:** "10+ years of professional experience designing consumer-facing products for web and mobile, with a strong portfolio showcasing excellence in UX thinking"
+**Their need:** "Strategic Impact: Experience driving design strategy and contributing to product roadmaps with measurable business and customer outcomes"
 
 **Your proof:**
-> Increased service lane vehicles sold **by 231% in five months (210 to 696)** by reducing friction in photo, inspection, and workflow tooling for ClearCar. Delivered **155 UX initiatives (116 CapEx)** with high reliability and low rework—the highest output on the UX team—by maintaining dev-ready clarity across multiple product lines.
+> Achieved **88.7% dealer retention** and onboarded **210 new rooftops** by leading UX for New Car Pricing, a CEO-level enterprise platform initiative requiring cross-functional alignment across Product, Engineering, and Research.
 
-**Why this matters:** You've shipped high-volume consumer workflows with measurable business impact. The 231% growth shows you understand how UX decisions directly affect conversion and adoption—critical for Coinbase's mission to make crypto accessible to millions.
+**Why this matters:** Platform work is invisible until it breaks. You've led platform-level initiatives with exec visibility and proven you can deliver measurable business results, not just design artifacts.
 
-**Relevance score:** 85 | **Source:** profile.yaml - service-lane-growth, execution-volume
+**Relevance score:** 88 | **Source:** impact_statements.headline (platform-retention)
 
 ---
 
-### 5. Systems Thinking: Designing at Scale with Reusable Patterns
+### 4. Cross-Functional Influence and Engineering Partnership
 
-**Their need:** "Systems Thinking: Proven ability to design at scale, creating reusable patterns and components that drive efficiency and consistency"
+**Their need:** "Collaboration and Influence: Strong ability to build relationships and influence stakeholders across Product, Engineering, and other XFN teams"
 
 **Your proof:**
-> Delivered enterprise-ready pricing platform with **componentized complex pricing logic enabling white-labeling and syndication**. Translated research on incentives, compliance, and auditability into clear UX frameworks that Product and Engineering could scale across dealer types and use cases.
+> Reduced design-engineering handoff iterations **from 3-5 cycles to 1** by establishing repeatable code validation workflows—transforming handoff from "throw over the wall" to collaborative validation where senior engineering now reviews designer-generated code as official artifacts.
 
-**Why this matters:** You've architected systems that scale across customer segments (white-labeling) and use cases (syndication)—not one-off flows. This is the systems thinking Coinbase needs to serve both crypto beginners and advanced traders from shared components.
+**Why this matters:** Platform designers succeed or fail on engineering relationships. You've moved beyond collaboration theater to genuine process change that engineering values.
 
-**Relevance score:** 88 | **Source:** profile.yaml - enterprise_ownership
-
----
-
-### 6. Trust-Building UX for Complex/Novel Technology
-
-**Their need:** Crypto is complex and unfamiliar to most users—they need designers who can build confidence and reduce friction in novel experiences
-
-**Your proof:**
-> Outperformed the **90% industry abandonment baseline** during AI inference delays (10-60 seconds) by designing trust-building loading states with "thinking" metaphors, clear disclaimers, and contextual messaging. Created production baseline for A/B validation with target **+15-20% confidence lift**.
-
-**Why this matters:** Crypto onboarding has the same trust challenge as AI experiences—users don't understand what's happening under the hood. Your loading state work shows you know how to build confidence during uncertainty, which directly translates to helping new users trust Coinbase with their money.
-
-**Relevance score:** 82 | **Source:** profile.yaml - ai-trust-ux
+**Relevance score:** 85 | **Source:** impact_statements.featured (handoff-efficiency)
 
 ---
 
-### 7. High-Volume Execution with Quality Standards
+### 5. Reliable High-Volume Execution
 
 **Their need:** "Delivering critical business and customer value with reliable consistency"
 
 **Your proof:**
-> Maintained **zero roadmap slips** across MAX, Retail, Alerts, and NCP during team instability by absorbing research responsibilities and building operational clarity systems. Shipped Appraisal Alerts with **zero rework loops and Atlas "Completed" status** by owning the feature end-to-end from research synthesis to dev-ready handoff.
+> Delivered **155 UX initiatives (116 CapEx)** with highest output on UX team while maintaining dev-ready clarity across multiple product lines—zero roadmap slips despite team instability and absorbing research responsibilities during dual researcher medical leaves.
 
-**Why this matters:** Coinbase's culture is "intense" and demands reliable execution. You've proven you can maintain quality and velocity even when conditions are chaotic—exactly what they need for a platform team at the center of the entire company's execution.
+**Why this matters:** Sr. Staff isn't just about strategy—it's about shipping. You've proven you can maintain velocity and quality under pressure, which matters for a high-intensity culture like Coinbase's.
 
-**Relevance score:** 85 | **Source:** profile.yaml - organizational-stability, alerts-e2e
+**Relevance score:** 82 | **Source:** impact_statements.featured (execution-volume, organizational-stability)
 
 ---
 
-### 8. **NEW** - Fintech/Crypto Domain Knowledge and User Empathy
+### 6. AI Product Design Expertise (Trust UX)
 
-**Their need:** "Previous design experience in FinTech or crypto" + "Familiarity with the cryptocurrency ecosystem and Coinbase products" (Nice to Haves)
+**Their need:** "Define and inform the user experience of critical customer journeys, ensuring they are intuitive, scalable, and delightful"
 
 **Your proof:**
-> Built technical analysis fluency with **7+ indicators (Gaussian Channel, MACD, Stoch RSI, RSI, Fibonacci Retracements)** plus custom TradingView scripts. Executed **50-100+ token swaps across 4 DeFi platforms (Uniswap, Crypto.com DeFi, Base, VVS)** with multi-chain navigation. Minted **30+ NFTs and participated in 5 ICOs** with hands-on exposure to gas optimization and on-chain workflows.
+> Outperformed **90% industry abandonment baseline** during AI inference delays by designing trust-building loading states with "thinking" metaphors, clear disclaimers, and contextual messaging—establishing reusable AI loading pattern adopted as production baseline for 2026 A/B validation.
 
-**Why this matters:** You're not just a designer who read about crypto—you've *felt the pain* of high gas fees, confusing swap interfaces, and slow transactions. You understand where users get stuck because you've been that user. This user empathy is gold for designing Coinbase's consumer onboarding flows. You speak the language (DeFi, staking, slippage, gas optimization) without needing a glossary.
+**Why this matters:** Coinbase is building AI into products. You've already solved the hard UX problem of AI trust—how to keep users engaged when the system is "thinking" for 10-60 seconds.
 
-**Relevance score:** 88 | **Source:** profile.yaml - personal_expertise.fintech_crypto
+**Relevance score:** 80 | **Source:** impact_statements.featured (ai-trust-ux) + accomplishments.ai_workflows
+
+---
+
+### 7. Personal Crypto/DeFi Domain Experience
+
+**Their need (Nice to Have):** "Familiarity with the cryptocurrency ecosystem and Coinbase products"
+
+**Your proof:**
+> Executed **50-100+ token swaps** across Uniswap, Crypto.com DeFi, Base, and VVS with multi-chain navigation—plus minted 30+ NFTs and participated in 5 ICOs. Applied 7+ technical indicators in TradingView for personal trading across crypto and traditional markets.
+
+**Why this matters:** You're not designing crypto products as an outsider—you've navigated the friction, gas fees, failed transactions, and trust issues firsthand. This user empathy can't be taught.
+
+**Relevance score:** 75 | **Source:** personal_expertise.fintech_crypto
 
 ---
 
@@ -131,81 +117,74 @@ These accomplishments from your profile directly address their needs:
 
 **Requirements you don't directly show:**
 
-- **Crypto/FinTech domain experience** (listed as "nice to have")
-  - ✅ **NOW ADDRESSED:** Your personal expertise section demonstrates hands-on crypto/DeFi/Web3 knowledge (50-100+ swaps, 4 DeFi platforms, NFT minting, ICO participation, TradingView trading)
-  - **Strong framing:** "I bring firsthand user experience with DeFi protocols and trading platforms—I've executed 100+ swaps across Uniswap and Base, so I understand where users get stuck with gas fees, slippage, and multi-chain navigation. This user empathy directly informs how I'd design Coinbase's onboarding and trading flows."
-  - **Note:** This is now a STRENGTH, not a gap. You have the "nice to have" they're looking for.
+### 1. Consumer-Facing Product Design (10+ years)
+- **The gap:** Your portfolio emphasizes B2B/enterprise (ACV dealers, Rand McNally education) rather than consumer-facing products. Coinbase explicitly wants "consumer-facing products for web and mobile."
+- **Transferable:** Dealer-facing tools (MAX, ClearCar) serve small business owners who behave like consumers—they expect intuitive mobile experiences, not enterprise complexity. WorldAtlas was consumer-grade education software.
+- **Honest framing:** "My experience is primarily B2B, but the users I design for—car dealers, teachers, small business owners—expect consumer-grade simplicity. I've never had the luxury of enterprise-style training wheels."
 
-- **Mobile-first consumer product design**
-  - **Transferable:** Your work spans web and mobile enterprise workflows, but your portfolio showcases more web/desktop complexity than mobile-first consumer experiences
-  - **Honest framing:** "Most of my work has been enterprise web platforms with mobile components. I'm strongest in complex workflow design and systems thinking, which applies to Coinbase's platform scope—though I acknowledge their consumer mobile flows may be less familiar territory for me initially."
+### 2. Professional FinTech/Crypto Design Experience
+- **The gap:** No professional crypto/fintech design work on resume. Personal experience doesn't equal portfolio work.
+- **Transferable:** Personal hands-on DeFi/trading experience provides genuine user empathy. Enterprise platform complexity (compliance, multi-stakeholder workflows) translates to financial product rigor.
+- **Honest framing:** "I don't have professional crypto design experience—but I've been a crypto user since [year], navigating the UX pain points firsthand. I know what breaks because I've experienced the failures as a user."
 
-- **Thought leadership in crypto/Web3**
-  - **Gap:** This is a genuine mismatch. Their success criteria includes "Becoming a thought leader in crypto and Web3"
-  - **Honest framing:** "I'm not currently a crypto thought leader and wouldn't claim expertise in Web3. What I bring is proven ability to become a domain expert quickly (I learned automotive wholesale, healthcare data, AI workflows) and a track record of pushing boundaries in emerging technology (AI tools, design-to-code acceleration). I'd need to invest heavily in crypto education, but I have the pattern of deep domain learning."
+### 3. Visual Design Portfolio Strength
+- **The gap:** Coinbase emphasizes "excellence in UX thinking, visual design, and written communication." Your profile emphasizes systems, process, and outcomes—less visual craft.
+- **Transferable:** Design systems work requires visual rigor (tokens, component specs). Portfolio can showcase this.
+- **Honest framing:** "My visual design work lives in systems—tokens, components, scalable patterns. I'm not a dribbble-style visual designer, but I can show craft through systematic consistency."
 
 **Level expectations:**
-
-- **Senior Staff scope clarity:** Your profile demonstrates principal-level platform leadership, but Coinbase's "Senior Staff" title may have different scope expectations than your current principal-level work. Their role emphasizes "spanning multiple product areas" and "influencing stakeholders across the company"—which you've done—but it's worth clarifying their specific definition of Senior Staff vs. Staff vs. Principal in conversation.
-
-- **Mentorship visibility:** The posting mentions "mentoring other designers" as a thought leader. Your profile shows process ownership and enablement artifacts, but formal mentorship examples are limited. Consider highlighting specific designers you've coached if this comes up in interviews.
+- **Sr. Staff scope alignment:** Your accomplishments show principal-level scope (cross-team influence, strategic initiatives, system architecture). This aligns well with Sr. Staff expectations.
+- **"Thought leader" expectation:** The role wants someone who becomes "a thought leader in crypto and Web3." This is a growth area—you'd be learning the domain while contributing platform expertise.
 
 ---
 
 ## Your Narrative Arc
 
-**Opening hook (pick one based on their biggest pain):**
+**Opening hook (pick one based on interviewer focus):**
 
-1. **If they emphasize AI/innovation:** "I reduced our design-to-code cycle from 20-45 days to 2-4 days using AI-assisted workflows—exactly the kind of emerging tool experimentation Coinbase is calling for in this role."
+1. **If they emphasize AI/innovation:**
+   "I reduced our design-to-dev cycle from 30-60 days to 10-15 days by operationalizing AI workflows—not experimenting, but shipping production code with documented patterns. I'm looking for a company where that kind of ambition is the baseline, not the exception."
 
-2. **If they emphasize platform/systems thinking:** "I've built design systems that scale across product lines and customer segments—from governance frameworks to componentized pricing logic that enables white-labeling. That's the systems thinking you need when designing for both crypto beginners and advanced traders."
+2. **If they emphasize platform/systems:**
+   "I unified 6+ fragmented product design systems into a federated architecture that grew team contribution 200%. Platform work is invisible when it works—I've made a career of the infrastructure that makes other teams successful."
 
-3. **If they emphasize cross-functional influence:** "I led UX for a CEO-level enterprise initiative that achieved 88.7% retention under intense scrutiny. I know what it takes to operate at the center of company-wide execution with stakeholders at every level."
+3. **If they emphasize culture/intensity:**
+   "I delivered 155 UX initiatives last year—highest on the team—while absorbing research responsibilities during team instability. Coinbase's 'intense culture' description reads like my normal operating mode."
 
 **Core positioning:**
 
-You need a senior staff designer who can scale Coinbase's platform through systems, not just execution. I bring 15+ years of platform and design systems leadership, with a track record of operating at principal-level scope across multiple product areas. I don't just ship features—I architect scalable patterns, establish governance that teams actually adopt, and drive strategic influence across Product, Engineering, and Research. My AI workflow innovation shows I'm pushing boundaries in emerging tech, which aligns with Coinbase's mission to build the future of finance.
+You're a platform systems designer who's already operationalized AI workflows at scale. While other candidates bring crypto curiosity, you bring proven infrastructure for AI-accelerated design and cross-product systems thinking. Your B2B experience taught you to design for users who expect consumer simplicity but operate in enterprise complexity—exactly the challenge of making crypto accessible to millions while serving sophisticated traders.
 
 **Differentiator:**
 
-Principal-level design systems work + AI workflow innovation + hands-on crypto/DeFi user experience. Most designers at this level either have systems expertise OR crypto knowledge—I have both. I've proven I can make complex, unfamiliar technology trustworthy (AI inference, wholesale auctions, enterprise pricing), and I understand crypto pain points firsthand as an active trader and DeFi user. I scale through systems and process ownership, not heroics.
+"I'm the designer who ships code. My AI workflow produces PR-ready components that engineering reviews as official artifacts—not mockups that need translation. For a Platform team building infrastructure, that's the difference between months and weeks."
 
 ---
 
 ## Talking Points Summary
 
-**Lead with these 4 in conversation:**
-
-1. **Crypto user empathy (NEW DIFFERENTIATOR)** - "I bring firsthand DeFi and trading experience—I've executed 100+ swaps across Uniswap and Base, minted 30+ NFTs, and actively trade with TradingView. I know where crypto users get stuck because I am that user."
-
-2. **Design systems as business enabler** - "I established sustainable DS operations with KPIs tied to business value, not just component counts—reducing pixel drift and handoff cycles across enterprise surfaces."
-
-3. **AI workflow innovation with measurable impact** - "I 10x'd our design-to-dev cycle time using Figma MCP and Claude Code, with documented patterns that teams can adopt—this is the AI experimentation Coinbase wants at senior staff level."
-
-4. **Platform-level strategic execution** - "I led UX for a CEO-level initiative spanning multiple product teams, achieving 88.7% retention under intense pressure—I know how to operate at the center of company-wide execution."
+**Lead with these 3 in conversation:**
+1. **AI acceleration is production-ready:** "I reduced design-to-dev cycle 70% with AI workflows that shipped PR-ready code—not experiments, but documented patterns your Platform team could adopt."
+2. **Systems unification at scale:** "I unified 6+ fragmented design systems into federated architecture with 200% contribution growth—exactly what Platform teams need for cross-company consistency."
+3. **Reliability under pressure:** "155 UX initiatives, highest team output, zero roadmap slips during instability—I thrive in intense environments, not despite them."
 
 **Address gaps proactively:**
-
-- **Crypto experience (NOW A STRENGTH):** "I'm an active crypto user—I trade with TradingView using custom scripts, I've executed 100+ DeFi swaps, minted NFTs, and participated in ICOs. I understand gas optimization, multi-chain bridges, and where users get frustrated with slippage. This isn't theoretical knowledge—I feel these pain points as a user."
-
-- **Thought leadership gap:** "I'm not a crypto thought leader in the public sense. What I bring is a track record of pushing boundaries in emerging tech (AI tools, design-to-code acceleration) and establishing best practices that teams adopt. Combined with my hands-on crypto experience, I'd be well-positioned to become an internal thought leader on designing for crypto users."
+- **Consumer experience:** "My B2B users—small business owners, car dealers—expect consumer-grade UX. I've never designed with enterprise training wheels."
+- **Crypto domain:** "I'm a crypto user, not just a crypto-curious designer. I've navigated DeFi friction, failed transactions, and gas optimization firsthand—that user empathy can't be taught."
+- **Visual portfolio:** "My visual design lives in systems—tokens, components, scalable patterns. I show craft through consistency, not one-off illustrations."
 
 **Questions to ask them:**
-
-- "How do you define Senior Staff scope here versus Staff or Principal? I've operated at principal-level platform leadership—want to make sure I understand how that maps to your career ladder."
-
-- "What's the biggest gap in your design system maturity today? Is it governance, adoption, component coverage, or something else? I've built the 'Purpose, Process, Profit' framework to address exactly this."
-
-- "How are you currently experimenting with AI tools across the design team? Are you looking for someone to establish best practices, or is this more exploratory for now?"
+- "How does the Platform team balance creating reusable infrastructure vs. shipping product-specific solutions? What's the current tension?"
+- "What's blocked previous AI workflow adoption in design? Is it tooling, process, or cultural?"
+- "The role mentions 'thought leadership in Web3'—what does that look like for a Platform designer vs. a product designer?"
 
 ---
 
-## Next Steps
+**Next Steps:**
+1. Review each match above—verify the "why this matters" reasoning aligns with your understanding
+2. Use the rewritten statements in your application materials (resume, cover letter, portfolio intro)
+3. Memorize talking points for phone screen / first conversation
+4. Prepare honest responses for gaps they'll likely probe (consumer experience, crypto domain)
 
-1. **Review each match above** - Verify the "why this matters" reasoning aligns with your understanding of the role
-2. **Update portfolio homepage** - Lead with design systems + AI workflow innovation (not just execution volume)
-3. **Prepare crypto conversation** - Be ready to discuss your learning approach and what excites you about the domain
-4. **Clarify scope expectations** - In initial conversations, ask about Senior Staff scope vs. your current principal-level work
-5. **Highlight mentorship examples** - Identify specific designers you've coached if this comes up
+**Note:** This is analysis only. You decide which accomplishments to emphasize and how.
 
-**Note:** This is analysis only. You decide which accomplishments to emphasize and how to position yourself.

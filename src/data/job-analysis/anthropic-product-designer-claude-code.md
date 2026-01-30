@@ -1,20 +1,21 @@
 # Job Match Analysis
 
 **Role:** Product Designer, Claude Code at Anthropic
-**Match Strength:** Strong (85-90% of requirements covered)
-**Recommended Approach:** Lead with your hands-on Claude Code usage and AI interaction pattern design. You're not applying to learn—you're bringing battle-tested patterns from production AI UX at enterprise scale.
+**Match Strength:** Strong (75% of requirements covered)
+**Recommended Approach:** Lead with AI workflow design + dev tool fluency, address CLI/IDE gap honestly with adjacent proof
 
 ---
 
 ## The Problem They're Solving
 
-Anthropic needs a designer who can invent interaction patterns for agentic AI workflows that sophisticated developers will trust. Claude Code generated $1B+ in annualized revenue within 6 months, and they need someone who can design across terminal, IDE, web, and Slack while the product evolves rapidly with new model capabilities.
+Claude Code generated $1B in annualized revenue within 6 months, but the product spans **terminal, IDE extensions, web, and Slack** — each requiring distinct interaction patterns for autonomous AI behavior. They need someone who can design across these surfaces while keeping the experience cohesive, especially as model capabilities evolve rapidly.
 
 **Their biggest pain points:**
-1. **Undefined interaction patterns**: Designing "genuinely new territory" - how AI communicates progress, handles multi-step autonomous work, and builds developer trust
-2. **Speed and ambiguity**: Keeping pace with constant model capability releases, requiring fast iteration without rigid design processes
-3. **Developer-first craft**: Creating terminal/CLI experiences with high information density, keyboard-first interaction, and minimal friction for sophisticated users
-4. **Code-native design**: Need someone who can prototype functional CLI/terminal interfaces directly, not just push pixels
+1. **Agentic AI UX patterns don't exist yet** — progress communication, permission requests, and failure handling need design invention, not templates
+2. **Rapid model iteration creates design instability** — specs are ambiguous because capabilities shift weekly; need design-test-refine cycles aligned with research
+3. **Developer tools demand craft precision** — information density, keyboard-first interaction, and zero-friction workflows are table stakes for this audience
+4. **Multi-surface consistency at speed** — terminal, IDE, web, and Slack all need unified patterns while shipping fast
+5. **Building in public with technical users** — developers will scrutinize every interaction; "good enough" won't cut it
 
 ---
 
@@ -22,94 +23,94 @@ Anthropic needs a designer who can invent interaction patterns for agentic AI wo
 
 These accomplishments from your profile directly address their needs:
 
-### 1. AI-Assisted Developer Workflow Design (You're Already Using Their Product)
+### 1. AI-Assisted Workflow Design at Production Scale
 
-**Their need:** Design agentic workflows across terminal, IDE, web—someone who understands how AI communicates progress and handles multi-step autonomous work
+**Their need:** Create interaction patterns for autonomous AI behavior (progress communication, permission requests, failure handling)
 
 **Your proof:**
-> **Reduced design-to-development cycle time from 20-45 days to 2-4 days** by directing Project N.E.X.T., an AI-assisted workflow using **Figma MCP and Claude Code** with documented prompting patterns—you're literally designing with the product they need you to improve.
+> Reduced design-to-dev cycle **from 30-60 days to 10-15 days** by directing Project N.E.X.T., an AI-assisted workflow using **Figma MCP and Claude Code** with documented prompting patterns—you've already shipped production work using the tool you'd be designing.
 
-**Why this matters:** You've already solved the exact problem they're hiring for: inventing interaction patterns for AI agent workflows that developers trust. You understand Claude Code's capabilities and limitations from hands-on use, not theory.
+**Why this matters:** You're not theorizing about AI UX—you've built and shipped AI workflows with Claude Code itself. You understand the developer handoff experience from both sides: as a designer using the tool AND as someone optimizing for dev-ready output.
 
-**Relevance score:** 95/100 | **Source:** impact_statements.headline.ai-acceleration
+**Relevance score:** 95 | **Source:** profile.yaml - ai_workflows
 
 ---
 
-### 2. AI Interaction Pattern Invention (Trust-Building for Ambiguous States)
+### 2. Trust-Building UX for AI Uncertainty
 
-**Their need:** Create conventions for complex AI behaviors that feel "intuitive and trustworthy" for sophisticated users
+**Their need:** Design patterns for AI inference delays, failures, and user confidence during autonomous operations
 
 **Your proof:**
-> **Outperformed the 90% industry abandonment baseline during AI inference delays** by designing trust-building loading states with "thinking" metaphors, clear disclaimers, and contextual messaging for 10-60 second AI waits.
+> Outperformed **90% industry abandonment baseline** during AI inference delays (10-60 seconds) by designing trust-building loading states with "thinking" metaphors, clear disclaimers, and transparent tone—shipped to production July 2025 as reusable standard.
 
-**Why this matters:** You've shipped production AI UX that handles the hardest interaction design challenge: keeping users engaged during unpredictable processing. This directly maps to Claude Code's multi-step autonomous work, where users need to trust what's happening behind the scenes.
+**Why this matters:** Agentic AI creates long, unpredictable waits. You've solved the exact problem they face: keeping users confident when AI is working autonomously. Your pattern shipped to production and became the baseline for future validation.
 
-**Relevance score:** 90/100 | **Source:** ai_workflows.ai-trust-ux
+**Relevance score:** 93 | **Source:** profile.yaml - ai_workflows
 
 ---
 
-### 3. Developer-Facing Workflow Optimization (Engineering Partnership)
+### 3. Designing for Technical Users with High Craft Standards
 
-**Their need:** Fast iteration with engineering, obsess over details like information density and minimal friction
+**Their need:** Information density, keyboard-first interaction, minimal friction for developer audiences
 
 **Your proof:**
-> **Reduced design-engineering handoff iterations from 3-5 cycles to 1** by establishing repeatable code validation workflows and auto-generated component previews—shipping dev-ready work that teams can maintain.
+> Delivered **155 UX initiatives (116 CapEx)** with high reliability and low rework—the highest output on the UX team—by maintaining dev-ready clarity with states, acceptance criteria, and error logic across multiple product lines serving technical dealer users.
 
-**Why this matters:** You've proven you can partner tightly with engineering to reduce friction, not add it. Anthropic needs someone who can prototype functional CLI/terminal interfaces, and you've already built workflows that generate code, not just mockups.
+**Why this matters:** Your enterprise dealer users are as demanding as developers—they scrutinize every workflow inefficiency. You've shipped at volume while maintaining craft standards (dev-ready specs, edge cases, error handling).
 
-**Relevance score:** 92/100 | **Source:** ai_workflows.handoff-efficiency
+**Relevance score:** 85 | **Source:** profile.yaml - cross_functional
 
 ---
 
-### 4. Design Systems Architecture (Component Patterns and Scalability)
+### 4. Rapid Iteration Aligned with Engineering Constraints
 
-**Their need:** Craft excellence and creating reusable patterns across multiple surfaces (terminal, IDE, web, Slack)
+**Their need:** Execute design-test-refine cycles aligned with model improvements; build functional prototypes in code
 
 **Your proof:**
-> **Established sustainable design system operations** with codified purpose, KPIs, and publish workflows adopted by a 3-person DS team, using "Purpose, Process, Profit" framework tied to measurable business value.
+> Reduced handoff iterations **from 3-5 cycles to 1** by establishing repeatable code validation workflows and auto-generated component previews—including shipping **PR-ready code as official design artifact** reviewed by senior engineering.
 
-**Why this matters:** Claude Code needs consistent interaction patterns across 4+ surfaces. You've built and governed design systems that scale across products, which is exactly what's needed for multi-surface agentic AI experiences.
+**Why this matters:** You already prototype in code (HTML/CSS/Terminal workflows) and validate with engineering early. You won't slow down their fast-moving research cycles with static mockups.
 
-**Relevance score:** 78/100 | **Source:** platform_leadership.design-system-adoption
+**Relevance score:** 88 | **Source:** profile.yaml - ai_workflows
 
 ---
 
-### 5. Enterprise Platform Design Under CEO-Level Pressure
+### 5. AI Output Framing and Professional Judgment UX
 
-**Their need:** Handle ambiguity and fast-changing requirements (new model capabilities shipping constantly)
+**Their need:** Design interaction patterns for how AI presents recommendations and handles ambiguity
 
 **Your proof:**
-> **Achieved 88.7% dealer retention and onboarded 210 new rooftops** by leading UX for New Car Pricing, a CEO-level enterprise platform initiative with complex pricing logic and compliance constraints.
+> Systemized AI UX patterns into reusable components by reframing AI output from **prescriptive automation to professional judgment support** (Insights → Summary → Recommendation structure) adopted for Pace Notes production feature.
 
-**Why this matters:** You've designed under high-stakes, rapidly evolving conditions. Anthropic's product generates $1B+ revenue and evolves with model releases—you've proven you can ship quality work under similar pressure without rigid processes.
+**Why this matters:** You understand the nuance of AI tone and authority—when to be confident vs. tentative, how to support human decision-making without replacing it. This is critical for agentic workflows where AI suggests actions.
 
-**Relevance score:** 75/100 | **Source:** enterprise_ownership.platform-retention
+**Relevance score:** 90 | **Source:** profile.yaml - ai_workflows
 
 ---
 
-### 6. Sustained High-Volume Execution with Reliability
+### 6. Multi-Surface Design Coordination
 
-**Their need:** Fast iteration cycles, ship constantly as capabilities evolve
+**Their need:** Maintain cohesive experience across terminal, IDE extensions, web, and Slack
 
 **Your proof:**
-> **Delivered 155 UX initiatives (116 CapEx) with high reliability and low rework**, the highest output on the UX team, by maintaining dev-ready clarity across multiple product lines.
+> Created multi-surface design coordination forum (**MAXClearCar Design, 10+ members**) for shared components and migration paths, leading cross-product critique sessions and component alignment across MAX and ClearCar surfaces.
 
-**Why this matters:** You've demonstrated sustained velocity without sacrificing quality. Anthropic needs someone who can keep pace with model releases—you've proven you can ship at high volume with minimal rework.
+**Why this matters:** You've coordinated design consistency across fragmented product surfaces before. You know how to build shared component libraries and alignment processes when teams move fast.
 
-**Relevance score:** 72/100 | **Source:** cross_functional.execution-volume
+**Relevance score:** 82 | **Source:** profile.yaml - platform_leadership
 
 ---
 
-### 7. End-to-End Product Ownership (Research to Production)
+### 7. Building with Developer Empathy and Technical Fluency
 
-**Their need:** Collaborate fluidly with engineering, research, and product without rigid handoffs
+**Their need:** Genuine interest in developer tools; understand LLM capabilities and limitations
 
 **Your proof:**
-> **Shipped Appraisal Alerts with zero rework loops and Atlas "Completed" status** by owning the feature end-to-end from research synthesis (JTBD) to dev-ready handoff with lifecycle logic and notification design.
+> Shipped functional code in production repository from AI-assisted design pilot—working PR merged with documented prompting patterns by integrating **Claude Code with Figma MCP** to generate DS-aligned UI code.
 
-**Why this matters:** You're not just a pixel pusher—you think like a product builder. Anthropic's research-driven environment needs someone who can synthesize research, define product logic, and ship without rigid PM gatekeeping.
+**Why this matters:** You're a designer who ships code to production, uses terminal workflows daily, and understands AI model constraints firsthand. You speak engineering's language and have GitHub commits to prove it.
 
-**Relevance score:** 70/100 | **Source:** enterprise_ownership.alerts-e2e
+**Relevance score:** 91 | **Source:** profile.yaml - ai_workflows
 
 ---
 
@@ -117,45 +118,45 @@ These accomplishments from your profile directly address their needs:
 
 **Requirements you don't directly show:**
 
-- **Native CLI/terminal interface design**
-  - **Transferable:** You've designed workflows that *generate* terminal-executable code (Figma MCP → Claude Code), and work daily with terminal-based dev tools (HTML, CSS, SCSS, GitHub workflows). You understand developer mental models.
-  - **Honest framing:** "My design portfolio doesn't show CLI mockups because I've been designing AI workflows that output to CLIs, not designing the CLI itself. But I use terminal tools daily (git, npm, Claude Code) and understand keyboard-first, information-dense interfaces."
+- **No dedicated CLI or IDE design portfolio work**
+  - **Transferable:** You use terminal workflows daily (Claude Code, Git, npm) and designed AI-assisted dev tools, but haven't shipped a pure CLI/IDE product
+  - **Honest framing:** "My Claude Code experience is as a power user designing AI workflows, not as a CLI designer. I'd lean heavily on the team's existing patterns while I build domain fluency in the first 30-60 days."
 
-- **Open source contributions or public GitHub profile**
-  - **Transferable:** Project N.E.X.T. created documented prompting patterns and workflows that could be open-sourced (internal documentation currently private).
-  - **Honest framing:** "My GitHub profile is sparse—most work is enterprise-internal. But I'm open to contributing design patterns for Claude Code's interaction model if the team values public artifacts."
+- **Limited open source portfolio**
+  - **Transferable:** Your portfolio site is open source (https://github.com/chadwd), and you've shipped code to production repos, but no major OSS contributions
+  - **Honest framing:** "I don't have a deep open source contribution history. My code contributions have been internal (ACV repos, Rand McNally projects). I'd be learning from the team's OSS collaboration norms."
 
-- **IDE extension design (VSCode, IntelliJ, etc.)**
-  - **Transferable:** Design systems work shows multi-surface pattern consistency (web, mobile, tools). Understanding of plugin architectures from Figma plugin workflows.
-  - **Honest framing:** "I haven't designed IDE extensions specifically, but I've designed consistent patterns across multiple surfaces (MAX, ClearCar, Retail, NCP) and understand how developers context-switch between tools."
+- **No shipped IDE extensions**
+  - **Transferable:** You understand multi-surface consistency challenges (coordinated MAX/ClearCar across web/mobile) and have designed for developer handoff tools
+  - **Honest framing:** "I haven't designed VS Code or JetBrains extensions. I'd rely on your existing IDE extension patterns and focus on cross-surface consistency—that's where my platform design experience transfers directly."
 
 **Level expectations:**
+- Role emphasizes "ambiguity" and "empirical science" culture — you excel here (stabilized CEO-level NCP initiative, navigated team instability with zero roadmap slips)
+- "25% in-office" requirement — Seattle location works perfectly; you're already in the area and open to hybrid
 
-- **Role framed as specialized/expert** but doesn't specify "Staff" or "Principal" explicitly
-  - Your profile shows **principal-level scope**: CEO-level platform ownership, design system governance, cross-org influence, and sustained high-volume execution
-  - The $260K-$305K range suggests mid-to-senior level, which aligns well
-  - **Potential concern:** Your title is "Product Designer" (with principal-level scope noted), not official "Principal Designer"—be ready to clarify scope vs. title
+**Cultural fit signals you DO have:**
+- ✅ Comfort with rapid iteration and evolving specs (designed alongside AI model improvements at ACV)
+- ✅ "Single cohesive team" collaboration (cross-functional leadership with Product, Eng, Research)
+- ✅ Emphasis on craft details (dev-ready specs, information density, error handling rigor)
+- ✅ Building in public mindset (documented prompting patterns, shared enablement artifacts)
 
 ---
 
 ## Your Narrative Arc
 
-**Opening hook (pick one based on their biggest pain):**
+**Opening hook (pick one based on conversation flow):**
 
-1. **If they emphasize AI interaction pattern invention:**
-   "I've been designing AI agent workflows with Claude Code for the past year—not just using it, but inventing trust-building patterns for 10-60 second inference delays that outperform industry abandonment rates. I'm applying to help you make those patterns even better."
+1. **If they lead with AI/agentic workflows:** "I've been designing AI UX patterns in production for the past year—including using Claude Code itself to reduce our design-to-dev cycle by 70%. I'm not coming to this theoretically; I've shipped trust-building patterns for long inference waits, reframed AI output from prescriptive to judgment-supporting, and established code generation as a design artifact."
 
-2. **If they emphasize developer tool craft:**
-   "I reduced design-to-dev cycle time from 20-45 days to 2-4 days by building AI-assisted workflows with Figma MCP and Claude Code. Now I want to help you design the tools that make that possible for every developer."
+2. **If they lead with developer tools:** "I'm a designer who ships code to production and uses terminal workflows daily. I reduced handoff iterations from 3-5 cycles to 1 by generating PR-ready code that senior engineering reviews as an official design artifact. I understand dev tool users because I am one."
 
-3. **If they emphasize fast iteration and ambiguity:**
-   "I've shipped 155 UX initiatives this year across 4 product lines while leading a CEO-level platform under constant change. I thrive in environments where model capabilities ship weekly and rigid processes don't work."
+3. **If they lead with multi-surface complexity:** "I've coordinated design consistency across fragmented product surfaces before—leading a 10+ person cross-product forum to align shared components and migration paths. I know how to build cohesive experiences when teams are moving fast across multiple platforms."
 
 **Core positioning:**
-You're a principal-level product designer who's already solved the core challenge Anthropic is hiring for: designing AI agent workflows that developers trust. You've used Claude Code to ship production work, understand LLM capabilities and limitations from hands-on experience, and have proven you can invent interaction patterns for genuinely new territory (AI loading states, multi-step agentic workflows). You're not learning on the job—you're bringing battle-tested patterns from enterprise AI product design.
+You're hiring for someone who can invent agentic AI UX patterns that don't exist yet, across terminal/IDE/web/Slack, while keeping pace with rapid model evolution. I've already done this at ACV: designed AI workflows using Claude Code itself, shipped trust-building patterns for autonomous operations, and established code prototyping as standard practice. My gap is pure CLI/IDE portfolio work, but my strength is AI UX invention + dev tool fluency + shipping at speed.
 
 **Differentiator:**
-Most designers applying will have "used ChatGPT" or "designed AI features." You've **shipped production AI UX at scale** (enterprise platform with 88.7% retention), **built workflows using their own product** (Claude Code + Figma MCP), and **designed trust-building patterns for the hardest UX challenge in AI** (keeping users engaged during unpredictable 10-60 second waits). You're not theoretical—you're empirical.
+Most designers theorize about AI UX. I've shipped production AI patterns (loading states, recommendation framing, code generation workflows) and used Claude Code as a power user to accelerate my own design-to-dev pipeline. I'm designing the tool I already rely on—that user empathy is rare.
 
 ---
 
@@ -163,40 +164,46 @@ Most designers applying will have "used ChatGPT" or "designed AI features." You'
 
 **Lead with these 3 in conversation:**
 
-1. **"I've been using Claude Code to ship production work for the past year—I understand its capabilities and limitations because I've built AI-assisted workflows with it, not just read about it."**
+1. **AI UX at production scale:** "I reduced design-to-dev time 70% using Claude Code + Figma MCP, and shipped trust-building loading states that beat 90% industry abandonment—I'm already designing AI workflows in the wild."
 
-2. **"I've designed AI interaction patterns that outperform 90% industry abandonment rates during long waits—the exact challenge you're solving with agentic workflows that run for minutes, not seconds."**
+2. **Dev tool fluency through practice:** "I ship PR-ready code as a design artifact, validated by senior engineering. I use terminal workflows daily and understand LLM constraints from hands-on experience, not documentation."
 
-3. **"I've shipped 155 UX initiatives this year across enterprise platforms generating $35M+ revenue—I know how to move fast without rigid processes when requirements change weekly."**
+3. **Inventing patterns under ambiguity:** "I stabilized a CEO-level initiative with 88.7% retention by introducing phased sequencing models when requirements were unclear—I thrive when specs are evolving, not fixed."
 
 **Address gaps proactively:**
 
-- **CLI design:** "I haven't designed CLI mockups specifically, but I've designed workflows that generate CLI-executable code and work daily with terminal tools. I understand developer mental models and keyboard-first interfaces."
+- **On CLI/IDE experience:** "I haven't shipped a pure CLI or IDE extension, but I've used Claude Code as a power user and designed multi-surface consistency for fragmented platforms. I'd lean on your team's existing patterns while I build domain fluency in the first 60 days."
 
-- **Open source:** "My GitHub is sparse because most work is enterprise-internal, but I'd love to contribute design patterns for Claude Code's interaction model if you value public artifacts."
+- **On open source:** "My code contributions have been internal to ACV and Rand McNally repos. I don't have deep OSS history, but I've documented prompting patterns and built enablement artifacts—I understand building in public, just not on GitHub at scale."
 
 **Questions to ask them:**
 
-- **"What's the biggest interaction pattern challenge you're facing right now—how Claude communicates progress during multi-step work, error recovery, or something else?"** (Shows you understand their pain and want to solve it, not just get hired)
+1. **"How are you balancing consistency across terminal, IDE, web, and Slack as model capabilities evolve weekly?"** (Shows you understand their core tension: multi-surface cohesion + rapid iteration)
 
-- **"How do you balance shipping fast with model releases versus establishing consistent patterns across terminal, IDE, web, and Slack?"** (Shows strategic thinking about multi-surface consistency and velocity trade-offs)
+2. **"What's the current split between designing new agentic patterns vs. refining existing ones based on user feedback?"** (Shows strategic thinking about invention vs. optimization)
 
-- **"What does success look like in the first 6 months—is it shipping specific features, establishing design conventions, or something else?"** (Shows outcome-focused thinking, not just task completion)
+3. **"How does the design team collaborate with research when model capabilities change—do you embed in experiments, or react to shipped features?"** (Shows understanding of AI research culture and design's role in it)
 
----
-
-**Next Steps:**
-
-1. **Review each match above** - verify the "why this matters" reasoning aligns with your understanding of what Anthropic actually needs
-2. **Decide which narrative arc to lead with** - pick the opening hook that feels most authentic to you
-3. **Prepare honest gap responses** - don't hide CLI/open source gaps, but show transferable thinking
-4. **Memorize the 3 talking points** - these should roll off your tongue in a phone screen
-5. **Update match strength in header** - once you're confident in the analysis
-
-**Current match strength estimate:** **Strong (85-90% of requirements covered)**
-- You have direct proof for their 3 biggest needs: AI workflows, developer tool design, fast iteration
-- Gaps are minor (CLI mockups, open source) and addressable with transferable experience
-- Your use of Claude Code is the single strongest differentiator in the entire candidate pool
+4. **"Claude Code hit $1B ARR in 6 months—what are the biggest UX friction points you're seeing at that scale?"** (Shows you're thinking about growth-stage challenges, not just invention)
 
 ---
 
+## Next Steps
+
+1. **Review each match above** — verify the "why this matters" reasoning aligns with your understanding of their needs
+2. **Prepare your Claude Code user story** — they'll want to hear about your hands-on experience; be ready with specifics (what you built, what worked, what frustrated you)
+3. **Memorize talking points** for phone screen — lead with AI UX production work, address CLI gap proactively
+4. **Prepare honest responses** for:
+   - "Show us your CLI/IDE design work" → Redirect to multi-surface platform design + Claude Code power user experience
+   - "What's in your GitHub?" → Portfolio site repo + internal code contributions at ACV
+   - "How do you prototype?" → Code (HTML/CSS/JS) + Figma for high-fidelity validation
+
+**Salary note:** $260K-$305K range aligns well with your principal-level scope and Seattle market. Your current ACV work (AI workflows, enterprise platform ownership, cross-functional leadership) justifies the higher end of this band.
+
+**Portfolio focus:** Highlight Project N.E.X.T. (AI workflow acceleration), Long Loading State (AI trust UX), and NCP (enterprise platform complexity). These three map directly to their needs: agentic AI patterns, multi-surface design, and craft rigor.
+
+---
+
+**Final assessment:** This is a strong match. Your AI UX work is highly relevant, your dev tool fluency is proven, and your comfort with ambiguity fits their culture. The CLI/IDE gap is real but addressable—you're a power user of the tool you'd be designing, which gives you user empathy most candidates won't have. Lead with that.
+
+**Note:** This is analysis only. You decide which accomplishments to emphasize and how.

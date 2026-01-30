@@ -1,89 +1,72 @@
 # CHAD DUNBAR
-## Senior Staff Product Designer, Platform
 
-**Bellevue, WA (Seattle Metro)** | chadwd@gmail.com | [linkedin.com/in/chad-dunbar](https://www.linkedin.com/in/chad-dunbar/) | [chaddunbar.com](https://chaddunbar.com)
+**Senior Staff Product Designer, Platform**
+
+Seattle, WA | chadwd@gmail.com | linkedin.com/in/chad-dunbar | chaddunbar.com
 
 ---
 
 ## Professional Summary
 
-Principal-level product designer with 15+ years building complex enterprise and consumer-facing products for web and mobile. Specialize in platform design systems, AI-assisted workflows, and cross-functional strategic execution. Reduced design-to-dev cycle 90% (20 days to 2 days) using AI tools while leading design systems governance that scaled patterns across multiple product areas. Active crypto trader and DeFi user with hands-on experience across Uniswap, Base, and NFT minting—bringing user empathy for designing accessible onchain experiences.
+Principal-level product designer with 15+ years building platform products and design systems at scale. Specialize in AI-accelerated workflows, cross-product systems architecture, and B2B SaaS. Reduced design-to-dev cycle 70% using AI tools while unifying 6+ fragmented design systems into federated architecture with 200% contribution growth.
 
 ---
 
 ## Professional Experience
 
-### ACV Auctions - Product Designer (Principal-level scope) | January 2017 - Present
-*ACV Retail: MAX Digital, ClearCar, Retail Platforms*
+### ACV Auctions — Product Designer (Principal-level scope)
+**ACV Retail** | January 2017 – Present
 
-• Reduced design-to-development cycle time from 20-45 days to 2-4 days by directing Project N.E.X.T., an AI-assisted workflow using Figma MCP and Claude Code with documented prompting patterns
+**AI Workflow Acceleration**
 
-• Established sustainable design system operations with codified purpose, KPIs, and publish workflows adopted by a 3-person DS team by creating "Purpose, Process, Profit" framework tied to measurable business value
+- Reduced design-to-development cycle from 30-60 days to 10-15 days (~70% reduction) by directing Project N.E.X.T., an AI-assisted workflow using Figma MCP and Claude Code that ships PR-ready code as official design artifacts
+- Established PR-ready code as standard design artifact—senior engineering now reviews designer-generated code in handoff practice, eliminating translation layer between design and implementation
+- Reduced design-engineering handoff iterations from 3-5 cycles to 1 by establishing repeatable code validation workflows and auto-generated component previews
 
-• Achieved 88.7% dealer retention, outperforming 90% baseline, and onboarded 210 new rooftops by leading UX for New Car Pricing, a CEO-level enterprise platform initiative addressing dealer pain points through research-driven improvements and phased sequencing models adopted by Product, Engineering, and Research
+**Platform Design Systems**
 
-• Led Calculator component architecture with token alignment that reduced pixel drift and handoff ambiguity across NCP and Retail surfaces, accelerating design system component adoption
+- Increased design system contribution and engagement by 200% by re-architecting fragmented DS across 6+ platforms into federated model with centralized tokens and product-owned component libraries
+- Established sustainable design system operations with codified purpose, KPIs, and publish workflows by creating "Purpose, Process, Profit" framework adopted by 3-person DS team
+- Prepared design system components for cross-industry reuse through white-labeling exercises and AG Grid integration in Calculator component
 
-• Delivered enterprise-ready pricing platform with componentized complex pricing logic enabling white-labeling and syndication by translating research on incentives, compliance, and auditability into clear UX frameworks
+**Enterprise Platform Leadership**
 
-• Reduced design-engineering handoff iterations from 3-5 cycles to 1 by establishing repeatable code validation workflows and auto-generated component previews
+- Achieved 88.7% dealer retention and onboarded 210 new rooftops by leading UX for New Car Pricing, a CEO-level enterprise platform with componentized pricing logic, rebate management, and multi-stakeholder workflows
+- Delivered 155 UX initiatives (116 CapEx) with high reliability, the highest output on UX team, by maintaining dev-ready clarity across multiple product lines
+- Maintained zero roadmap slips across MAX, Retail, Alerts, and NCP during team instability by absorbing research responsibilities during dual researcher medical leaves
 
-• Delivered 155 UX initiatives (116 CapEx) with high reliability, the highest output on the UX team, by maintaining dev-ready clarity with states, acceptance criteria, and error logic across multiple product lines
+**AI Product UX**
 
-• Designed trust-building loading states for AI inference delays (10-60 seconds) using "thinking" metaphors, clear disclaimers, and contextual messaging to maintain user confidence during novel AI experiences
+- Outperformed 90% industry abandonment baseline during AI inference delays (10-60 seconds) by designing trust-building loading states with "thinking" metaphors, transparent messaging, and clear disclaimers
+- Systemized AI UX patterns into reusable components and playbooks by reframing AI output from prescriptive automation to "evidence-first" recommendation structure
 
-• Maintained zero roadmap slips across MAX, Retail, Alerts, and NCP during team instability by absorbing research responsibilities and building operational clarity systems with weekly visibility updates
+### Rand McNally — Lead Product Designer
+January 2013 – January 2017
 
-• Shipped Appraisal Alerts with zero rework loops and Atlas "Completed" status by owning the feature end-to-end from JTBD research synthesis to dev-ready handoff
-
-### Rand McNally - Lead Product Designer | January 2013 - January 2017
-
-• Designed and developed WorldAtlas, a web-based geography teaching platform for K-12 classrooms aligned with Common Core and National Geography Standards, serving teachers and students across desktop and mobile devices
-
-• Unified design direction across product lines by introducing scalable UI standards and style guides, reducing build time and improving cross-team consistency for web and mobile platforms
-
-• Reduced website build-out time by 20% by proposing and implementing a SASS development process for faster front-end development
-
----
-
-## Skills & Technical Expertise
-
-**Design Systems:** Component architecture, token systems, governance frameworks, documentation, contribution workflows
-
-**Platform & Enterprise UX:** Platform design, complex workflows, information architecture, multi-stakeholder alignment, scalability patterns
-
-**AI & Emerging Tech:** AI-assisted design-to-code workflows, Figma MCP, Claude Code, prompt engineering, trust UX patterns for novel technology
-
-**Design Tools:** Figma (advanced), FigJam, prototyping tools
-
-**Technical Skills:** HTML, CSS, SCSS, terminal-based workflows, GitHub
-
-**Research & Strategy:** JTBD, usability testing support, synthesis, decision frameworks, cross-functional influence
-
-**Domains:** Enterprise B2B SaaS, platform products, FinTech/crypto (active user), AI/ML product design
+- Designed and developed WorldAtlas, a web-based geography teaching platform for K-12 classrooms serving teachers and students across desktop and mobile devices with dual designer/developer ownership
+- Unified design direction across product lines by introducing scalable UI standards and style guides for web and mobile platforms
+- Accelerated website build-out time by 20% by proposing and implementing SASS development process
 
 ---
 
-## Crypto & FinTech Domain Knowledge
+## Personal Crypto/Web3 Experience
 
-**Hands-on DeFi and Web3 Experience:**
-
-• Executed 50-100+ token swaps across 4 DeFi platforms (Uniswap, Crypto.com DeFi, Base, VVS) with multi-chain navigation, managing on-chain transactions, wallet operations, and decentralized exchange interfaces
-
-• Built technical analysis fluency for cryptocurrency evaluation, applying 7+ indicators (Gaussian Channel, MACD, Stoch RSI, RSI, Fibonacci Retracements) plus custom TradingView scripts
-
-• Minted 30+ NFTs and participated in 5 ICOs with firsthand exposure to gas optimization, smart contract interactions, and on-chain minting workflows
+- Executed 50-100+ token swaps across Uniswap, Crypto.com DeFi, Base, and VVS with multi-chain navigation
+- Applied 7+ technical indicators (MACD, Stoch RSI, Fibonacci) in TradingView for personal trading
+- Minted 30+ NFTs and participated in 5 ICOs with firsthand exposure to gas optimization and on-chain workflows
 
 ---
 
-## Education & Certifications
+## Skills
 
-**B.S. in Graphic Design** - Robert Morris University | Summa Cum Laude
-
-**A.A.S. in Paraprofessional Accounting** - Del Mar College | Cum Laude
-
-**Accounting Technician Certification** - Del Mar College
+**Design Tools:** Figma, FigJam, prototyping, design systems governance
+**AI & Technical:** Claude Code, Figma MCP, prompt engineering, AI-assisted design-to-code workflows
+**Frontend:** HTML, CSS, SCSS, terminal-based workflows
+**Domains:** Platform design, design systems, enterprise workflows, B2B SaaS
+**Methods:** JTBD, usability testing, cross-functional alignment, decision frameworks
 
 ---
 
-*References and portfolio case studies available upon request*
+## Education
+
+**B.S. in Graphic Design** — Robert Morris University, Summa Cum Laude

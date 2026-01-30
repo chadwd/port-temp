@@ -127,3 +127,68 @@ HTML, CSS, SCSS, terminal-based workflows
 - Created 32 pieces of fine art used throughout the state of Illinois to showcase the talent of school alumni
 - Designed marketing posters and for numerous professional and student exhibitions at the art gallery on campus
 - Mentored future artists and trained the next two students selected for this position on roles and responsibilities
+
+
+## Newer update with my work with ChatGPT
+
+**Product Designer (Staff / Senior Staff–level scope)**  
+Enterprise Platforms · AI-Adjacent Systems · Design Infrastructure
+
+Bellevue, WA (Seattle Metro, Open to Remote / Hybrid)
+
+### Executive Summary
+
+Staff-level Product Designer with 15+ years building enterprise and platform products in complex, high-stakes environments. Known for reducing execution risk in AI-assisted workflows and regulated systems by designing with real constraints from day one. I translate ambiguity into production-ready systems that preserve design intent, build trust, and scale across teams through durable infrastructure rather than process overhead.
+
+### Experience
+
+#### ACV Auctions — Product Designer (Staff-level scope)
+**2017–2026**
+
+##### AI-Assisted Design-to-Production (Responsible Application)
+
+- Introduced and validated an AI-assisted design-to-production workflow by designing directly in the production codebase, reducing design-to-PR cycle time by ~73% while preserving UX intent and engineering quality on a real, deadline-bound feature; this approach became a reference model for other designers and product partners where appropriate.
+- Used AI to surface system constraints and validate behavior earlier (APIs, states, edge cases), enabling same-day UX pivots, eliminating handoff translation errors, and establishing a repeatable handoff pattern where senior engineering reviewed PR-ready code as an official design artifact.
+
+##### Post-Merger Execution at Scale (ACV × MAX × ClearCar)
+
+- Served as a stabilizing execution lead following the MAX Digital merger, translating shifting ownership, incomplete direction, and resourcing gaps into clear sequencing and delivery plans across revenue-critical initiatives without roadmap slippage.
+- Sustained high delivery throughput during organizational instability (150+ UX initiatives) by making scope, constraints, and tradeoffs explicit early, reducing rework and preserving product quality across MAX, Retail, and AI-adjacent surfaces.
+
+##### Design Systems as Platform Infrastructure (Federated Ecosystem)
+
+- Took ownership of a fragmented, low-adoption design system ecosystem spanning 6+ product platforms and re-architected it into a federated model: a centralized source of truth for tokens paired with decentralized, product-owned libraries and a shared cross-platform component layer.
+- Designed and operationalized the governance and contribution model that balanced autonomy with consistency, resulting in a 200% increase in contribution and engagement and sustainable adoption without introducing process overhead.
+
+##### Enterprise Pricing & Revenue-Linked UX (Car Pricing Workflows)
+
+- Led UX for a revenue-critical enterprise pricing platform spanning inventory, calculators, and rebate management, translating complex incentive logic, compliance constraints, and multi-store workflows into auditable, trustworthy experiences used by large dealer groups.
+- Partnered with Product, Engineering, and Research to ship phased releases that improved automotive dealer confidence and adoption, contributing to ~89% dealer retention, 200+ new rooftops onboarded, and reduced pricing-related support incidents through clearer validation and error handling.
+
+##### Operational Enablement & Process Architecture
+
+- Designed and implemented lightweight operating systems across design, product, and engineering (Jira intake, dev-ready handoffs, decision logging) that reduced coordination overhead, clarified ownership, and enabled teams to execute reliably during periods of organizational change.
+- Built shared visibility and alignment mechanisms that surfaced progress, risks, and decisions without interrupting teams, allowing leadership to make faster tradeoffs while designers and engineers maintained autonomy and delivery momentum.
+
+#### Rand McNally — Lead Product Designer / Front-End Developer
+**2013–2017**
+
+- Led design direction for web and mobile platforms across navigation and education products.
+- Introduced scalable UI standards and shared patterns that reduced build time and improved cross-team consistency.
+- Partnered closely with engineering to ensure feasibility, performance, and quality at scale.
+
+### Skills & Capabilities
+
+**Product & Systems:** Enterprise workflows, platform UX, information architecture, interaction design
+
+**Design Infrastructure:** Design systems, tokens, governance models, contribution workflows, documentation
+
+**AI-Adjacent Execution:** AI-assisted design-to-code workflows, trust and expectation-setting UX, constraint-driven design
+
+**Technical Fluency:** HTML, CSS/SCSS, GitHub, Jira, Confluence, terminal-based workflows
+
+### Education
+
+- **B.S. Graphic Design** — Robert Morris University Illinois
+- **A.A.S. in Paraprofessional Accounting** — Del Mar College | Cum Laude
+- **Accounting Technician Certification**

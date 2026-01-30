@@ -1,0 +1,92 @@
+CHAD DUNBAR
+Product Designer, AI-Assisted Developer Tools
+
+Seattle, WA | chadwd@gmail.com | linkedin.com/in/chad-dunbar | chaddunbar.com | github.com/chadwd
+
+================================================================================
+
+PROFESSIONAL SUMMARY
+
+Principal-level product designer with 15+ years building complex enterprise and platform products. Specialize in AI-assisted workflows, design systems architecture, and multi-surface developer tools. Reduced design-to-dev cycle by 70% (30-60 days to 10-15 days) using Claude Code and Figma MCP, while shipping trust-building AI UX patterns that outperformed 90% industry abandonment baseline. Power user of Claude Code designing AI workflow acceleration tools in production.
+
+================================================================================
+
+PROFESSIONAL EXPERIENCE
+
+ACV Auctions - Product Designer (Principal-level scope)
+January 2017 - Present
+ACV Retail - MAX Digital, ClearCar, Retail Platforms
+
+AI Workflows & Developer Tool Design
+
+- Reduced design-to-development cycle time by 70% (from 30-60 days to 10-15 days) by directing Project N.E.X.T., an AI-assisted workflow using Figma MCP and Claude Code with documented prompting patterns
+
+- Outperformed 90% industry abandonment baseline during AI inference delays (10-60 seconds) by designing trust-building loading states with "thinking" metaphors, transparent messaging, and clear disclaimers—shipped to production July 2025 as reusable standard
+
+- Reduced handoff iterations from 3-5 cycles to 1 by establishing repeatable code validation workflows and auto-generated component previews, including shipping PR-ready code as official design artifact reviewed by senior engineering
+
+- Systemized AI UX patterns into reusable components by reframing AI output from prescriptive automation to professional judgment support (Insights to Summary to Recommendation structure) adopted for Pace Notes production feature
+
+- Shipped functional code in production repository from AI-assisted design pilot with working PR merged and documented prompting patterns by integrating Claude Code with Figma MCP to generate design-system-aligned UI code
+
+Platform & Multi-Surface Design
+
+- Increased design system contribution and engagement by 200% across federated component ecosystem by re-architecting fragmented design system across 6+ platforms into federated model with centralized tokens and product-owned libraries
+
+- Created multi-surface design coordination forum (MAXClearCar Design, 10+ members) for shared components and migration paths, leading cross-product critique sessions and component alignment across MAX and ClearCar surfaces
+
+- Grew wholesale transaction volume from MAX to ACV from 12% to 22% of eligible inventory by designing guaranteed offer acceptance experience that eliminated dealer risk and streamlined valuation-to-wholesale path
+
+- Prepared design system components for cross-industry reuse by conducting white-labeling exercises and AG Grid integration in Calculator component through DS audit and white-label workshops with dev pairing
+
+Enterprise Product & Cross-Functional Execution
+
+- Stabilized CEO-level New Car Pricing initiative achieving 88.7% dealer retention and 210 new rooftops onboarded by introducing phased sequencing models (MVP/V2/V3) adopted by VP Product, PM, Engineering, and Research
+
+- Delivered 155 UX initiatives (116 CapEx) with high reliability and low rework—the highest output on the UX team—by maintaining dev-ready clarity with states, acceptance criteria, and error logic across multiple product lines serving technical dealer users
+
+- Maintained zero roadmap slips across MAX, Retail, Alerts, and NCP during team instability by absorbing UXR responsibilities during dual researcher medical leaves and building operational clarity systems with weekly HOME/Confluence updates
+
+- Shipped Appraisal Alerts with zero rework loops and Atlas "Completed" status by owning feature end-to-end from research synthesis (JTBD, GM/UCM personas) to dev-ready handoff with acceptance criteria for multi-rooftop workflows
+
+Process & Systems Leadership
+
+- Established auditable documentation practices for promotion readiness with all impact claims linked to traceable artifacts (Atlas, Confluence, Jira, UXR) by creating "show your work" culture with live issue feeds and project record citations
+
+- Standardized dev handoff checklists across ACV Retail adopted for engineering intake covering states, tokens, accessibility, and acceptance tests by authoring scalable checklist template that works from small fixes to multi-component releases
+
+- Codified design system operating principles and naming standards adopted as reference for DS team and future component creation by authoring DS philosophy, naming conventions, and workflow logic that guides consistent implementation
+
+--------------------------------------------------------------------------------
+
+Rand McNally - Lead Product Designer
+January 2013 - January 2017
+
+- Designed and developed WorldAtlas web-based geography teaching platform for K-12 classrooms aligned with Common Core and National Geography Standards by building dynamic customizable maps, social studies content, and lesson plans in dual role as designer and front-end developer
+
+- Reduced website build-out time by 20% by proposing and implementing SASS development process, accelerating marketing and product delivery timelines
+
+- Unified design direction across product lines reducing build time and improving cross-team consistency by introducing scalable UI standards and style guides for web and mobile platforms
+
+================================================================================
+
+SKILLS & TECH STACK
+
+Design Tools: Figma (Advanced), FigJam, prototyping tools
+
+AI & Technical: Claude Code (Power User), Figma MCP, AI-assisted design-to-code workflows, prompt engineering, trust UX patterns
+
+Frontend Development: HTML, CSS, SCSS, terminal-based workflows (Git, npm, command-line tools)
+
+Design Systems: Tokens, component architecture, governance, documentation, contribution workflows
+
+Platform & Methods: Enterprise workflows, platform UX, information architecture, JTBD, usability testing, WCAG compliance
+
+Tools: Jira, Confluence, GitHub
+
+================================================================================
+
+EDUCATION
+
+B.S. in Graphic Design - Robert Morris University
+Summa Cum Laude, 4.0 GPA

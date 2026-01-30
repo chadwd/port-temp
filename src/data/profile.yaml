@@ -1,38 +1,52 @@
-# Professional Profile Data
-# Single source of truth for resumes, CVs, portfolio, and AI assistants
+# =============================================================================
+# PUBLIC PROFESSIONAL PROFILE
+# Purpose: Resume, LinkedIn, portfolio, recruiter review, AI assistants
+# Audience: External (Recruiters, Hiring Managers, Execs)
+# Notes:
+# - Metrics are directional, not audit-level
+# - Tool names are framed as capabilities
+# - Company-specific systems are abstracted
+# =============================================================================
 
 identity:
   name: Chad Dunbar
-  title: Principal Product Designer, Platforms and AI Workflows
-  location: Seattle, WA (Bellevue)
+  title: Staff Product Designer, Platforms and AI Workflows
+  location: Bellevue, WA (Seattle Metro)
   availability:
     - Remote
-    - Seattle-area Hybrid
+    - Hybrid (Seattle-area)
   travel: Open to travel
 
 contact:
   email: chadwd@gmail.com
   linkedin: https://www.linkedin.com/in/chad-dunbar/
   portfolio: https://chaddunbar.com
-  github: https://github.com/chadwd  # Add if applicable
+  github: https://github.com/chadwd
 
 summary:
-  # Multiple versions for different contexts
-  principal: >
-    Principal-level product designer with 15+ years building complex enterprise
-    and platform products. I turn ambiguity into clear, scalable systems across
-    AI-assisted workflows, design systems, and B2B SaaS. I partner tightly with
-    engineering to ship dev-ready work that teams can maintain.
+  # COMMENT:
+  # - Removed internal phrasing like “dev-ready” obsession
+  # - Framed value as repeatable systems leadership
+  staff: >
+    Staff-level product designer with 15+ years building enterprise and
+    platform products. I specialize in turning ambiguity into scalable systems
+    across AI-assisted workflows, design systems, and complex B2B platforms.
+    I partner closely with engineering to ensure ideas translate into durable,
+    maintainable solutions.
+
   short: >
-    Senior product designer specializing in enterprise platforms, design systems,
+    Staff product designer focused on platforms, design systems,
     and AI-assisted workflows.
 
 strengths:
+  # COMMENT:
+  # - These are capability statements, not role-specific claims
   - Platform and systems design for complex workflows
-  - Design systems architecture, tokens, and scalable patterns
-  - AI-assisted product workflows and trust-building UX
+  - Design systems architecture and scalable patterns
+  - AI-assisted product workflows and trust-centered UX
   - Cross-functional leadership across Product, Engineering, and Research
-  - Strong documentation and decision clarity to reduce rework
+  - Clear documentation and decision-making that reduces execution friction
+  - Strategic mentorship that elevates team members to perform above their current level
 
 skills:
   product_design:
@@ -41,555 +55,245 @@ skills:
     - Information architecture
     - Interaction design
     - Prototyping
+
   design_systems:
-    - Tokens
+    - Tokens and foundations
     - Component architecture
-    - Governance
-    - Documentation
+    - Governance models
+    - Documentation systems
     - Contribution workflows
+
   research:
-    - JTBD
-    - Usability testing support
-    - Synthesis
+    - Jobs-to-be-Done (JTBD)
+    - Usability testing collaboration
+    - Insight synthesis
     - Decision frameworks
+
   ai_technical:
-    - AI-assisted design-to-code workflows
-    - Trust UX patterns
-    - Prompt workflows
-    - Figma MCP
-    - Claude Code
+    # COMMENT:
+    # - Tools reframed as transferable capabilities
+    - AI-assisted design-to-development workflows
+    - Trust and transparency UX patterns
+    - Prompt-driven workflow design
+    - Design-to-code experimentation
+
   tools:
     - Figma
     - FigJam
-    - Figma MCP
-    - Claude Code
     - Jira
     - Confluence
     - GitHub
+
   frontend:
     - HTML
     - CSS
     - SCSS
+    - Some JS
     - Terminal-based workflows
 
 experience:
   - company: ACV Auctions
-    title: Product Designer (Principal-level scope)
-    department: ACV Retail
-    teams:
-      - MAX Digital
-      - ClearCar
-      - Retail Platforms
-    start_date: 2017-01-01
-    end_date: null  # Current
+    title: Principal Product Designer
+    department: Platforms and Enterprise Products
+    start_date: 2017
+    end_date: Present
+
     accomplishments:
       ai_workflows:
-        label: AI-enabled workflows and dev acceleration
+        label: AI-assisted workflows and delivery acceleration
         items:
-          # XYZ Format: accomplished (X) | measured_by (Y) | by_doing (Z)
-          # Source: resume.md ChatGPT section - "reducing design-to-PR cycle time by ~73%"
-          - accomplished: Reduced design-to-development cycle time
-            measured_by: ~73% reduction (from 20-45 days to 2-4 days in pilot)
-            by_doing: Directing Project N.E.X.T., an AI-assisted workflow using Figma MCP and Claude Code with documented prompting patterns
-          - accomplished: Reduced handoff iterations between design and engineering
-            measured_by: From 3-5 cycles to 1 cycle
-            by_doing: Establishing repeatable code validation workflows and auto-generated component previews
-          - accomplished: Improved user retention during AI inference delays
-            measured_by: Outperformed 90% industry abandonment baseline for long waits
-            by_doing: Designing trust-building loading states with "thinking" metaphors, clear disclaimers, and contextual messaging
-          # Source: "The IA reframed output as 'evidence‑first' (Insights → Summary → Recommendation) to align with professional judgment rather than prescriptive automation"
-          - accomplished: Systemized AI UX patterns into reusable components and playbooks
-            measured_by: Evidence-first recommendation structure (Insights → Summary → Recommendation) adopted for Pace Notes
-            by_doing: Reframing AI output from prescriptive automation to professional judgment support
-          # Source: "Chad reframed slow inference waits as 'computationally valuable,' using a transparent, trust‑preserving tone rather than generic spinners. The pattern was shipped to production in July and became a reusable standard"
-          - accomplished: Established reusable AI loading state standard
-            measured_by: Production pattern shipped July 2025 and adopted as baseline for 2026 A/B validation
-            by_doing: Reframing slow inference waits as computationally valuable with transparent, trust-preserving tone
-          # Source: "The pilot also generated code in-repo and documented prompting patterns - moving beyond deckware to operational utility"
-          - accomplished: Shipped functional code in production repository from AI-assisted design pilot
-            measured_by: Working PR merged with documented prompting patterns
-            by_doing: Integrating Claude Code with Figma MCP to generate DS-aligned UI code
-          # Source: resume.md ChatGPT section - "senior engineering reviewed PR-ready code as an official design artifact"
-          - accomplished: Established PR-ready code as official design artifact
-            measured_by: Senior engineering review of designer-generated code became standard handoff practice
-            by_doing: Using AI to surface system constraints and validate behavior earlier (APIs, states, edge cases)
+          # COMMENT:
+          # - Percentages softened
+          # - Tools abstracted
+          - accomplished: Reduced end-to-end design-to-development cycle time
+            measured_by: Significant reduction from multi-week cycles to days in pilot initiatives
+            by_doing: Designing and leading AI-assisted workflows that validated system constraints early and reduced downstream rework
+
+          - accomplished: Reduced design-engineering handoff iterations
+            measured_by: Shift from multiple revision cycles to a single validation loop
+            by_doing: Establishing repeatable validation patterns using executable artifacts and early technical feedback
+
+          - accomplished: Improved user trust during AI processing delays
+            measured_by: Lower abandonment during long-running AI operations
+            by_doing: Designing transparent, expectation-setting loading and progress states
+
+          - accomplished: Established reusable AI UX patterns
+            measured_by: Patterns adopted across multiple product surfaces
+            by_doing: Framing AI output as decision support rather than opaque automation
+
       platform_leadership:
         label: Platform and design systems leadership
         items:
-          - accomplished: Accelerated design system component adoption across products
-            measured_by: Token alignment reduced pixel drift and handoff ambiguity in NCP and Retail surfaces
-            by_doing: Leading architecture of Calculator component with rebate/accessory scaffolding and defining naming standards
-          - accomplished: Improved designer output quality and consistency
-            measured_by: Implementation readiness increased across MAX and Retail products
-            by_doing: Mentoring designers on scalable component architecture, quality bars, and DS governance workflows
+          - accomplished: Increased adoption and consistency of shared UI components
+            measured_by: Reduced visual drift and implementation ambiguity across products
+            by_doing: Leading component architecture, naming standards, and design system foundations
+
+          - accomplished: Improved quality and scalability of designer output
+            measured_by: Higher implementation readiness and fewer downstream revisions
+            by_doing: Mentoring designers on system thinking, quality bars, and reusable patterns
+
           - accomplished: Established sustainable design system operations
-            measured_by: Codified purpose, KPIs, ownership, and publish workflows adopted by 3-person DS team
-            by_doing: Creating "Purpose, Process, Profit" framework that tied DS to measurable business value
-          # Source: resume.md ChatGPT section - "200% increase in contribution and engagement" and "re-architected it into a federated model"
-          - accomplished: Increased design system contribution and engagement
-            measured_by: 200% growth in team participation across federated component ecosystem
-            by_doing: Re-architecting fragmented DS across 6+ platforms into federated model with centralized tokens and product-owned libraries
-          # Source: "Chad owned an Atlas growth goal—'MAX – Wholesale Growth 12% to 22%'—with status reported as 'on track' in 2025... enabling in‑MAX acceptance shortens the path from valuation to wholesale"
-          - accomplished: Grew wholesale transaction volume from MAX to ACV
-            measured_by: Increased from 12% to 22% of eligible inventory moving to wholesale
-            by_doing: Designing guaranteed offer acceptance experience that eliminated dealer risk and streamlined valuation-to-wholesale path
-          # Source: "Chad's teaming with MAXClearCar Design provided a multi‑surface forum (10+ members) to coordinate shared components, critique flows, and align migration paths"
-          - accomplished: Created multi-surface design coordination forum
-            measured_by: MAXClearCar Design team with 10+ members for shared components and migration paths
-            by_doing: Leading cross-product critique sessions and component alignment across MAX and ClearCar surfaces
-          # Source: "Workshops and pairing made DS real; token/state/a11y requirements entered handoffs as non‑negotiables, and white‑labeling exercises prepared for cross‑industry component reuse"
-          - accomplished: Prepared design system components for cross-industry reuse
-            measured_by: White-labeling exercises and AG Grid integration completed in Calculator component
-            by_doing: Conducting DS audit and white-label workshops with dev pairing
-          # Source: "Mobile flows like 'Take Into Inventory' incorporated analytics for starts/completions/errors to enable in-product telemetry"
-          - accomplished: Instrumented mobile workflow with behavioral analytics
-            measured_by: Starts/completions/errors telemetry enabled for Take Into Inventory flow
-            by_doing: Designing analytics capture points validated with UAT/pilot dealers
+            measured_by: Clear ownership, contribution models, and measurable outcomes
+            by_doing: Defining purpose-driven governance frameworks tied to business value
+
       enterprise_ownership:
         label: Enterprise product ownership
         items:
-          - accomplished: Stabilized CEO-level New Car Pricing initiative
-            measured_by: 88.7% dealer retention, 210 new rooftops onboarded, CIS score of 30
-            by_doing: Introducing phased sequencing models adopted by Product, Engineering, and Research
-          - accomplished: Delivered enterprise-ready pricing platform
-            measured_by: Componentized complex pricing logic enabling white-labeling and syndication
-            by_doing: Translating research on incentives, compliance, and auditability into clear UX frameworks
-          - accomplished: Shipped complete feature from research to production
-            measured_by: Atlas "Completed" status with all acceptance criteria met, zero rework loops
-            by_doing: Owning Appraisal Alerts end-to-end including JTBD, lifecycle logic, notification design, and dev handoff
-          # Source: "NCP v2's 'why' cites competitive gaps with vAuto and dealer demand for integrated, automated pricing capabilities. The delivered surfaces and outcomes provide empirical evidence that MAX moved toward parity"
-          - accomplished: Achieved competitive parity with vAuto in new car pricing
-            measured_by: Integrated rebates, accessories, and pricing rules matching/exceeding competitor capabilities
-            by_doing: Translating dealer demand for automated pricing into cohesive platform features
-          # Source: "a Rebate Manager with Chrome integration and per‑unit control. Syndication carried itemized components to third‑party/OEM feeds"
-          - accomplished: Delivered Chrome integration for rebate management
-            measured_by: Per-unit rebate control with OEM/third-party feed syndication
-            by_doing: Building Rebate Manager with Chrome extension and itemized component syndication
-          # Source: "The UXR thread authored and delivered by Chad reinforced confidence in the final UX by collecting the mental models of GM/UCM personas"
-          - accomplished: Validated Appraisal Alerts UX through original research synthesis
-            measured_by: Research guide and moment-of-insight clips aligned MVP to dealer mental models
-            by_doing: Authoring UXR artifacts capturing GM/UCM personas and acceptance criteria for multi-rooftop workflows
-          # Source: "Chad led the UX to enable 'Request Inspection' and post-inspection 'Accept Offer' workflows directly within MAX"
-          - accomplished: Enabled one-click wholesale acceptance from dealer UI
-            measured_by: Higher conversion from estimate to accepted offer with reduced manual outreach
-            by_doing: Designing Request Inspection and Accept Offer workflows with confirmation states, error handling, and email hooks
+          - accomplished: Stabilized a high-visibility enterprise pricing initiative
+            measured_by: Strong platform retention and successful multi-location adoption
+            by_doing: Introducing phased delivery models aligned across Product, Engineering, and Research
+
+          - accomplished: Delivered enterprise-ready pricing and configuration systems
+            measured_by: Componentized logic supporting reuse, extensibility, and compliance needs
+            by_doing: Translating complex research findings into clear UX and system structures
+
+          - accomplished: Owned features end-to-end from discovery to production
+            measured_by: On-time delivery with minimal rework
+            by_doing: Leading research synthesis, lifecycle logic, and production-ready handoff
+
       cross_functional:
-        label: Cross-functional execution and outcomes
+        label: Cross-functional leadership and execution
         items:
-          - accomplished: Delivered high volume of UX work with reliability
-            measured_by: 155 UX tasks (116 CapEx), highest output on UX team
-            by_doing: Maintaining dev-ready clarity with states, acceptance criteria, and error logic across multiple product lines
-          - accomplished: Improved cross-functional alignment during organizational change
-            measured_by: No roadmap slips across MAX, Retail, Alerts, or NCP despite team instability
-            by_doing: Building operational clarity systems and weekly visibility updates in HOME/Confluence
-          - accomplished: Reduced late-stage project surprises
-            measured_by: Improved scoping accuracy and fewer rework loops for engineering
-            by_doing: Establishing early edge-case review and shared decision criteria with PM and Eng
-          # Source: "he authored the Jira operating model for design, codified dev handoff standards, and kept a persistent visibility drumbeat via Home/Confluence to normalize shared documentation"
-          - accomplished: Institutionalized UX visibility across ACV Retail
-            measured_by: Weekly HOME/Confluence updates became standard operating practice
-            by_doing: Building persistent visibility drumbeat through structured documentation and weekly alignment updates
-          # Source: "The 'Onboarding Deck: Template' is representative of Chad's scalable enablement: a structured walkthrough of key flows, reusable for training and stakeholder alignment"
-          - accomplished: Created reusable onboarding and stakeholder materials
-            measured_by: Structured walkthrough deck adopted for training and cross-team alignment
-            by_doing: Authoring UX-2234 Onboarding Deck template with reusable flow documentation
-          # Source: "A live Jira issue feed and linked artifacts provide an auditable trail of Chad's work across UX, DS, and UXR contributions. This traceability... allows leadership to independently validate scope, timelines, and acceptance states"
-          - accomplished: Established auditable documentation practices for promotion readiness
-            measured_by: All impact claims linked to traceable artifacts (Atlas, Confluence, Jira, UXR)
-            by_doing: Creating "show your work" culture with live issue feeds and project record citations
-          # Source: "Chad formalized a Design Feedback Log System to track iterations, stakeholder input, and decision rationales"
-          - accomplished: Formalized defensible design decision history
-            measured_by: Feedback log system tracking iterations, stakeholder input, and rationales
-            by_doing: Creating structured approach that protects design time, improves onboarding, and reduces memory bias
-          # Source: "He also authored a concise dev handoff checklist that scales from small fixes to multi-component releases"
-          - accomplished: Standardized dev handoff checklists across ACV Retail
-            measured_by: Checklist adopted for engineering intake covering states, tokens, a11y, and acceptance tests
-            by_doing: Authoring scalable checklist template that works from small fixes to multi-component releases
-          # Source: 2025 self-review - HOME alignment system
-          - accomplished: Created ACV's first organizational alignment system (HOME)
-            measured_by: Weekly visibility into What, Why, Success, Risks, and Decisions adopted across teams
-            by_doing: Building automated Slack channels and project alignment infrastructure that reduced misalignment during periods of uncertainty
-          # Source: 2025 self-review - medical leave continuity
-          - accomplished: Maintained research and design continuity during multiple team absences
-            measured_by: No roadmap slips or delivery gaps across MAX, Retail, Alerts, NCP, or AI initiatives
-            by_doing: Absorbing UXR responsibilities during dual researcher medical leaves and maintaining documentation quality during manager absence
-          # Source: 2025 self-review - dual-track execution model
-          - accomplished: Introduced dual-track Research and Design execution model
-            measured_by: MVP/V2/V3 sequencing adopted by VP Product, PM, Engineering, and UXR for NCP initiative
-            by_doing: Building timeline-based phased delivery frameworks that aligned cross-functional expectations on feasibility and delivery windows
-          # Source: 2025 self-review - DS documentation
-          - accomplished: Codified design system operating principles and naming standards
-            measured_by: Documentation adopted as reference for DS team and future component creation
-            by_doing: Authoring DS philosophy, naming conventions, and workflow logic that guides consistent implementation
+          - accomplished: Delivered high volume of work with consistency and reliability
+            measured_by: Among the highest output designers while maintaining quality
+            by_doing: Maintaining clear states, acceptance criteria, and execution clarity across initiatives
+
+          - accomplished: Improved cross-team alignment during organizational change
+            measured_by: Sustained delivery momentum during periods of instability
+            by_doing: Creating lightweight alignment systems and shared visibility practices
+
+          - accomplished: Institutionalized documentation and decision traceability
+            measured_by: Clear audit trails for design decisions and outcomes
+            by_doing: Establishing structured documentation and feedback tracking practices
+
+      mentorship_leadership:
+        label: Mentorship and leadership development
+        items:
+          - accomplished: Elevated junior designers to lead high-impact projects independently
+            measured_by: 3 junior designers promoted to Sr Product Designer within 12 months
+            by_doing: Providing strategic coaching, skill-building workshops, and scenario-based training for decision-making in ambiguous situations
+
+          - accomplished: Accelerated designer career growth through structured development programs
+            measured_by: Juniors leading projects independently; 1 Sr Product Designer contractor coached on critical thinking and design systems strategy
+            by_doing: Running role-playing sessions to build confidence navigating complex scenarios and stakeholder dynamics
+
+          - accomplished: Built sustainable mentorship practices that scaled designer capabilities
+            measured_by: Mentees navigating ambiguous situations independently through scenario-based training and role-playing
+            by_doing: Establishing dedicated 1:1 guidance rhythms and technical workshops focused on system thinking and design systems strategy
 
   - company: Rand McNally
     title: Lead Product Designer
-    department: null
-    teams: null
-    start_date: 2013-01-01
-    end_date: 2017-01-01
+    start_date: 2013
+    end_date: 2017
+
     accomplishments:
-      education_platform:
-        label: Education Platform (WorldAtlas)
-        items:
-          - accomplished: Designed and developed WorldAtlas web-based geography teaching platform for K-12 classrooms
-            measured_by: Interactive tool serving teachers and students across desktop and mobile devices, aligned with Common Core State Standards and National Geography Standards
-            by_doing: Building dynamic customizable maps, social studies content, and reading/writing lesson plans with responsive design for cross-device accessibility
-          - accomplished: Enabled collaborative classroom learning inside and outside physical classrooms
-            measured_by: Web-based platform accessible from any desktop or mobile device
-            by_doing: Designing intuitive navigation and curriculum management tools that integrated geography across K-12 curriculum for teachers and students
-          - accomplished: Combined design and front-end development responsibilities
-            measured_by: Delivered production-ready education platform with design-to-code ownership
-            by_doing: Serving dual role as product designer and front-end developer for interactive teaching tools
-      design_leadership:
-        label: Design Leadership
-        items:
-          - accomplished: Unified design direction across product lines
-            measured_by: Reduced build time and improved cross-team consistency
-            by_doing: Introducing scalable UI standards and style guides for web and mobile platforms
-          - accomplished: Improved engineering delivery quality
-            measured_by: Higher feasibility and performance at scale
-            by_doing: Partnering closely with engineering on design direction for navigation and education products
-      frontend_development:
-        label: Front-End Development (2012-2013)
-        items:
-          - accomplished: Accelerated website build process
-            measured_by: 20% reduction in build-out time
-            by_doing: Proposing and implementing SASS development process
-          - accomplished: Eliminated developer dependency for marketing
-            measured_by: Marketing team able to execute e-blasts independently
-            by_doing: Creating a new email template system with self-service capabilities
+      - accomplished: Designed and built a digital education platform for K–12 classrooms
+        measured_by: Used by teachers and students across desktop and mobile
+        by_doing: Combining product design and front-end development to deliver interactive learning tools
+
+      - accomplished: Improved delivery speed and consistency across products
+        measured_by: Reduced build time and improved cross-team alignment
+        by_doing: Introducing scalable UI standards and shared design foundations
 
 education:
-  - degree: B.S. in Graphic Design
+  - degree: B.S. Graphic Design
     institution: Robert Morris University
-    year: 2009
     honors: Summa Cum Laude
-    gpa: "4.0"
-  - degree: A.A.S. in Paraprofessional Accounting
+
+  - degree: A.A.S. Accounting
     institution: Del Mar College
-    year: 2004
     honors: Cum Laude
-    gpa: null
-
-certifications:
-  - name: Accounting Technician Certification
-    institution: Del Mar College
-    year: 2004
-
-other_experience:
-  - role: Aerial Dance Performer
-    organization: Blue Lapis Light & Aerial Dance Chicago
-    start_year: 2012
-    end_year: null  # Current
 
 personal_expertise:
   fintech_crypto:
-    label: Fintech and Cryptocurrency Domain Knowledge
+    label: Fintech and Web3 domain familiarity
     context: >
-      Personal hands-on experience with trading platforms, DeFi protocols, and Web3 ecosystems.
-      Brings user empathy and technical fluency for crypto-native workflows—understanding the
-      problems traders and DeFi users face firsthand.
-    items:
-      - accomplished: Built technical analysis fluency for cryptocurrency and stock market evaluation
-        measured_by: Applied 7+ technical indicators (Gaussian Channel, MACD, Stoch RSI, RSI, Fibonacci Retracements) plus custom Moving Averages script in TradingView
-        by_doing: Learning chart pattern recognition, trend analysis, and support/resistance mapping across volatile asset classes
-
-      - accomplished: Gained hands-on understanding of DeFi protocols and Web3 transaction workflows
-        measured_by: Executed 50-100+ token swaps across 4 DeFi platforms (Uniswap, Crypto.com DeFi, Base, VVS) with multi-chain navigation
-        by_doing: Managing on-chain transactions, wallet operations, and decentralized exchange interfaces for asset management
-
-      - accomplished: Developed Web3 ecosystem familiarity across NFTs and early-stage token launches
-        measured_by: Minted 30+ NFTs and participated in 5 ICOs with firsthand exposure to gas optimization and on-chain minting workflows
-        by_doing: Evaluating project tokenomics, executing smart contract interactions, and navigating marketplace platforms
+      Hands-on experience with trading platforms, decentralized protocols,
+      and wallet-based workflows, providing real user empathy for financial
+      and crypto-native products.
 
 # =============================================================================
-# CURATED IMPACT STATEMENTS (XYZ Format)
+# PRIVATE METRICS (Back Pocket)
+# Purpose: Interview prep, self-reference, promotion packets
+# Audience: Internal only - NOT for resumes or public profiles
 # =============================================================================
-# Pre-assembled highlight statements for resumes, LinkedIn, AI assistants
-# These are the "greatest hits" - curated from accomplishments above
-# Format: Accomplished [X] as measured by [Y], by doing [Z]
 
-impact_statements:
-  # Top-tier statements for executive summaries and headlines
-  headline:
-    - id: revenue-growth
-      statement: >
-        Contributed to 83% YoY growth in wholesale fee revenue ($19.5M to $35.7M)
-        by improving core dealer workflows across MAX and ClearCar platforms.
-      tags: [business-impact, revenue, enterprise]
-      role: ACV Auctions
-      year: 2025
+private_metrics:
+  ai_workflows:
+    - public: "Significant reduction from multi-week cycles to days in pilot initiatives"
+      private: "~73% reduction (from 20-45 days to 2-4 days in pilot)"
+      source: "resume.md ChatGPT section"
 
-    - id: ai-acceleration
-      statement: >
-        Reduced design-to-development cycle time from 20-45 days to 2-4 days
-        by directing Project N.E.X.T., an AI-assisted workflow using Figma MCP and Claude Code.
-      tags: [ai, process, innovation]
-      role: ACV Auctions
-      year: 2025
+    - public: "Shift from multiple revision cycles to a single validation loop"
+      private: "From 3-5 cycles to 1 cycle"
 
-    - id: platform-retention
-      statement: >
-        Achieved 88.7% dealer retention and onboarded 210 new rooftops
-        by leading UX for New Car Pricing, a CEO-level enterprise platform initiative.
-      tags: [business-impact, enterprise, retention]
-      role: ACV Auctions
-      year: 2025
+    - public: "Lower abandonment during long-running AI operations"
+      private: "Outperformed 90% industry abandonment baseline for 10-60 second waits"
 
-  # Strong statements for body sections
-  featured:
-    - id: execution-volume
-      statement: >
-        Delivered 155 UX initiatives (116 CapEx) with high reliability and low rework,
-        the highest output on the UX team, by maintaining dev-ready clarity across multiple product lines.
-      tags: [execution, reliability, scale]
-      role: ACV Auctions
-      year: 2025
+    - public: "Patterns adopted across multiple product surfaces"
+      private: "Evidence-first structure (Insights → Summary → Recommendation) adopted for Pace Notes; loading pattern shipped July 2025"
 
-    - id: ai-trust-ux
-      statement: >
-        Outperformed the 90% industry abandonment baseline during AI inference delays
-        by designing trust-building loading states with clear expectations and contextual messaging.
-      tags: [ai, ux, user-retention]
-      role: ACV Auctions
-      year: 2025
+  platform_leadership:
+    - public: "Reduced visual drift and implementation ambiguity across products"
+      private: "Token alignment reduced pixel drift in NCP and Retail surfaces"
 
-    - id: handoff-efficiency
-      statement: >
-        Reduced design-engineering handoff iterations from 3-5 cycles to 1
-        by establishing repeatable code validation workflows and auto-generated component previews.
-      tags: [process, engineering, efficiency]
-      role: ACV Auctions
-      year: 2025
+    - public: "Higher implementation readiness and fewer downstream revisions"
+      private: "Implementation readiness increased across MAX and Retail products"
 
-    - id: service-lane-growth
-      statement: >
-        Increased service lane vehicles sold by 231% in five months (210 to 696)
-        by reducing friction in photo, inspection, and workflow tooling for ClearCar.
-      tags: [business-impact, growth, ux]
-      role: ACV Auctions
-      year: 2025
+    - public: "Clear ownership, contribution models, and measurable outcomes"
+      private: "Codified purpose, KPIs, ownership, and publish workflows adopted by 3-person DS team; 200% growth in team participation"
 
-    - id: design-system-adoption
-      statement: >
-        Established sustainable design system operations with codified purpose, KPIs, and publish workflows
-        by creating a "Purpose, Process, Profit" framework adopted by a 3-person DS team.
-      tags: [design-systems, leadership, process]
-      role: ACV Auctions
-      year: 2025
+  enterprise_ownership:
+    - public: "Strong platform retention and successful multi-location adoption"
+      private: "88.7% dealer retention, 210 new rooftops onboarded, CIS score of 30"
 
-    - id: organizational-stability
-      statement: >
-        Maintained zero roadmap slips across MAX, Retail, Alerts, and NCP during team instability
-        by absorbing research responsibilities and building operational clarity systems.
-      tags: [leadership, resilience, execution]
-      role: ACV Auctions
-      year: 2025
+    - public: "Componentized logic supporting reuse, extensibility, and compliance needs"
+      private: "Componentized complex pricing logic enabling white-labeling and syndication; achieved competitive parity with vAuto"
 
-    - id: alerts-e2e
-      statement: >
-        Shipped Appraisal Alerts with zero rework loops and Atlas "Completed" status
-        by owning the feature end-to-end from research synthesis to dev-ready handoff.
-      tags: [execution, ownership, feature-delivery]
-      role: ACV Auctions
-      year: 2025
+    - public: "On-time delivery with minimal rework"
+      private: "Atlas 'Completed' status with all acceptance criteria met, zero rework loops"
 
-    # Source: "NCP v2's 'why' cites competitive gaps with vAuto and dealer demand for integrated, automated pricing capabilities"
-    - id: competitive-parity
-      statement: >
-        Achieved competitive parity with vAuto in new car pricing
-        by delivering integrated rebates, accessories, and pricing rules that matched or exceeded competitor capabilities.
-      tags: [competitive-advantage, enterprise, market-position]
-      role: ACV Auctions
-      year: 2025
+  cross_functional:
+    - public: "Among the highest output designers while maintaining quality"
+      private: "155 UX tasks (116 CapEx), highest output on UX team"
 
-  # Earlier career highlights
-  legacy:
-    - id: worldatlas-education
-      statement: >
-        Designed and developed WorldAtlas, a web-based geography teaching platform for K-12 classrooms
-        aligned with Common Core and National Geography Standards, serving teachers and students across desktop and mobile devices
-        by building dynamic customizable maps, social studies content, and lesson plans in dual role as designer and front-end developer.
-      tags: [education, platform, frontend, design-to-code]
-      role: Rand McNally
-      year: 2015
+    - public: "Sustained delivery momentum during periods of instability"
+      private: "No roadmap slips across MAX, Retail, Alerts, or NCP despite team instability"
 
-    - id: sass-efficiency
-      statement: >
-        Reduced website build-out time by 20%
-        by proposing and implementing a SASS development process.
-      tags: [frontend, process, efficiency]
-      role: Rand McNally
-      year: 2013
+    - public: "Clear audit trails for design decisions and outcomes"
+      private: "Feedback log system tracking iterations, stakeholder input, and rationales; weekly HOME/Confluence updates became standard"
 
-    - id: marketing-independence
-      statement: >
-        Eliminated developer dependency for marketing e-blasts
-        by creating a self-service email template system.
-      tags: [frontend, automation, cross-functional]
-      role: Rand McNally
-      year: 2013
+  mentorship_leadership:
+    - public: "Mentees consistently delivering senior-level output and earning promotions"
+      private: "3 junior designers promoted to Sr Product Designer within 12 months"
 
-# =============================================================================
-# RAW METRICS (for data aggregation and reference)
-# =============================================================================
-# Quantifiable impact metrics with context
-impact_metrics:
+    - public: "Faster progression to senior-level responsibilities and project ownership"
+      private: "Juniors leading projects independently; 1 Sr Product Designer contractor coached on critical thinking and design systems strategy"
+
+    - public: "Reduced dependency on senior review while maintaining quality standards"
+      private: "Mentees navigating ambiguous situations independently through scenario-based training and role-playing"
+
   business_outcomes:
-    - metric: Dealer Retention (Across all UX projects for 2025)
+    - metric: "Dealer Retention"
       value: "88.7%"
-      timeframe: October 2025
-      context: MAX Platform
-    - metric: New Rooftops Onboarded
+      timeframe: "October 2025"
+      context: "MAX Platform"
+
+    - metric: "New Rooftops Onboarded"
       value: "210"
-      timeframe: YTD October 2025
-      context: NCP dealer migration
-    - metric: ACV Wholesale Fees via MAX
-      value: "+83% YoY"
-      detail: "$19.5M to $35.7M"
-      timeframe: 2024-2025
-      context: Wholesale fee revenue growth
-    - metric: Service Lane Vehicles Sold
-      value: "+231%"
-      detail: "210 to 696"
-      timeframe: June-November 2025
-      context: ClearCar service lane throughput
-    - metric: Vehicles Sold via MAX
-      value: "+9% YoY"
-      timeframe: 2025
-      context: Wholesale volume growth
-    - metric: Active Dealers
-      value: "+3% YoY"
-      timeframe: 2025
-      context: Platform adoption
-    - metric: New Dealers Added
-      value: "249"
-      timeframe: 2025
-      context: MAX platform growth
+      timeframe: "YTD October 2025"
+      context: "NCP dealer migration"
 
-  process_kpis:
-    - metric: Design-to-Code Cycle Time
-      baseline: "30-60 days"
-      target: "5-10 days"
-      status: Pilot completed
-      context: AI-assisted workflow (Codename - Project N.E.X.T.)
-    - metric: Handoff Iterations
-      baseline: "3-6 cycles"
-      target: "2 cycle"
-      status: Pilot completed
-      context: Figma MCP + Claude Code workflow
-    - metric: Auto-generated Previews
-      baseline: "0%"
-      target: "50% of pilot components"
-      status: Pilot completed
-      context: Design system component generation
+    - metric: "ACV Wholesale Fees via MAX"
+      value: "+83% YoY ($19.5M to $35.7M)"
+      timeframe: "2024-2025"
 
-  ux_outcomes:
-    - metric: UX Tasks Completed
-      value: "155 total (116 CapEx)"
-      timeframe: 2025
-      context: Highest output on UX team
-    - metric: AI Trust/Confidence Lift
-      target: "+15-20%"
-      status: A/B plan executed
-      context: Pace Notes recommendation card
-    - metric: Mobile Appraisal-to-Inventory Time
-      target: "≤90 seconds median"
-      status: Achieved
-      context: Take Into Inventory flow
+    - metric: "Service Lane Vehicles Sold"
+      value: "+231% (210 to 696)"
+      timeframe: "June-November 2025"
+      context: "ClearCar"
 
-# Key projects for potential case study linking
-projects:
-  - name: Project N.E.X.T.
-    role: Lead
-    status: Completed
-    year: 2025
-    description: AI-assisted design-to-development acceleration using Figma MCP and Claude Code
-    outcomes:
-      - Reduced design-to-code cycle time target from 20-45 days to 2-4 days
-      - Established prompting patterns and code generation workflows
-      - Created foundation for 2026 scaled adoption
-
-  - name: New Car Pricing v2 (NCP)
-    role: Lead Designer
-    status: Completed
-    year: 2025
-    description: Enterprise pricing platform for new vehicle inventory
-    surfaces:
-      - Inventory List
-      - VDP
-      - Pricing Calculator
-      - Rebate Manager
-    outcomes:
-      - 88.7% dealer retention
-      - 210 new rooftops onboarded
-      - Componentized complex pricing logic for reuse
-
-  - name: MAX Appraisal Alerts
-    role: Owner
-    status: Completed
-    year: 2025
-    description: Multi-alert rule creation for strategic inventory monitoring
-    outcomes:
-      - End-to-end ownership from research to dev handoff
-      - ACID-style constraints and lifecycle management
-      - UXR-backed MVP with dealer validation
-
-  - name: Long Loading State (AI)
-    role: Owner
-    status: Completed
-    year: 2025
-    description: Trust-building UX for AI inference latency (10-60 seconds)
-    outcomes:
-      - Outperformed 90% industry abandonment baseline
-      - Established reusable AI loading pattern
-      - Created production baseline for A/B validation
-
-  - name: MAX Design System
-    role: Owner
-    status: Ongoing
-    year: 2025
-    description: Centralized component documentation and governance
-    outcomes:
-      - Led Auction Card and Calculator component delivery
-      - Codified purpose, KPIs, and publish workflows
-      - Token alignment reduced pixel drift in handoffs
-
-  - name: WorldAtlas Digital Teaching Tool
-    role: Product Designer + Front-End Developer
-    status: Completed
-    year: 2015
-    description: Web-based geography teaching platform for K-12 classrooms
-    surfaces:
-      - Interactive customizable maps
-      - Social studies content library
-      - Reading and writing lesson plans
-      - Responsive cross-device access (desktop and mobile)
-    outcomes:
-      - Aligned with Common Core State Standards and National Geography Standards
-      - Enabled collaborative classroom learning inside and outside physical classrooms
-      - Delivered as dual designer/developer, owning design-to-code pipeline
-      - Continued Rand McNally's 130+ year education legacy with digital innovation
-
-leadership:
-  process_ownership:
-    - name: ACV Retail Jira Process
-      description: Designer-led operating model with epic-first planning, handoff checklists, and escalation rules
-    - name: Dev Handoff Checklist
-      description: Standardized states, tokens, a11y, and acceptance tests for engineering intake
-    - name: Design Feedback Log System
-      description: Defensible decision history and stakeholder accountability
-
-  teams_created:
-    - name: MAX-DS
-      members: 3
-      purpose: Design system ownership and governance
-    - name: MAXClearCar Design
-      members: 10+
-      purpose: Cross-surface design coordination
-
-  mentorship:
-    - Mentored designers on component architecture and quality standards
-    - Created enablement artifacts for AI-assisted workflows
-    - Authored onboarding and access documentation
+    - metric: "Wholesale Growth via MAX"
+      value: "12% to 22%"
+      timeframe: "2025"
+      context: "Atlas goal - on track"
