@@ -21,10 +21,10 @@
 
 ## Current Position
 
-Phase: 19 of 20 (Profile Data Enhancement)
-Plan: 4 of 4 complete
+Phase: 20.1 of 20 (Cover Letter Skill)
+Plan: 1 of 1 complete
 Status: Phase complete
-Last activity: 2026-01-20 - Completed 19-04-PLAN.md
+Last activity: 2026-02-05 - Completed 20.1-01-PLAN.md
 
 Progress: ████░░░░░░ 40%
 
@@ -144,6 +144,10 @@ Last completed: v1.3 Professional Data Infrastructure (shipped 2026-01-20)
 | 18.02 | CV comprehensive structure | All career history included, chronological completeness for 3-6 page documentation |
 | 18.02 | CV context-aware emphasis | Section ordering adapts to context (executive/academic) without filtering content |
 | 18.02 | CV multi-section template | Publications, speaking, teaching, board positions, awards, patents, affiliations |
+| 20.1 | Cover letter 6-paragraph structure | Marketing document (not autobiography): Identity, Summary, Skills x2, Why Company, Conclusion |
+| 20.1 | Cover letter scoring | Reused job-matcher weighted algorithm, top 2 skills only, story themes for narrative |
+| 20.1 | Cover letter style | One page, 300-400 words, 90-second read, employer language, specific over clever |
+| 20.1 | Cover letter integration | Job-analysis file provides pre-scored accomplishments and company research |
 
 ### Deferred Issues
 
@@ -164,6 +168,7 @@ None - clean slate for v1.3.
 - Milestone v1.4 created 2026-01-20: Improvements, 2 phases (Phases 19-20)
   - Focus 1: Profile data enhancement (expand career history, strengthen metrics)
   - Focus 2: Strategic job application packages (3-5 target roles)
+- Phase 20.1 inserted before Phase 20: Cover Letter Skill (URGENT - required to complete Phase 20)
 
 ## Project Alignment
 
@@ -174,7 +179,7 @@ Drift notes: None
 
 ## Session Continuity
 
-Last session: 2026-01-20
-Stopped at: Completed 19-04-PLAN.md (Phase 19 complete - 22 accomplishments added total)
+Last session: 2026-02-05
+Stopped at: Completed 20.1-01-PLAN.md (Phase 20.1 complete - cover letter generator skill operational)
 Resume file: None - phase complete
-Next action: /gsd:plan-phase 20 or /gsd:complete-milestone
+Next action: /gsd:plan-phase 20 (Strategic Job Application Package - now has all required skills)

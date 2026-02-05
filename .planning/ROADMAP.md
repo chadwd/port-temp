@@ -142,11 +142,25 @@ Plans:
 - [x] 19-03: Process 2025 self-review document
 - [x] 19-04: Process resume source and final validation
 
+#### Phase 20.1: Cover Letter Skill (INSERTED) - COMPLETE
+
+**Goal**: Build cover letter generation skill to complete job application toolkit
+**Depends on**: Phase 19
+**Research**: Unlikely (similar to resume/CV skills from Phase 18)
+**Plans**: 1 plan
+**Completed**: 2026-02-05
+
+Plans:
+- [x] 20.1-01: Gather cover letter context, create skill, test with job-analysis files
+
+**Details:**
+Creates `/cover-letter-generator` skill following Phase 18 patterns. Includes checkpoint for user to provide dense documentation about cover letter structure and direction (captured in 20.1-CONTEXT.md). Skill integrates with existing job-matcher workflow using weighted scoring algorithm for accomplishment selection.
+
 #### Phase 20: Strategic Job Application Package
 
 **Goal**: Prepare complete application materials for 3-5 strategic target roles (job analysis, tailored resumes/CVs, cover letter templates)
-**Depends on**: Phase 19
-**Research**: Unlikely (uses existing skills from v1.3)
+**Depends on**: Phase 20.1
+**Research**: Unlikely (uses existing skills from v1.3 + new cover letter skill)
 **Plans**: TBD
 
 Plans:
@@ -176,4 +190,5 @@ Plans:
 | 17. Impact Schema Foundation | v1.3 | - | Deferred | - |
 | 18. Resume and CV Writer | v1.3 | 2/2 | Complete | 2026-01-20 |
 | 19. Profile Data Enhancement | v1.4 | 4/4 | Complete | 2026-01-20 |
+| 20.1 Cover Letter Skill | v1.4 | 0/1 | Not started | - |
 | 20. Strategic Job Application Package | v1.4 | 0/? | Not started | - |
