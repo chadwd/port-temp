@@ -7,11 +7,13 @@ location: user
 # Cover Letter Generator
 
 <purpose>
-Generate tailored, one-page cover letters for job applications following the marketing document approach (not autobiography). Transform structured profile data into compelling narratives that demonstrate clear role fit and authentic motivation.
+Generate tailored, high-impact cover letters for senior-level positions that lead with agency and specific value commitments. Transform structured profile data into forward-looking narratives that demonstrate authentic mission alignment and clear capability-to-outcome connections.
 
-**Goal:** Produce cover letters that feel company-specific, map skills to role needs clearly, and can be read in under 90 seconds.
+**Goal:** Produce cover letters that show genuine personal stake in the company's mission, promise specific outcomes (not just past accomplishments), and position the candidate as already committed to solving their problems.
 
-**Output:** Professional cover letters in markdown format, structured following the 6-paragraph framework.
+**Character target:** 1,500-2,400 characters (including spaces)
+
+**Output:** Professional cover letters in markdown format, optimized for confident Senior/Staff/Principal positioning.
 </purpose>
 
 <context>
@@ -162,125 +164,129 @@ If job-analysis file includes company research, use that. Otherwise, research di
 
 **If the candidate uses the product, prioritize that.**
 
-## Step 5: Generate Cover Letter Using 6-Paragraph Structure
+## Step 5: Generate Cover Letter Using 3-Paragraph Forward-Looking Structure
 
-Follow the mandatory structure from `20.1-CONTEXT.md`:
+**New Structure (Optimized for Senior/Staff/Principal roles):**
 
-### Paragraph 1: Identity and Intent
+This structure replaces the 6-paragraph backward-looking framework with a more confident, outcome-oriented approach.
+
+### Paragraph 1: Personal Stake + Mission Alignment
 
 **Purpose:**
-- Establish who the candidate is
-- Clarify what role they want
-- Signal alignment with the company
+- Show genuine personal connection to the company's mission
+- Demonstrate you're not job-shopping—you care about THIS specific problem
+- Lead with why you want to help them, not why they should hire you
 
 **Rules:**
-- 1–2 sentences
-- Mention the company by name
-- Reference something specific about them
+- Start with the role you're applying for
+- Reference their exact mission/vision language (from company research)
+- Show specific, authentic personal stake (user of product, policy advocacy, domain passion)
+- No generic "I'm excited about..." statements
 
-**Example approach:**
-"I'm a [role level] with [X years] designing [domain] at [type of companies]. I'm writing to express my interest in the [Role Title] position at [Company], drawn by [specific company attribute from research]."
+**Strong example:**
+"I'm applying for the [Role Title] role because I want to help [Company] [their specific mission in their words]. I care about the mission in a practical way. [Specific evidence of personal stake: active user since X, supported Y policy, built Z in personal time]. I want this technology built [values that align with company culture]."
 
-### Paragraph 2: Summary and Transition
+**What makes this work:**
+- Specific dates/actions prove authenticity ("active crypto user since 2023" not "interested in crypto")
+- Company-specific language ("onchain platform" not "blockchain products")
+- Values alignment with evidence ("pro-innovation policy support" shows understanding of regulatory challenges)
+
+### Paragraph 2: Capability Statements + Systems Thinking
 
 **Purpose:**
-- Summarize what the candidate brings
-- Transition into skill evidence
+- Establish core capabilities as statements of identity, not claims to prove
+- Show how you think about the work (systems-minded, developer empathy, quality bars)
+- Position yourself at the right level (staff/principal language)
 
 **Rules:**
-- One sentence summarizing impact
-- One sentence setting up skills
-- Use numbers or outcomes when possible
-- Avoid buzzwords
+- Lead with level and mindset: "[level]-level, [thinking-style] product designer"
+- List capabilities as "I build/align/ship" not "I have experience in"
+- Emphasize WHAT you do and HOW you think, not where you've worked
+- Include dev-ready/implementation language for platform roles
+- Use directional public metrics only (never hard private KPIs in cover letters)
 
-**Example approach:**
-"Over the past [X years], I've [major impact statement with number]. I'd like to highlight two experiences that demonstrate [relevant capability]."
+**Strong example:**
+"I'm a [level]-level, systems-minded product designer with [X]+ years across [accurate domain] products, deep web and mobile shipping experience, and platform design systems leadership. I build reusable patterns, tokens, and component rules that reduce fragmentation. I align product vision and design intent with engineering implementation through clear states, acceptance criteria, and dev-ready specs. I also ship reliably on high-stakes work by turning ambiguity into phased plans that Product and Engineering can execute, and by protecting usability, edge cases, and customer trust."
 
-### Paragraphs 3–4: Skill and Qualification Match
+**What makes this work:**
+- "Systems-minded" (not "I have systems thinking skills")
+- "I build/align/ship" (active identity statements)
+- Developer empathy language ("dev-ready specs", "engineering implementation")
+- Outcome-oriented framing (reduce fragmentation, protect trust)
+
+### Paragraph 3: Forward-Looking Value Commitment + Specific Outcomes
 
 **Purpose:**
-- Prove fit through evidence
-
-**Process:**
-- Select the top two skills from the matching table (highest scores)
-- Assign each skill a story theme
-
-**Approved Story Themes:**
-- Leading people
-- Taking initiative
-- Solving challenging problems
-- Working across disciplines
-- Curiosity and learning
-- Managing conflict
-- Recovering from failure
-
-**Structure per paragraph:**
-- Name the theme implicitly (don't say "This demonstrates leadership")
-- Describe the experience (use XYZ formula from profile)
-- Show the outcome or impact
+- Promise what you'll deliver if hired (not what you've done before)
+- Map your capabilities directly to their pain points
+- Show you've already thought about what success looks like in this role
 
 **Rules:**
-- No bullet lists
-- No resume repetition (expand beyond resume, add context)
-- No unsupported claims (back with specific examples)
+- Start with relevant innovation/edge you bring ("I also push practical AI workflows...")
+- Specificity matters: name tools, techniques, or approaches
+- Use "If we work together, I will take responsibility for..." structure
+- List 3-4 specific outcomes that matter to THIS role/team
+- End with confidence and invitation to talk
 
-**Example approach:**
-"At [Company], I [accomplished X by doing Z, measured by Y]. This resulted in [outcome that matters to new company]."
+**Strong example:**
+"I also push practical AI workflows that speed delivery without cutting corners. I've been building AI-assisted design-to-code workflows ([specific tools]) to reduce handoff confusion and shorten cycle time, while treating AI as a quality multiplier with guardrails. If we work together, I will take responsibility for outcomes that matter in [Team/Domain]: [Outcome 1 matching their pain point], [Outcome 2 matching their pain point], [Outcome 3 matching their pain point], and [Outcome 4 if relevant]. Thank you for your time and consideration. I would love to talk."
 
-### Paragraph 5: Why This Company
+**What makes this work:**
+- Forward-looking commitment ("I will take responsibility for...")
+- Specific outcomes mapped to job description pain points
+- Confident close ("I would love to talk" not "I hope to hear from you")
+- Shows you've already thought about what you'd own
 
-**Purpose:**
-- Demonstrate genuine interest
+**Mapping outcomes to their pain points:**
 
-**Structure:**
-- Weave together the two selected reasons from company research
+From job-analysis, extract their top 3-4 pain points and map to outcomes you'll own:
 
-**Template logic:**
-- Value alignment plus personal relevance
-- Product or direction plus career relevance
+| Their Pain Point | Your Outcome Commitment |
+|-----------------|-------------------------|
+| Cross-product fragmentation | "reducing UX drift across surfaces" |
+| Complexity gap (novice vs expert users) | "improving trust in complex flows" |
+| Speed + quality balance | "increasing velocity through better design-to-dev clarity" |
+| Strategic design leadership | "mentoring designers to level up systems thinking and craft" |
 
-**If this section feels forced, the application is misaligned.**
+These should be SPECIFIC to the role, not generic ("deliver great experiences").
 
-**Example approach:**
-"I'm drawn to [Company]'s [value/mission] because [personal connection]. Additionally, [product/direction reason] aligns with my interest in [career direction]."
+## Step 6: Apply Style Guidelines and Character Count
 
-### Paragraph 6: Conclusion
+Before presenting to user, verify the draft meets these criteria:
 
-**Purpose:**
-- Close with confidence
-
-**Rules:**
-- Be direct
-- Express readiness
-- Invite next steps
-- No desperation
-
-**Example approach:**
-"I'd welcome the opportunity to discuss how my experience designing [domain] could contribute to [Company's specific goal]. Thank you for your consideration."
-
-## Step 6: Apply Style Guidelines
-
-Before presenting to user, verify the draft follows these guidelines from `20.1-CONTEXT.md`:
+**Character target:** 1,500-2,400 characters (including spaces)
+- Use character count, not word count
+- This is the length hiring managers actually read
+- Tighter = more impact per word
 
 **Style:**
-- Clear and concise
+- Clear and concise (prefer short sentences)
 - Professional but human
-- Confident, not arrogant
-- Specific over clever
-- Short sentences preferred
+- Confident, not arrogant (lead with "I will" not "I hope")
+- Specific over clever (name tools, metrics, outcomes)
+- Active voice and identity statements ("I build" not "I have experience building")
+
+**Critical Rules - Metrics:**
+- **NEVER use private KPIs from profile.yaml private_metrics section in cover letters**
+- Use only directional "public" language from accomplishments (e.g., "high volume of work" not "155 tasks")
+- Save hard numbers for interviews
+- Exception: If a metric is already public-facing or in published case studies, it's fair game
 
 **Avoid (failure conditions):**
-- Generic openings
-- Company-agnostic statements
-- Repeating resume bullets
-- Overly long explanations
-- Buzzwords without evidence
+- Generic openings ("I am excited to apply...")
+- Company-agnostic statements (could work for any company)
+- Repeating resume bullets verbatim
+- Backward-looking only (no forward commitment)
+- Buzzwords without evidence ("passionate", "detail-oriented")
+- Private metrics (88.7% retention, 155 tasks, 200% growth, etc.)
 
 **Success criteria:**
-- Feels tailored to one company only
-- Clearly maps skills to role needs
-- Explains why the candidate wants *this* job
-- Can be read in under 90 seconds
+- Shows authentic personal stake in mission (not generic interest)
+- Promises specific outcomes, not just past accomplishments
+- Uses company's exact language for mission/products
+- Feels like you're already thinking about solving their problems
+- Can be read in 60-90 seconds
+- Within 1,500-2,400 character range
 
 ## Step 7: Present Draft with Rationale
 
@@ -493,13 +499,14 @@ This skill follows the established human-in-the-loop pattern from Phase 18:
 
 **Do:**
 - Tailor every letter to the specific company
-- Expand beyond resume with context and narrative
-- Use specific examples and outcomes
-- Back every claim with evidence
-- Keep to 6 paragraphs, ~300-400 words
-- Research company thoroughly
+- Show authentic personal stake in mission (user of product, policy support, domain passion)
+- Lead with forward-looking value commitments ("I will take responsibility for...")
+- Use capability statements as identity ("I build" not "I have experience")
+- Map promised outcomes to their specific pain points
+- Keep to 1,500-2,400 characters
+- Use only public/directional metrics (never private KPIs)
+- Research company thoroughly for exact language
 - Write professionally but authentically
-- Prioritize clarity and specificity
 - Require explicit user approval
 
 </anti_patterns>

@@ -3,5 +3,38 @@
     "frontend-design@claude-plugins-official": true,
     "figma@claude-plugins-official": true,
     "security-guidance@claude-plugins-official": true
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "AskUserQuestion",
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/hooks/notify-on-attention-needed.sh AskUserQuestion"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [[ \"$CLAUDE_FILE_PATHS\" == *\"profile.yaml\"* ]]; then echo 'Validating profile.yaml schema...' && npm run build 2>&1 | grep -E '(error|Error|success)' | head -10; fi"
+          }
+        ]
+      },
+      {
+        "matcher": "Task",
+        "hooks": [
+          {
+            "type": "command",
+            "command": ".claude/hooks/notify-on-attention-needed.sh Task success"
+          }
+        ]
+      }
+    ]
   }
 }
