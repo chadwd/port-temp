@@ -7,13 +7,13 @@ location: user
 # Cover Letter Generator
 
 <purpose>
-Generate tailored, high-impact cover letters for senior-level positions that lead with agency and specific value commitments. Transform structured profile data into forward-looking narratives that demonstrate authentic mission alignment and clear capability-to-outcome connections.
+Generate tailored cover letters that function as **the closing argument of your marketing case** — the final piece that makes the hiring manager feel they've already found their person. Where the resume proves you *can* do the work and the job analysis builds the positioning strategy, the cover letter makes the emotional and strategic case for *why you will* deliver for them specifically.
 
-**Goal:** Produce cover letters that show genuine personal stake in the company's mission, promise specific outcomes (not just past accomplishments), and position the candidate as already committed to solving their problems.
+**Goal:** Produce cover letters that answer the employer's unspoken question: *"Will this person actually solve our problems, or just fill a seat?"* Lead with authentic personal stake in their mission, promise specific outcomes mapped to their pain points, and position yourself as someone already thinking about what success looks like in this role — not just a qualified candidate shopping for a job.
 
 **Character target:** 1,500-2,400 characters (including spaces)
 
-**Output:** Professional cover letters in markdown format, optimized for confident Senior/Staff/Principal positioning.
+**Output:** Professional cover letters in markdown format, optimized for confident Senior/Staff/Principal positioning. Each letter should feel like a value proposition with a personal signature, not a formal application document.
 </purpose>
 
 <context>
@@ -72,6 +72,7 @@ Example: /cover-letter-generator https://job-boards.greenhouse.io/coinbase/jobs/
 ```
 
 **Load job-analysis file and extract:**
+- **Value positioning strategy:** Value thesis and 3 positioning themes (the marketing case from job-matcher)
 - **Role context:** Level, domain focus, company stage, team size
 - **Required skills:** Top 5-7 skills/domains (already extracted by job-matcher)
 - **Pain points:** Problem this role solves, team challenges, success metrics
@@ -79,7 +80,7 @@ Example: /cover-letter-generator https://job-boards.greenhouse.io/coinbase/jobs/
 - **Pre-scored content:** Job-matcher's recommended accomplishments with relevance scores
 - **Company research:** Mission, product, differentiators, recent news
 
-**Key advantage:** Job-matcher has already parsed the job posting and scored your profile content. This step leverages that analysis for faster, more accurate cover letter generation.
+**Key advantage:** Job-matcher has already built the value positioning strategy — the value thesis and positioning themes. The cover letter's job is to translate that strategy into a persuasive narrative. The resume *proves* the case with evidence; the cover letter *makes* the case with conviction and forward commitment.
 
 ## Step 2: Analyze Job Description Following Context Guidelines
 
@@ -166,16 +167,22 @@ If job-analysis file includes company research, use that. Otherwise, research di
 
 ## Step 5: Generate Cover Letter Using 3-Paragraph Forward-Looking Structure
 
-**New Structure (Optimized for Senior/Staff/Principal roles):**
+**Structure (Optimized for Senior/Staff/Principal roles):**
 
-This structure replaces the 6-paragraph backward-looking framework with a more confident, outcome-oriented approach.
+This 3-paragraph structure builds the marketing case as a narrative arc: *why you care* → *what you bring* → *what you'll deliver*. Each paragraph reinforces the value positioning themes from job-matcher while reading as an authentic, personal letter — not a sales pitch.
 
-### Paragraph 1: Personal Stake + Mission Alignment
+**The marketing arc:**
+1. **Hook** — Establish personal stake so they know you're not just applying everywhere (differentiator)
+2. **Proof** — State your capabilities as identity, not claims, aligned to their needs (value thesis in human form)
+3. **Close** — Promise specific outcomes mapped to their pain points (the ask: hire me because I will do THIS)
+
+### Paragraph 1: Personal Stake + Mission Alignment (The Hook)
 
 **Purpose:**
-- Show genuine personal connection to the company's mission
+- Open the marketing case with authenticity — show this isn't a mass application
 - Demonstrate you're not job-shopping—you care about THIS specific problem
 - Lead with why you want to help them, not why they should hire you
+- **Marketing role:** This paragraph earns the reader's attention and trust. Without it, paragraphs 2-3 read as generic pitching.
 
 **Rules:**
 - Start with the role you're applying for
@@ -191,12 +198,13 @@ This structure replaces the 6-paragraph backward-looking framework with a more c
 - Company-specific language ("onchain platform" not "blockchain products")
 - Values alignment with evidence ("pro-innovation policy support" shows understanding of regulatory challenges)
 
-### Paragraph 2: Capability Statements + Systems Thinking
+### Paragraph 2: Capability Statements + Systems Thinking (The Proof)
 
 **Purpose:**
 - Establish core capabilities as statements of identity, not claims to prove
 - Show how you think about the work (systems-minded, developer empathy, quality bars)
 - Position yourself at the right level (staff/principal language)
+- **Marketing role:** This paragraph delivers the value thesis from job-matcher in first person. It should reinforce positioning themes 1 and 2, stated as *who you are*, not what you've done.
 
 **Rules:**
 - Lead with level and mindset: "[level]-level, [thinking-style] product designer"
@@ -214,12 +222,13 @@ This structure replaces the 6-paragraph backward-looking framework with a more c
 - Developer empathy language ("dev-ready specs", "engineering implementation")
 - Outcome-oriented framing (reduce fragmentation, protect trust)
 
-### Paragraph 3: Forward-Looking Value Commitment + Specific Outcomes
+### Paragraph 3: Forward-Looking Value Commitment + Specific Outcomes (The Close)
 
 **Purpose:**
 - Promise what you'll deliver if hired (not what you've done before)
 - Map your capabilities directly to their pain points
 - Show you've already thought about what success looks like in this role
+- **Marketing role:** This is the closing argument — the moment you convert interest into action. Use positioning theme 3 (unique differentiator) to lead, then map specific outcomes to their pain points. The reader should finish thinking "this person has already started solving our problems."
 
 **Rules:**
 - Start with relevant innovation/edge you bring ("I also push practical AI workflows...")
@@ -285,6 +294,8 @@ Before presenting to user, verify the draft meets these criteria:
 - Promises specific outcomes, not just past accomplishments
 - Uses company's exact language for mission/products
 - Feels like you're already thinking about solving their problems
+- Reinforces all 3 positioning themes from job-matcher's value positioning strategy
+- The reader finishes thinking "this person will deliver for us" — not just "this person is qualified"
 - Can be read in 60-90 seconds
 - Within 1,500-2,400 character range
 
@@ -305,16 +316,22 @@ Present the cover letter draft to the user with clear explanation of content sel
 
 ## Content Selection Rationale
 
+**Value Positioning Strategy (from job-matcher):**
+- Value thesis: [thesis statement used to guide the letter]
+- Theme 1 → covered in: [which paragraph]
+- Theme 2 → covered in: [which paragraph]
+- Theme 3 → covered in: [which paragraph]
+
 **Top Skills Selected (from matching table):**
 1. [Skill 1] - Score: [XX]/100
    - JD phrase: "[exact phrase from job description]"
    - Match: [how candidate matches]
-   - Story theme: [theme used in paragraph 3]
+   - Positioning theme reinforced: [Theme 1/2/3]
 
 2. [Skill 2] - Score: [XX]/100
    - JD phrase: "[exact phrase from job description]"
    - Match: [how candidate matches]
-   - Story theme: [theme used in paragraph 4]
+   - Positioning theme reinforced: [Theme 1/2/3]
 
 **Company Research:**
 - Values-driven reason: [selected reason]
@@ -322,7 +339,7 @@ Present the cover letter draft to the user with clear explanation of content sel
 
 **Accomplishments Used:**
 - [List of accomplishments from profile.yaml referenced in the letter]
-- [Why each was selected based on scoring]
+- [Why each was selected and which positioning theme it supports]
 
 ---
 
@@ -498,11 +515,13 @@ This skill follows the established human-in-the-loop pattern from Phase 18:
 - Auto-save without user review
 
 **Do:**
+- Treat the cover letter as the closing argument of your marketing case (job-matcher builds the strategy, resume proves the evidence, cover letter makes the ask)
 - Tailor every letter to the specific company
 - Show authentic personal stake in mission (user of product, policy support, domain passion)
 - Lead with forward-looking value commitments ("I will take responsibility for...")
 - Use capability statements as identity ("I build" not "I have experience")
-- Map promised outcomes to their specific pain points
+- Map promised outcomes to their specific pain points using positioning themes from job-matcher
+- Ensure all 3 positioning themes are reinforced across the 3 paragraphs
 - Keep to 1,500-2,400 characters
 - Use only public/directional metrics (never private KPIs)
 - Research company thoroughly for exact language

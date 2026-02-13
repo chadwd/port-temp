@@ -7,11 +7,11 @@ location: user
 # Resume Generator
 
 <purpose>
-Generate tactical, 1-2 page resumes for job applications following 2026 professional standards. Transform structured profile data into targeted, achievement-focused resumes that pass ATS screening and grab recruiter attention in the critical 6-second scan.
+Generate strategic, 1-2 page resumes that function as **precision marketing documents** — not just career summaries. Transform structured profile data into targeted narratives that show the employer exactly how your past work solves their current problems. Every section should answer the hiring manager's core question: "What will this person do for us?"
 
-**Goal:** Produce tailored resumes that follow modern standards (Google XYZ formula, ATS-optimized formatting, quantified achievements) with smart content selection based on job context.
+**Goal:** Produce tailored resumes that combine modern standards (Google XYZ formula, ATS-optimized formatting, quantified achievements) with a marketing-driven positioning strategy. Content selection isn't just about relevance scoring — it's about building a compelling case that your specific experience is the solution to the employer's specific pain points. The resume should read as a value proposition, not a work history.
 
-**Output:** Professional resumes in markdown format, optimized for both automated parsing and human review.
+**Output:** Professional resumes in markdown format, optimized for both automated parsing and human review, where every bullet demonstrates transferable value to the target role.
 </purpose>
 
 <context>

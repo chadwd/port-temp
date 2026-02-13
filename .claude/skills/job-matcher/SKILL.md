@@ -7,11 +7,11 @@ location: user
 # Job Matcher Agent
 
 <purpose>
-Match profile accomplishments to job postings for tailored applications. Extract the most relevant 5-7 statements from profile.yaml based on specific job requirements, with output optimized for HR reviewers seeing 200+ applications daily.
+Analyze job postings and position profile accomplishments as **direct evidence of value** for the target role. This isn't just matching keywords to bullets — it's building the marketing case for why your specific experience solves their specific problems.
 
-**Goal:** Cut through resume fatigue with scannable, engaging content focused on solving the company's specific people/skill problem.
+**Goal:** Produce a strategic positioning document that answers the employer's core question: *"What will this person do for us?"* — backed by scored, rewritten accomplishments that connect your past impact to their current pain points. Cut through resume fatigue with scannable, engaging content that makes the hiring manager see you as the solution, not just a qualified candidate.
 
-**Note:** This is for specific role targeting, not generic resume output.
+**Note:** This is for specific role targeting, not generic resume output. The analysis should read as a persuasion strategy, not a compatibility checklist.
 </purpose>
 
 <context>
@@ -70,7 +70,34 @@ Analyze the posting to identify:
 - Add "The Problem They're Solving" section with extracted pain points
 - Use `Write` tool to create the file with these initial sections
 
-## Step 3: Score profile data against requirements
+## Step 3: Define the Value Positioning Strategy
+
+Before scoring individual accomplishments, step back and define the **marketing angle** — the overarching story of why this candidate is the answer to this employer's problem.
+
+**Identify the employer's core "buy":**
+- What business outcome is this role accountable for?
+- What's broken or missing that created this opening?
+- What does success look like 6-12 months into this role?
+
+**Define the value thesis (1-2 sentences):**
+A clear statement connecting your background to their need. This becomes the lens for all subsequent scoring and selection.
+
+Format: *"[Company] needs someone who can [core need]. Your track record of [specific capability] at [relevant context] is direct proof you can deliver [their desired outcome]."*
+
+**Example:**
+*"Stripe needs someone who can design developer-facing AI tools that ship fast without sacrificing quality. Your track record of reducing design-to-dev cycles from months to days using AI-assisted workflows, while maintaining enterprise-grade reliability, is direct proof you can deliver velocity + craft at their scale."*
+
+**Identify 2-3 positioning themes:**
+These are the pillars of the marketing case. Every selected accomplishment should reinforce at least one theme.
+- Theme 1: [Their biggest pain → your strongest proof]
+- Theme 2: [Their secondary need → your relevant experience]
+- Theme 3: [Your unique differentiator → why you over other candidates]
+
+**Write to analysis file:**
+- Use `Edit` tool to append "Value Positioning Strategy" section after "The Problem They're Solving"
+- Include value thesis and positioning themes
+
+## Step 4: Score profile data against requirements (through marketing lens)
 
 **Read profile data:**
 - Use `Read` tool to load `src/data/profile.yaml`
@@ -104,29 +131,32 @@ For each impact_statement and accomplishment, calculate relevance:
 
 **Final score:** Weighted average (0-100 scale)
 
-## Step 4: Rank and select top 5-7 matches and write value section
+## Step 5: Rank and select top 5-7 matches (guided by positioning themes)
 
-Sort all statements by final score and return top 5-7 with:
+Sort all statements by final score, then **filter through the positioning themes** from Step 3. A high-scoring accomplishment that doesn't reinforce any theme may be less valuable than a slightly lower-scoring one that strengthens the overall narrative.
 
 **For each selected statement:**
 - Original XYZ text from profile.yaml
 - Relevance score (0-100)
 - Which requirement it addresses (explicit mapping)
+- **Which positioning theme it reinforces** (Theme 1, 2, or 3)
 - Suggested positioning (lead with this for [reason])
 - Rewrite suggestion for HR optimization (if needed)
 
 **Balancing criteria:**
+- Ensure every positioning theme has at least 1-2 supporting accomplishments
 - Cover multiple requirement areas (don't stack 5 AI examples if they also need leadership)
 - Mix recent (credibility) with impactful legacy (proof of sustained excellence)
 - Prioritize quantified outcomes when available
 - Lead with their biggest pain point
+- **Each bullet should answer "what will this person do for us?" — not just "what did they do before?"**
 
 **Write to analysis file:**
 - Use `Edit` tool to append "Your Direct Value" section
 - Add all 5-7 matches with their rewritten statements
 - Build this section incrementally (don't try to write everything at once)
 
-## Step 5: Identify gaps and write remaining sections
+## Step 6: Identify gaps and write remaining sections
 
 **Flag missing evidence:**
 - Requirements from posting not covered by top matches
@@ -156,12 +186,12 @@ Sort all statements by final score and return top 5-7 with:
 
 **File Creation Pattern:**
 
-1. **Step 1:** Use `Write` tool to create `src/data/job-analysis/[slug].md` with header + problem sections
-2. **Step 2-3:** Read profile.yaml, perform scoring (in memory, no file writes)
-3. **Step 4:** Use `Edit` tool to append "Your Direct Value" section to analysis file
-4. **Step 5:** Use `Edit` tool to append "Gaps to Address Honestly" section
-5. **Step 6:** Use `Edit` tool to append "Your Narrative Arc" section
-6. **Step 7:** Use `Edit` tool to append "Talking Points Summary" section
+1. **Steps 1-2:** Use `Write` tool to create `src/data/job-analysis/[slug].md` with header + problem sections
+2. **Step 3:** Define value positioning strategy (value thesis + 3 themes), append to analysis file
+3. **Step 4:** Read profile.yaml, perform scoring through marketing lens (in memory, no file writes)
+4. **Step 5:** Use `Edit` tool to append "Your Direct Value" section to analysis file
+5. **Step 6:** Use `Edit` tool to append "Gaps to Address Honestly" section
+6. **Step 6 cont.:** Use `Edit` tool to append "Your Narrative Arc" and "Talking Points Summary" sections
 
 **Never try to write the entire analysis file in one Write call.** Build it incrementally.
 
@@ -191,6 +221,18 @@ Present findings in this structure:
 
 ---
 
+## Value Positioning Strategy
+
+**Value thesis:**
+> [1-2 sentence statement: Company needs X. Your track record of Y is direct proof you can deliver Z.]
+
+**Positioning themes:**
+1. **[Theme 1 label]:** [Their biggest pain] → [Your strongest proof]
+2. **[Theme 2 label]:** [Their secondary need] → [Your relevant experience]
+3. **[Theme 3 label]:** [Your unique differentiator] → [Why you over other candidates]
+
+---
+
 ## Your Direct Value
 
 These accomplishments from your profile directly address their needs:
@@ -198,11 +240,12 @@ These accomplishments from your profile directly address their needs:
 ### 1. [Label for requirement area, e.g., "AI Product Design at Scale"]
 
 **Their need:** [Specific requirement from posting]
+**Positioning theme:** [Theme 1/2/3 this reinforces]
 
 **Your proof:**
 > [Rewritten XYZ statement optimized for HR scanning - lead with outcome, quantify, be specific]
 
-**Why this matters:** [1 sentence connecting your accomplishment to their pain point]
+**Why this matters to them:** [1 sentence framing your accomplishment as evidence of the value you'll bring to THIS role — not just what you did, but what it means for their problem]
 
 **Relevance score:** [0-100] | **Source:** [profile.yaml section]
 
@@ -211,11 +254,12 @@ These accomplishments from your profile directly address their needs:
 ### 2. [Second requirement area]
 
 **Their need:** [Requirement]
+**Positioning theme:** [Theme 1/2/3]
 
 **Your proof:**
 > [Rewritten statement]
 
-**Why this matters:** [Connection]
+**Why this matters to them:** [Value transfer connection]
 
 **Relevance score:** [0-100] | **Source:** [profile.yaml section]
 
