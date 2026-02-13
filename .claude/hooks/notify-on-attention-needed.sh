@@ -18,6 +18,10 @@ if [[ "$TOOL_NAME" == "Task" && "$STATUS" == "success" ]]; then
 elif [[ "$TOOL_NAME" == "AskUserQuestion" ]]; then
     afplay "$SOUND_FILE" 2>/dev/null &
     say -v Samantha -r 200 "Agent needs feedback" &
+
+elif [[ "$TOOL_NAME" == "Stop" ]]; then
+    afplay "$SOUND_FILE" 2>/dev/null &
+    say -v Samantha -r 200 "Complete" &
 fi
 
 exit 0
